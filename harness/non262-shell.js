@@ -143,15 +143,21 @@
     };
   }
 
-  if (typeof global.assertThrowsInstanceOf === 'undefined') {
-    global.assertThrowsInstanceOf = function assertThrowsInstanceOf(f, ctor, msg) {
+  if (typeof global.assertThrowsInstanceOfWithMessageCheck === 'undefined') {
+    global.assertThrowsInstanceOfWithMessageCheck = function assertThrowsInstanceOfWithMessageCheck(f, ctor, check, msg) {
       var fullmsg;
       try {
         f();
       } catch (exc) {
-        if (exc instanceof ctor)
-          return;
-        fullmsg = `Assertion failed: expected exception ${ctor.name}, got ${exc}`;
+        if (!(exc instanceof ctor))
+          fullmsg = `Assertion failed: expected exception ${ctor.name}, got ${exc}`;
+        else {
+          var result = check(exc.message);
+          if (result !== undefined)
+            fullmsg = `Assertion failed: expected exception with message ${result}, got " + ${exc}`;
+          else
+            return;
+        }
       }
 
       if (fullmsg === undefined)
@@ -163,27 +169,20 @@
     };
   }
 
+  if (typeof global.assertThrowsInstanceOf === 'undefined') {
+    global.assertThrowsInstanceOf = function assertThrowsInstanceOf(f, ctor, msg) {
+      assertThrowsInstanceOfWithMessageCheck(f, ctor, _ => {}, msg);
+    };
+  }
+
   if (typeof global.assertThrowsInstanceOfWithMessage === 'undefined') {
     global.assertThrowsInstanceOfWithMessage = function assertThrowsInstanceOfWithMessage(f, ctor, substr, msg) {
-      var fullmsg;
-      try {
-        f();
-      } catch (exc) {
-        if (!(exc instanceof ctor))
-          fullmsg = `Assertion failed: expected exception ${ctor.name}, got ${exc}`;
-        else if (e.message.indexOf(substr) === -1)
-          fullmsg = `Assertion failed: expected exception with message containing ${substr}, got " + ${exc}`;
-        else
-          return;
-      }
-
-      if (fullmsg === undefined)
-        fullmsg = `Assertion failed: expected exception ${ctor.name}, no exception thrown`;
-      if (msg !== undefined)
-        fullmsg += " - " + msg;
-
-      throw new Error(fullmsg);
-    };
+      assertThrowsInstanceOfWithMessageCheck(f, ctor, message => {
+        if (message.indexOf(substr) === -1) {
+          return `containing ${substr}`;
+        }
+      }, msg);
+    }
   }
 
   global.assertDeepEq = (function(){
