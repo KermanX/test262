@@ -47,4 +47,3 @@ var expected = [
 
 assert.deepEqual(collect_results(countdown(3)), expected);
 
-if (typeof assert.sameValue == "function")

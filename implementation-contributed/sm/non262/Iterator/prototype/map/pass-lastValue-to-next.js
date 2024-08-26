@@ -39,4 +39,3 @@ assert.sameValue(mappedIterator.next(4).done, true);
 
 assert.sameValue(mappedIterator.next(5).done, true);
 
-if (typeof assert.sameValue == 'function')

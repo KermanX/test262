@@ -49,4 +49,3 @@ for (const method of methods) {
   assert.sameValue(iterator.closed, true); 
 }
 
-if (typeof assert.sameValue == 'function')

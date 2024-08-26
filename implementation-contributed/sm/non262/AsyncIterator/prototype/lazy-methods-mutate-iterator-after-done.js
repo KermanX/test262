@@ -52,4 +52,3 @@ for (const [method, arg] of methods) {
   })();
 }
 
-if (typeof assert.sameValue == 'function')

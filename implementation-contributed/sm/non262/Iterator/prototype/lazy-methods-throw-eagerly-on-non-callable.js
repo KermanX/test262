@@ -44,4 +44,3 @@ for (const method of methods) {
   assertThrowsInstanceOf(() => method([].values(), {}), TypeError);
 }
 
-if (typeof assert.sameValue == 'function')

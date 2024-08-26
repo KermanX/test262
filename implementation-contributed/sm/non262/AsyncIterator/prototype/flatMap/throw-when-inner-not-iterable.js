@@ -70,4 +70,3 @@ const nonIterables = [
   }
 })();
 
-if (typeof assert.sameValue == 'function')

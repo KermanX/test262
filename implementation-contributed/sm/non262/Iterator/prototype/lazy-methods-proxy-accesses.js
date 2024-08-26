@@ -76,4 +76,3 @@ get: value`
   )
 }
 
-if (typeof assert.sameValue == 'function')

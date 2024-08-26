@@ -48,4 +48,3 @@ mapped.next().then(
   }
 );
 
-if (typeof assert.sameValue == 'function')

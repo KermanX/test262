@@ -39,4 +39,3 @@ class TestIterator extends AsyncIterator {
   assert.sameValue(iter.counter, 2);
 })();
 
-if (typeof assert.sameValue == 'function')

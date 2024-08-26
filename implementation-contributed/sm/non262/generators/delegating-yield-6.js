@@ -66,4 +66,3 @@ assert.deepEqual(outer.next(), {value: undefined, done: true});
 // No more checking the iterator.
 assert.sameValue(log, "indndndndndndv");
 
-if (typeof assert.sameValue == "function")

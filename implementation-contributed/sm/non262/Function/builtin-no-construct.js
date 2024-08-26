@@ -61,4 +61,3 @@ for (var i = 0; i < builtin_funcs.length; i++) {
     checkMethod(builtin_funcs[i]);
 }
 
-if (typeof assert.sameValue == 'function')

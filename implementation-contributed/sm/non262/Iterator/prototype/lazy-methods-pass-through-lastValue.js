@@ -36,4 +36,3 @@ for (const method of methods) {
   assert.sameValue(result.value, 'next value');
 }
 
-if (typeof assert.sameValue == 'function')

@@ -41,4 +41,3 @@ checkConstruct(proxiedFunctionPrototype);
 var proxiedBuiltin = new Proxy(parseInt, {});
 checkConstruct(proxiedBuiltin);
 
-if (typeof assert.sameValue == 'function')

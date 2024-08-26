@@ -27,4 +27,3 @@ for (const method of methods) {
   assertThrowsInstanceOf(() => iterHelper.next(), TypeError);
 }
 
-if (typeof assert.sameValue == 'function')

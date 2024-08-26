@@ -58,4 +58,3 @@ assertThrowsValue(outer.next.bind(outer), Poison);
 assert.sameValue(log, "");
 
 // mischief managed.
-if (typeof assert.sameValue == "function")

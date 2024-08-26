@@ -44,4 +44,3 @@ for (const method of methods) {
   assert.sameValue(result.testProperty, undefined);
 }
 
-if (typeof assert.sameValue == 'function')

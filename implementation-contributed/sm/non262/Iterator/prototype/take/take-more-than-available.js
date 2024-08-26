@@ -51,4 +51,3 @@ assert.sameValue(result.done, true);
 assert.sameValue(iter.counter, 2);
 assert.sameValue(iter.closed, false);
 
-if (typeof assert.sameValue == 'function')

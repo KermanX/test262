@@ -27,4 +27,3 @@ assertIteratorNext(outer1, 3);
 assertIteratorNext(outer2, 4);
 assertIteratorNext(inner, 5);
 
-if (typeof assert.sameValue == "function")

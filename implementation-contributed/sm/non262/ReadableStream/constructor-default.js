@@ -38,4 +38,3 @@ let s = new ReadableStream({
 });
 assert.deepEqual(log, ["size", {}, "start", 1337]);
 
-if (typeof assert.sameValue == "function")

@@ -33,4 +33,3 @@ for (const method of methods) {
   method(-0.9);
 }
 
-if (typeof assert.sameValue == 'function')

@@ -66,4 +66,3 @@ for (const method of methods) {
   assert.sameValue(iter.closeCount, 1);
 }
 
-if (typeof assert.sameValue == 'function')

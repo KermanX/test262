@@ -63,4 +63,3 @@ for (const firstMethod of methods) {
   }
 }
 
-if (typeof assert.sameValue == 'function')

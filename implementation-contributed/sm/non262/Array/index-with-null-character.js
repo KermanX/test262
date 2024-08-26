@@ -27,4 +27,3 @@ testArray[' \0'] = 'world';
 assert.sameValue(testArray['\0'], 'hello');
 assert.sameValue(testArray[' \0'], 'world');
 
-if (typeof assert.sameValue == 'function')

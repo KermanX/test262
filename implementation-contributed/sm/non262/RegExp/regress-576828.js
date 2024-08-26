@@ -17,4 +17,3 @@ var actual = re.exec(str);
 var expected = makeExpectedMatch(['zzz', 'z'], 0, str);
 checkRegExpMatch(actual, expected);
 
-if (typeof assert.sameValue == 'function')

@@ -21,4 +21,3 @@ assertThrowsInstanceOf(() => asyncIteratorHelperProto.next.call(gen()), TypeErro
 assertThrowsInstanceOf(() => asyncIteratorHelperProto.return.call(gen()), TypeError);
 assertThrowsInstanceOf(() => asyncIteratorHelperProto.throw.call(gen()), TypeError);
 
-if (typeof assert.sameValue == 'function')

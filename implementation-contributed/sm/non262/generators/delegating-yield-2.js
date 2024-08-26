@@ -82,4 +82,3 @@ GeneratorObjectPrototype.throw = GeneratorObjectPrototype_throw;
 assertIteratorResult(outer_throw_42(), 42, false);
 assertIteratorDone(outer, undefined);
 
-if (typeof assert.sameValue == "function")

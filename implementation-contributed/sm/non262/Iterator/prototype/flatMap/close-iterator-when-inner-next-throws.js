@@ -43,4 +43,3 @@ assert.sameValue(iter.closed, false);
 assertThrowsInstanceOf(() => mapped.next(), TestError);
 assert.sameValue(iter.closed, true);
 
-if (typeof assert.sameValue == 'function')

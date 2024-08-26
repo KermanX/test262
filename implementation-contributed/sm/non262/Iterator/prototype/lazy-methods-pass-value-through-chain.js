@@ -38,4 +38,3 @@ for (const outerMethod of methods) {
   }
 }
 
-if (typeof assert.sameValue == 'function')

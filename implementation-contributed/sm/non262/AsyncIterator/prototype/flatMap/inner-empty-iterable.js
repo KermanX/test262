@@ -40,4 +40,3 @@ async function* gen(values) {
   assert.sameValue(result.done, true);
 })();
 
-if (typeof assert.sameValue == 'function')

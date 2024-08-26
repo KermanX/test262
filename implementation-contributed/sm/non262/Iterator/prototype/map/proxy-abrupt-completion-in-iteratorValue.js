@@ -59,4 +59,3 @@ assert.sameValue(
 get: next`
 );
 
-if (typeof assert.sameValue == 'function')

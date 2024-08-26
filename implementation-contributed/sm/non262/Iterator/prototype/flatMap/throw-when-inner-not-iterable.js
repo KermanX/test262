@@ -55,4 +55,3 @@ for (const value of nonIterables) {
   assert.sameValue(iter.closed, true);
 }
 
-if (typeof assert.sameValue == 'function')

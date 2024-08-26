@@ -47,4 +47,3 @@ var expected = [{value: 1}, {value: 34, done: true}];
 assert.deepEqual(expected, collect_results(results(expected)));
 assert.deepEqual(expected, collect_results(yield_results(expected, 20)));
 
-if (typeof assert.sameValue == "function")

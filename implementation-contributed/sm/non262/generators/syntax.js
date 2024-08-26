@@ -149,4 +149,3 @@ assertSyntaxError("function* g() { function* yield() {} }");
 // In generators, yield is invalid as a formal argument name.
 assertSyntaxError("function* g(yield) { yield (10); }");
 
-if (typeof assert.sameValue == "function")

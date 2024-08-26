@@ -42,4 +42,3 @@ assert.sameValue(result.done, true);
 assert.sameValue(result.value, undefined);
 assert.sameValue(iter.closed, true);
 
-if (typeof assert.sameValue == 'function')

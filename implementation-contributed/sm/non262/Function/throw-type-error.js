@@ -26,4 +26,3 @@ assert.deepEqual(Object.getOwnPropertyDescriptor(ThrowTypeError, "length"), {
 
 assert.sameValue(Object.isFrozen(ThrowTypeError), true);
 
-if (typeof assert.sameValue == "function")

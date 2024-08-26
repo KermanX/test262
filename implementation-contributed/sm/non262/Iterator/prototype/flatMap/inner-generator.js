@@ -32,4 +32,3 @@ const result = iter.next();
 assert.sameValue(result.value, undefined);
 assert.sameValue(result.done, true);
 
-if (typeof assert.sameValue == 'function')

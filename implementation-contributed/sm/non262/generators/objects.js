@@ -59,4 +59,3 @@ function TestGeneratorObjectMethods() {
 TestGeneratorObjectMethods();
 
 
-if (typeof assert.sameValue == "function")

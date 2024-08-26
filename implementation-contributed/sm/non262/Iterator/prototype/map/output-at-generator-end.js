@@ -30,4 +30,3 @@ endRecord = iterator.next();
 assert.sameValue(endRecord.done, true);
 assert.sameValue(endRecord.value, undefined);
 
-if (typeof assert.sameValue == 'function')

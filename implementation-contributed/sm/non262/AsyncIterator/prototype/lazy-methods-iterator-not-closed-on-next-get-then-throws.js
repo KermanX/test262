@@ -64,4 +64,3 @@ const methods = [
   }
 })();
 
-if (typeof assert.sameValue == 'function')

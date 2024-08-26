@@ -25,4 +25,3 @@ catch (e) {
 }
 assert.sameValue(o['\u1d17'], 42);
 
-if (typeof assert.sameValue == 'function')

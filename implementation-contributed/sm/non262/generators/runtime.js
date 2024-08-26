@@ -15,7 +15,7 @@ esid: pending
 ---*/// This file was written by Andy Wingo <wingo@igalia.com> and originally
 // contributed to V8 as generators-runtime.js, available here:
 //
-// http://code.google.com/p/v8/source/browse/branches/bleeding_edge/test/mjsunit/harmony/generators-runtime.js
+// https://source.chromium.org/chromium/chromium/src/+/main:v8/test/mjsunit/es6/generators-runtime.js
 
 // Test aspects of the generator runtime.
 
@@ -26,7 +26,7 @@ function assertSyntaxError(str) {
 }
 
 
-function f() { }
+function f() { "use strict"; }
 function* g() { yield 1; }
 var GeneratorFunctionPrototype = Object.getPrototypeOf(g);
 var GeneratorFunction = GeneratorFunctionPrototype.constructor;
@@ -142,4 +142,3 @@ function TestPerGeneratorPrototype() {
 TestPerGeneratorPrototype();
 
 
-if (typeof assert.sameValue == "function")

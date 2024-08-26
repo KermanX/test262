@@ -31,4 +31,3 @@ throws('var thi' + s);
 throws('switch (' + s + 'witch) {}')
 throws('var ' + s + 'witch');
 
-if (typeof assert.sameValue == 'function')

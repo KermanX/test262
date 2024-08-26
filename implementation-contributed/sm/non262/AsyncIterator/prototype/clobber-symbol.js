@@ -53,4 +53,3 @@ const strictMethods = [
   }
 })();
 
-if (typeof assert.sameValue == 'function')

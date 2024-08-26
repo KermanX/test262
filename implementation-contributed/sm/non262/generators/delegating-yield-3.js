@@ -53,4 +53,3 @@ assert.sameValue(true, GeneratorObjectPrototype_next.call(outer).patched);
 innerNextFn = GeneratorObjectPrototype_next;
 assertIteratorNext(outer, 2);
 
-if (typeof assert.sameValue == "function")

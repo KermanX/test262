@@ -23,4 +23,3 @@ assert.sameValue(propertyDescriptor.enumerable, false);
 assert.sameValue(propertyDescriptor.writable, false);
 assert.sameValue(propertyDescriptor.configurable, true);
 
-if (typeof assert.sameValue == 'function')

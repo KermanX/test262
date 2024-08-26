@@ -52,4 +52,3 @@ for (const method of methods) {
   assert.sameValue(iterator.closed, false);
 }
 
-if (typeof assert.sameValue == 'function')

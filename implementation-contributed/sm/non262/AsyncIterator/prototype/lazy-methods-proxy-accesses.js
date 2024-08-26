@@ -74,4 +74,3 @@ get: done`
   }
 })();
 
-if (typeof assert.sameValue == 'function')

@@ -24,4 +24,3 @@ iterator = [0].values().map(mapper);
 
 assertThrowsInstanceOf(iterator.next, TypeError);
 
-if (typeof assert.sameValue == 'function')

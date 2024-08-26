@@ -91,4 +91,3 @@ esid: pending
   assert.sameValue(Reflect.ownKeys(rest).length, 0);
 }
 
-if (typeof assert.sameValue == "function")

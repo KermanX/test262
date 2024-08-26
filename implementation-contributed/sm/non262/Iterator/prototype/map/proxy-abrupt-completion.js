@@ -58,4 +58,3 @@ get: return
 close iterator`
 );
 
-if (typeof assert.sameValue == 'function')

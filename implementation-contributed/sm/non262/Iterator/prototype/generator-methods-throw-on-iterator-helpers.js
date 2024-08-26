@@ -25,4 +25,3 @@ assertThrowsInstanceOf(() => generatorProto.next.call(iteratorHelper), TypeError
 assertThrowsInstanceOf(() => generatorProto.return.call(iteratorHelper), TypeError);
 assertThrowsInstanceOf(() => generatorProto.throw.call(iteratorHelper), TypeError);
 
-if (typeof assert.sameValue == 'function')

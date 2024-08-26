@@ -583,4 +583,3 @@ function TestRecursion() {
 }
 TestRecursion();
 
-if (typeof assert.sameValue == "function")

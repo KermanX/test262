@@ -34,4 +34,3 @@ let stream = new ReadableStream({
 
 assertThrowsInstanceOf(() => g_enqueue.call(controller, {}), g.RangeError);
 
-if (typeof assert.sameValue == 'function')

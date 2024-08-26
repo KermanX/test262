@@ -30,4 +30,3 @@ function* delegate(iter) { return yield* iter; }
 var iter = delegate(new Iter());
 assert.deepEqual(iter.next(), {value:42, done:true});
 
-if (typeof assert.sameValue == "function")

@@ -98,4 +98,3 @@ set: value,3
 get: value`
 );
 
-if (typeof assert.sameValue == 'function')

@@ -113,4 +113,3 @@ assert.sameValue(false, JSON.isRawJSON({}, {}));
 assert.sameValue(false, JSON.isRawJSON({}, JSON.rawJSON(2)));
 assert.sameValue(true, JSON.isRawJSON(JSON.rawJSON(1), JSON.rawJSON(2)));
 
-if (typeof assert.sameValue == 'function')

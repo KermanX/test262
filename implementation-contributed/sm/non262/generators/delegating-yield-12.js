@@ -58,4 +58,3 @@ assertIteratorDone(iter, undefined);
 
 assert.sameValue(log, 'innnn');
 
-if (typeof assert.sameValue == "function")

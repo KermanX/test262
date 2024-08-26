@@ -28,4 +28,3 @@ assert.sameValue(
   '`%Iterator.prototype%.map` still works after Symbol has been clobbered'
 );
 
-if (typeof assert.sameValue == 'function')
