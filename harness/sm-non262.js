@@ -28,15 +28,14 @@ function assertThrownErrorContains(f, substr) {
   throw new Test262Error("Expected error containing " + substr + ", no exception thrown");
 }
 
-function assertThrowsInstanceOfWithMessage(f, ctor, _substr, msg) {
+function assertThrowsInstanceOfWithMessageCheck(f, ctor, _check, msg) {
   var fullmsg;
   try {
     f();
   } catch (exc) {
-    if (!(exc instanceof ctor))
-      fullmsg = `Assertion failed: expected exception ${ctor.name}, got ${exc}`;
-    else
+    if (exc instanceof ctor)
       return;
+    fullmsg = `Assertion failed: expected exception ${ctor.name}, got ${exc}`;
   }
 
   if (fullmsg === undefined)
