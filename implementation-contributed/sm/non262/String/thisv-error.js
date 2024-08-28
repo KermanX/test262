@@ -22,13 +22,13 @@ esid: pending
     // Aliases
     "trimLeft",
     "trimRight",
-    // Returns empty string
-    "constructor"
   ]
 
   var keys = Object.getOwnPropertyNames(String.prototype);
   for (var key of keys) {
-    if (failures.includes(key)) {
+    if (key === "constructor") {
+      assert.sameValue(String.prototype[key].call(thisv), "");
+    } else if (failures.includes(key)) {
       assert.throws(TypeError, () => String.prototype[key].call(thisv), key);
     } else {
       var expected = `String.prototype.${key} called on incompatible ${thisv}`;

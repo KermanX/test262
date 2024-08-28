@@ -23,7 +23,8 @@ esid: pending
     // Out-of-bounds
     assert.sameValue(Reflect.set(ta, 10, 47, receiver), true);
     assert.sameValue(ta[10], undefined);
-    assert.sameValue(receiver[10], 47);
+    assert.sameValue(receiver[10], undefined);
+    assert.sameValue(Object.hasOwn(receiver, 10), false);
 
     // Detached
     if (typeof $DETACHBUFFER === "function" &&
@@ -34,7 +35,7 @@ esid: pending
         assert.sameValue(ta[0], undefined);
         assert.sameValue(Reflect.set(ta, 0, 42, receiver), true);
         assert.sameValue(ta[0], undefined);
-        assert.sameValue(receiver[0], 42);
+        assert.sameValue(receiver[0], 47);
     }
 }
 
