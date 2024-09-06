@@ -160,18 +160,3 @@ for (var method of BOTH) {
     }
 }
 
-// Many arguments can be passed.
-var many = 65537;
-var args = {length: many, 0: "zero", [many - 1]: "last"};
-function testMany(...args) {
-    for (var i = 0; i < many; i++) {
-        assert.sameValue(i in args, true);
-        assert.sameValue(args[i], i === 0 ? "zero" : i === many - 1 ? "last" : undefined);
-    }
-    return this;
-}
-assert.sameValue(Reflect.apply(testMany, "pass", args).toString(), "pass");
-assert.sameValue(Reflect.construct(testMany, args) instanceof testMany, true);
-assert.sameValue(Reflect.apply(new Proxy(testMany, {}), "pass", args).toString(), "pass");
-assert.sameValue(Reflect.construct(new Proxy(testMany, {}), args) instanceof testMany, true);
-

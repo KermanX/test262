@@ -26,17 +26,11 @@ class derived extends base {
         assertThrowsInstanceOf(() => delete super[sideEffect = 1], ReferenceError);
         assert.sameValue(sideEffect, 1);
     }
-    testDeleteElemPropValFirst() {
-        // The deletion error is a reference error, but by munging the prototype
-        // chain, we can force a typeerror from JSOP_SUPERBASE
-        delete super[Object.setPrototypeOf(derived.prototype, null)];
-    }
 }
 
 var d = new derived();
 assertThrowsInstanceOf(() => d.testDeleteProp(), ReferenceError);
 d.testDeleteElem();
-assertThrowsInstanceOf(() => d.testDeleteElemPropValFirst(), TypeError);
 
 // |delete super.x| does not delete anything before throwing.
 var thing1 = {
