@@ -7,8 +7,7 @@
 /*---
 esid: pending
 description: |
-  Calling `.return()` on a lazy %Iterator.prototype% method multiple times closes the
-  source iterator once.
+  Calling `.return()` on a lazy %Iterator.prototype% method multiple times closes the source iterator once.
 info: |
   Iterator Helpers proposal 2.1.5
 features:

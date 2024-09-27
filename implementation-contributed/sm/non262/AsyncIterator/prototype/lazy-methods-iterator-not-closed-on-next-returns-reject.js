@@ -7,8 +7,7 @@
 /*---
 esid: pending
 description: |
-  Lazy %AsyncIterator.prototype% methods don't close the iterator if `.next` returns
-  a rejected Promise.
+  Lazy %AsyncIterator.prototype% methods don't close the iterator if `.next` returns a rejected Promise.
 info: |
   AsyncIterator Helpers proposal 2.1.6
 features:

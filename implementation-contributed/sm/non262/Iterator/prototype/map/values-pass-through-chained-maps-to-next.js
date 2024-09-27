@@ -6,8 +6,7 @@
 /*---
 esid: pending
 description: |
-  Multiple chained %Iterator.prototype%.map calls pass `lastValue` to the iterator's
-  `next` call.
+  Multiple chained %Iterator.prototype%.map calls pass `lastValue` to the iterator's `next` call.
 info: |
   Iterator Helpers Proposal 2.1.5.2
 features:

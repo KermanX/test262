@@ -7,8 +7,7 @@
 /*---
 esid: pending
 description: |
-  Calling `throw` on a lazy %AsyncIterator.prototype% method multiple times closes the
-  source iterator once.
+  Calling `throw` on a lazy %AsyncIterator.prototype% method multiple times closes the source iterator once.
 info: |
   Iterator Helpers proposal 2.1.6
 features:

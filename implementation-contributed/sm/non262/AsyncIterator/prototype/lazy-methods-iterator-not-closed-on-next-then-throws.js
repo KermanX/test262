@@ -7,8 +7,7 @@
 /*---
 esid: pending
 description: |
-  Lazy %AsyncIterator.prototype% methods don't close the iterator if `then` returned
-  by `next` throws.
+  Lazy %AsyncIterator.prototype% methods don't close the iterator if `then` returned by `next` throws.
 info: |
   AsyncIterator Helpers proposal 2.1.6
 features:

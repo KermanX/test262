@@ -6,8 +6,14 @@ esid: sec-array.prototype.includes
 description: |
   -0 fromIndex becomes 0
 info: |
-  "22.1.3.11 Array.prototype.includes ( searchElement [ , fromIndex ] )\n\n...\n5. If\
-  \ n \u2265 0, then\n  a. Let k be n.\n...\n7. Repeat, while k < len\n..."
+  22.1.3.11 Array.prototype.includes ( searchElement [ , fromIndex ] )
+
+  ...
+  5. If n ≥ 0, then
+    a. Let k be n.
+  ...
+  7. Repeat, while k < len
+  ...
 includes:
 - non262-Tuple-shell.js
 - non262-shell.js

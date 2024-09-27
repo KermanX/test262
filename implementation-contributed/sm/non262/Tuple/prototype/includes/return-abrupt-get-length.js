@@ -6,14 +6,11 @@ esid: sec-array.prototype.includes
 description: |
   Return abrupt from Get(O, "length")
 info: |
-  '22.1.3.11 Array.prototype.includes ( searchElement [ , fromIndex ] )
-
+  22.1.3.11 Array.prototype.includes ( searchElement [ , fromIndex ] )
 
   ...
-
   2. Let len be ? ToLength(? Get(O, "length")).
-
-  ...'
+  ...
 includes:
 - non262-Tuple-shell.js
 - non262-shell.js

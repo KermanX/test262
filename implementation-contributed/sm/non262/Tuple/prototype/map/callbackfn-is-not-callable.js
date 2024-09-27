@@ -5,14 +5,11 @@ esid: sec-%Tuple%.prototype.map
 description: |
   callbackfn arguments
 info: |
-  '8.2.3.20 %Tuple%.prototype.map ( callbackfn [ , thisArg ] )
-
+  8.2.3.20 %Tuple%.prototype.map ( callbackfn [ , thisArg ] )
 
   ...
-
   4. If IsCallable(callbackfn) is false, throw a TypeError exception.
-
-  ...'
+  ...
 features:
 - Tuple
 includes:

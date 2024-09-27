@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 /*---
 description: |
-  '"includes" property of Tuple.prototype'
+  "includes" property of Tuple.prototype
 includes:
 - non262-Tuple-shell.js
 - non262-shell.js
