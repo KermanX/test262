@@ -1,5 +1,8 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommonn.org/licenses/publicdomain/
+ */
+
 
 /*---
 includes: [non262-Date-shell.js, non262-shell.js, shell.js]
@@ -9,11 +12,6 @@ description: |
   pending
 esid: pending
 ---*//*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
- */
-
-/*
  * For the sake of cross compatibility with other implementations we
  * follow the W3C "NOTE-datetime" specification when parsing dates of
  * the form YYYY-MM-DDTHH:MM:SS save for a few exceptions: months, days, hours

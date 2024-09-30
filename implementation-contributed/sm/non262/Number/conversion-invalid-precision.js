@@ -1,5 +1,8 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommonn.org/licenses/publicdomain/
+ */
+
 
 /*---
 includes: [non262-Number-shell.js, non262-shell.js, shell.js]
@@ -8,12 +11,7 @@ flags:
 description: |
   pending
 esid: pending
----*//*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
- */
-
-var BUGNUMBER = 795745;
+---*/var BUGNUMBER = 795745;
 var summary =
   "Number.prototype.to* should throw a RangeError when passed a bad precision";
 

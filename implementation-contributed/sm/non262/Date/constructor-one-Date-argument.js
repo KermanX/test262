@@ -1,5 +1,8 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommonn.org/licenses/publicdomain/
+ */
+
 
 /*---
 includes: [non262-Date-shell.js, non262-shell.js, shell.js]
@@ -8,12 +11,7 @@ flags:
 description: |
   pending
 esid: pending
----*//*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
- */
-
-var BUGNUMBER = 1187233;
+---*/var BUGNUMBER = 1187233;
 var summary =
   "Passing a Date object to |new Date()| should copy it, not convert it to " +
   "a primitive and create it from that.";
