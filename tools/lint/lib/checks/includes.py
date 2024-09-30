@@ -22,11 +22,12 @@ class CheckIncludes(Check):
             with open(os.path.join('harness', include_name), 'r') as f:
                 source = f.read()
 
+            parsed = parse(source)
             CheckIncludes._cache[include_name] = {
                 'name': include_name,
                 'source': CheckIncludes._remove_frontmatter(source),
-                'defines': parse(source)['defines']
-            }
+                'defines': parsed['defines']
+            } if parsed else None
 
         return CheckIncludes._cache.get(include_name)
 
@@ -39,7 +40,7 @@ class CheckIncludes(Check):
 
     @staticmethod
     def _get_includes_flow_list(source):
-        match = re.search(r"includes:\s+\[(?P<includes>.+)\]", source)
+        match = re.search(r"includes:\s+\[(?P<includes>[^\]]+)\][\r\n]{1,2}", source, flags=re.DOTALL)
         return [inc.strip() for inc in match.group('includes').split(',') if inc] if match else []
 
     def run(self, name, meta, source):
@@ -57,6 +58,8 @@ class CheckIncludes(Check):
         without_frontmatter = self._remove_frontmatter(source)
 
         for harness_file in harness_files:
+            if not harness_file:
+                continue
             if self._has_reference(without_frontmatter, harness_file['defines']):
                 continue
 
