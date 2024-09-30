@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var itemsPoisonedSymbolIterator = {};
+---*/
+var itemsPoisonedSymbolIterator = {};
 itemsPoisonedSymbolIterator[Symbol.iterator] = function() {
   throw new RangeError();
 };

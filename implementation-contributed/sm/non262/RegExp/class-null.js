@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1279467;
+---*/
+var BUGNUMBER = 1279467;
 var summary = "Null in character class in RegExp with unicode flag.";
 
 print(BUGNUMBER + ": " + summary);

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var tup = Tuple(1, 2, 10n ** 100n, Tuple(5, 6));
 
 assert.sameValue(tup[0], 1);

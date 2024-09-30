@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//* Resetting of inner capture groups across quantified capturing parens. */
+---*/
+/* Resetting of inner capture groups across quantified capturing parens. */
 var re = /(?:(f)(o)(o)|(b)(a)(r))*/;
 var str = 'foobar';
 var actual = re.exec(str);

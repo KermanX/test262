@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var array = [Number.MAX_VALUE, Number.MIN_VALUE, Number.NaN, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
+---*/
+var array = [Number.MAX_VALUE, Number.MIN_VALUE, Number.NaN, Number.NEGATIVE_INFINITY, Number.POSITIVE_INFINITY];
 var arrayIndex = -1;
 
 function mapFn(value, index) {

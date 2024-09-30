@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1207922;
+---*/
+var BUGNUMBER = 1207922;
 var summary = "negative lastIndex should be treated as 0.";
 
 print(BUGNUMBER + ": " + summary);

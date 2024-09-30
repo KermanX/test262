@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function makeArray(array) {
+---*/
+function makeArray(array) {
     var log = [];
     Object.setPrototypeOf(array, new Proxy(Array.prototype, new Proxy({
         has(t, pk) {

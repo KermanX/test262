@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Classes are always strict mode. Check computed property names and heritage
+---*/
+// Classes are always strict mode. Check computed property names and heritage
 // expressions as well.
 
 class a { constructor() { Object.preventExtensions({}).prop = 0; } }

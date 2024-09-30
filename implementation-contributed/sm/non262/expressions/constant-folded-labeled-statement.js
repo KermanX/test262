@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1499448;
+---*/
+var BUGNUMBER = 1499448;
 var summary = "Constant folder should fold labeled statements";
 
 print(BUGNUMBER + ": " + summary);

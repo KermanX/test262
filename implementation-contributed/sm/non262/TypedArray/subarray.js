@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Bug 1291003
+---*/
+// Bug 1291003
 if (typeof $DETACHBUFFER === "function") {
     for (let constructor of typedArrayConstructors) {
         const elementSize = constructor.BYTES_PER_ELEMENT;

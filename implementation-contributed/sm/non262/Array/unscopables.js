@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let Array_unscopables = Array.prototype[Symbol.unscopables];
+---*/
+let Array_unscopables = Array.prototype[Symbol.unscopables];
 
 let desc = Reflect.getOwnPropertyDescriptor(Array.prototype, Symbol.unscopables);
 assert.deepEqual(desc, {

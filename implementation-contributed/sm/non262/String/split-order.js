@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1287521;
+---*/
+var BUGNUMBER = 1287521;
 var summary = 'String.prototype.split should call ToUint32(limit) before ToString(separator).';
 
 print(BUGNUMBER + ": " + summary);

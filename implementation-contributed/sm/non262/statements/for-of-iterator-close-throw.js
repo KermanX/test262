@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test() {
+---*/
+function test() {
     var returnCalled = 0;
     var returnCalledExpected = 0;
     var catchEntered = 0;

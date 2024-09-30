@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function doubler(k, v)
+---*/
+function doubler(k, v)
 {
   assert.sameValue(typeof k, "string");
 

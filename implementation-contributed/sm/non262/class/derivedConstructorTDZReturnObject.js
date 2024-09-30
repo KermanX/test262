@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends null {
+---*/
+class foo extends null {
     constructor() {
         // If you return an object, we don't care that |this| went
         // uninitialized

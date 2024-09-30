@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const otherGlobal = newGlobal({newCompartment: true});
+---*/
+const otherGlobal = newGlobal({newCompartment: true});
 
 let regExp = otherGlobal.eval("/a(b|c)/iy");
 

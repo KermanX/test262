@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1180306;
+---*/
+var BUGNUMBER = 1180306;
 var summary = 'Array.from should close iterator on error';
 
 print(BUGNUMBER + ": " + summary);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// This is super weird. A super property reference in the spec contains two
+---*/
+// This is super weird. A super property reference in the spec contains two
 // things. The first is the object to do the lookup on, the super base. This
 // should be unchanged, no matter what's going on: I can move the method to
 // another object. I can pull it out as its own function. I can put it on my

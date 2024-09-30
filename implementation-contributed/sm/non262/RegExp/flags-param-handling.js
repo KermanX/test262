@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue(RegExp(/foo/my).flags, "my");
+---*/
+assert.sameValue(RegExp(/foo/my).flags, "my");
 assert.sameValue(RegExp(/foo/, "gi").flags, "gi");
 assert.sameValue(RegExp(/foo/my, "gi").flags, "gi");
 assert.sameValue(RegExp(/foo/my, "").flags, "");

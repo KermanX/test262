@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1566143;
+---*/
+var BUGNUMBER = 1566143;
 var summary = "Implement the Optional Chain operator (?.) proposal";
 
 print(BUGNUMBER + ": " + summary);

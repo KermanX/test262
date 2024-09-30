@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.2.2 Tuple.from ( items [ , mapFn [, thisArg ] ] )
 When the from method is called with argument items and optional arguments mapfn and thisArg, the following steps are taken:
 

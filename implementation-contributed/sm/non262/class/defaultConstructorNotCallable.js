@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class badBase {}
+---*/
+class badBase {}
 assertThrowsInstanceOf(badBase, TypeError);
 
 class badSub extends (class {}) {}

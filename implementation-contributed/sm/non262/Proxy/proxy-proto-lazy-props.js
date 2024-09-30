@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function makeProxyPrototype(target) {
+---*/
+function makeProxyPrototype(target) {
     return Object.setPrototypeOf(target, new Proxy({}, new Proxy({
         getPrototypeOf() {
             return null;

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var get = [];
+---*/
+var get = [];
 var fun = function() {}
 var p = new Proxy(fun, {
     get(target, key) {

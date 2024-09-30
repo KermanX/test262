@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test assignment to const and function name bindings. The latter is kind of a
+---*/
+// Test assignment to const and function name bindings. The latter is kind of a
 // const binding, but only throws in strict mode.
 
 function notEvaluated() {

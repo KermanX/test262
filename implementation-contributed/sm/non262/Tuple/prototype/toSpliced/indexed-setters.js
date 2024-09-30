@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // If an indexed Array setter is overridden, TupleSplice shouldn't use it
 // when constructing the intermediate array
 

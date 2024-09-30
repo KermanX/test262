@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Properties of Math.atanh that are guaranteed by the spec.
+---*/
+// Properties of Math.atanh that are guaranteed by the spec.
 
 // If x is NaN, the result is NaN.
 assert.sameValue(Math.atanh(NaN), NaN);

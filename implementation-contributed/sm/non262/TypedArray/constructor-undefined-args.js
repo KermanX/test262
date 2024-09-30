@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Bug 1040402
+---*/
+// Bug 1040402
 
 var ab = new ArrayBuffer(16);
 

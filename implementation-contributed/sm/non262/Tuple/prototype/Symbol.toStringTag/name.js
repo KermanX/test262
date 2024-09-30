@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var desc = Object.getOwnPropertyDescriptor(Tuple.prototype, Symbol.toStringTag);
 
 assert.sameValue(desc.name, undefined);

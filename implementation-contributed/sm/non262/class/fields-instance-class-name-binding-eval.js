@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Instance field initialisers can access the inner name binding for class definitions.
+---*/
+// Instance field initialisers can access the inner name binding for class definitions.
 {
   class C {
     field = eval("C");

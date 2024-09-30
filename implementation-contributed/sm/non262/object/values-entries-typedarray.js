@@ -9,7 +9,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function assertSameEntries(actual, expected) {
+---*/
+function assertSameEntries(actual, expected) {
     assert.sameValue(actual.length, expected.length);
     for (let i = 0; i < expected.length; ++i)
         assert.compareArray(actual[i], expected[i]);

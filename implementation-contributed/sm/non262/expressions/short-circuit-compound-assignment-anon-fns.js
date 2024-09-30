@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// NamedEvaluation applies to short-circuit assignment.
+---*/
+// NamedEvaluation applies to short-circuit assignment.
 
 {
   let a;

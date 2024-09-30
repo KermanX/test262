@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var buffer = new ArrayBuffer(2);
+---*/
+var buffer = new ArrayBuffer(2);
 var view = new DataView(buffer);
 
 function check(view) {

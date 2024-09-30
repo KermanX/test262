@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure %TypedArray%.prototype.fill checks for detached buffers.
+---*/
+// Ensure %TypedArray%.prototype.fill checks for detached buffers.
 
 function DetachArrayBufferValue(buffer, value) {
     return {

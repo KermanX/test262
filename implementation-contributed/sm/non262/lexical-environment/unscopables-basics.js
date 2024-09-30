@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Basics of @@unscopables support.
+---*/
+// Basics of @@unscopables support.
 
 // In with(obj), if obj[@@unscopables][id] is truthy, then the identifier id
 // is not present as a binding in the with-block's scope.

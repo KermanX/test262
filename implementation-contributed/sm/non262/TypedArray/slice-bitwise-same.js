@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Copies bytes bit-wise if source and target type are the same.
+---*/
+// Copies bytes bit-wise if source and target type are the same.
 // Only detectable when using floating point typed arrays.
 const float32Constructors = anyTypedArrayConstructors.filter(isFloatConstructor)
                                                      .filter(c => c.BYTES_PER_ELEMENT === 4);

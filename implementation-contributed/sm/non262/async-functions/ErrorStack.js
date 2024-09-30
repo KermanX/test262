@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var BUGNUMBER = 1343158;
 var summary = "Error.stack should provide meaningful stack trace in async function";
 

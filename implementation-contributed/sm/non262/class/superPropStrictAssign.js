@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// While |super| is common in classes, it also works in object litterals,
+---*/
+// While |super| is common in classes, it also works in object litterals,
 // where there is no guarantee of strict mode. Check that we do not somehow
 // get strict mode semantics when they were not called for
 

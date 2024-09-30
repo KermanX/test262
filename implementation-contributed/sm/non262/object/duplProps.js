@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
  * ES6 allows duplicate property names in object literals, even in strict mode.
  * These tests modify the tests in test262 to reflect this change.
  */

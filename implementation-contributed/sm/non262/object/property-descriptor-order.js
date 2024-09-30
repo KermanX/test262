@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var names = Object.getOwnPropertyNames(Object.getOwnPropertyDescriptor({foo: 0}, "foo"));
+---*/
+var names = Object.getOwnPropertyNames(Object.getOwnPropertyDescriptor({foo: 0}, "foo"));
 assert.deepEqual(names, ["value", "writable", "enumerable", "configurable"]);
 
 names = Object.getOwnPropertyNames(Object.getOwnPropertyDescriptor({get foo(){}}, "foo"));

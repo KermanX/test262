@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1145326;
+---*/
+var BUGNUMBER = 1145326;
 var summary = 'String.prototype.normalize error when normalization form parameter is not an atom';
 
 print(BUGNUMBER + ": " + summary);

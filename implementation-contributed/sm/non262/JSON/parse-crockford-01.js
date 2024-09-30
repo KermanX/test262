@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var str =
+---*/
+var str =
   '[\n' +
   '    "JSON Test Pattern pass1",\n' +
   '    {"object with 1 member":["array with 1 element"]},\n' +

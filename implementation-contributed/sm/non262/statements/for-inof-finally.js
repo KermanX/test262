@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1332881;
+---*/
+var BUGNUMBER = 1332881;
 var summary =
   "Leaving for-in and try should handle stack value in correct order";
 

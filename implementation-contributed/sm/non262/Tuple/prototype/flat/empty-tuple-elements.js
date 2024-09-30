@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var t = #[];
+---*/
+var t = #[];
 assert.sameValue(#[].flat(), #[]);
 assert.sameValue(#[#[],#[]].flat(), #[]);
 assert.sameValue(#[#[], #[1]].flat(), #[1]);

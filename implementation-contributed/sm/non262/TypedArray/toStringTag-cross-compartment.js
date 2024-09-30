@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const TypedArrayPrototype = Object.getPrototypeOf(Int8Array.prototype);
+---*/
+const TypedArrayPrototype = Object.getPrototypeOf(Int8Array.prototype);
 const {get: toStringTag} = Object.getOwnPropertyDescriptor(TypedArrayPrototype, Symbol.toStringTag);
 
 const otherGlobal = newGlobal();

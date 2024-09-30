@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const sum = (x, y) => x + y;
 function check(x) {
   AsyncIterator.prototype.reduce.call(x, sum).then(

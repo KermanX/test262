@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function *generatorNewTarget(expected) {
+---*/
+function *generatorNewTarget(expected) {
     assert.sameValue(new.target, expected);
     assert.sameValue(eval('new.target'), expected);
     assert.sameValue((() => new.target)(), expected);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/new class extends class { } {
+---*/
+new class extends class { } {
     constructor() {
         super();
         assert.sameValue(this, (()=>this)());

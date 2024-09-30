@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Case 1: splice() removes an element from the array.
+---*/
+// Case 1: splice() removes an element from the array.
 {
     let array = [];
     array.push(0, 1, 2);

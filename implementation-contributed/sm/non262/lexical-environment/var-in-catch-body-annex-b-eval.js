@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests annex B.3.5 that introduces a var via direct eval.
+---*/
+// Tests annex B.3.5 that introduces a var via direct eval.
 
 var x = "global-x";
 var log = "";

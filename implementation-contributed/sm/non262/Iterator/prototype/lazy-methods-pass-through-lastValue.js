@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class TestIterator extends Iterator {
   next(value = "next value") {
     assert.sameValue(arguments.length, 0);

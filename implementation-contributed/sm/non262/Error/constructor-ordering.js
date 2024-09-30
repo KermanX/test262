@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var order = 0;
+---*/
+var order = 0;
 function assertOrdering(ordering) {
     assert.sameValue(order, ordering);
     order++;

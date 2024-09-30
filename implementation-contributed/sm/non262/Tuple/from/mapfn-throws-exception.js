@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var array = [2, 4, 8, 16, 32, 64, 128];
+---*/
+var array = [2, 4, 8, 16, 32, 64, 128];
 
 function mapFnThrows(value, index, obj) {
   throw new RangeError();

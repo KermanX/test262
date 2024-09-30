@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Basic surface tests.
+---*/
+// Basic surface tests.
 
 assert.sameValue(typeof String.prototype.matchAll, "function");
 assert.sameValue(String.prototype.matchAll.name, "matchAll");

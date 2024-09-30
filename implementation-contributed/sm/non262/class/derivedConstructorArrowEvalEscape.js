@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let arrow;
+---*/
+let arrow;
 
 class foo extends class { } {
     constructor() {

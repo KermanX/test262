@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test TDZ for short-circuit compound assignments.
+---*/
+// Test TDZ for short-circuit compound assignments.
 
 // TDZ for lexical |let| bindings.
 {

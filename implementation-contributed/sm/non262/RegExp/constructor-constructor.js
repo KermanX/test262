@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1147817;
+---*/
+var BUGNUMBER = 1147817;
 var summary = "RegExp constructor should check pattern.constructor.";
 
 print(BUGNUMBER + ": " + summary);

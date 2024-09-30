@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// @@unscopables treats properties found on prototype chains the same as other
+---*/
+// @@unscopables treats properties found on prototype chains the same as other
 // properties.
 
 const x = "global x";

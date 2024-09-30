@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1079919;
+---*/
+var BUGNUMBER = 1079919;
 var summary = "Make RegExp.prototype.toString to be a generic function.";
 
 print(BUGNUMBER + ": " + summary);

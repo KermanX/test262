@@ -10,7 +10,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function* g(iter) {
+---*/
+function* g(iter) {
     yield* iter;
 }
 

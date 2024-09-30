@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function boundTarget(expected) {
+---*/
+function boundTarget(expected) {
     assert.sameValue(new.target, expected);
 }
 

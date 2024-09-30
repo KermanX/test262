@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(typeof Set.prototype.difference, "function");
 assert.deepEqual(Object.getOwnPropertyDescriptor(Set.prototype.difference, "length"), {
   value: 1, writable: false, enumerable: false, configurable: true,

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 924672;
+---*/
+var BUGNUMBER = 924672;
 var summary = 'Method Definitions - Generators'
 
 print(BUGNUMBER + ": " + summary);

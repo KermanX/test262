@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that we can overwrite methods when more tha one is present.
+---*/
+// Ensure that we can overwrite methods when more tha one is present.
 {
     var result = 0;
     // Regardless of order, the constructor is overridden by any CPN, because it's

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Check that new.target works properly in defaults.
+---*/
+// Check that new.target works properly in defaults.
 
 function check(expected, actual = new.target) { assert.sameValue(actual, expected); }
 new check(check);

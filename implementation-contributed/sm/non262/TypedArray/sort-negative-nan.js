@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test with all floating point typed arrays.
+---*/
+// Test with all floating point typed arrays.
 const floatConstructors = anyTypedArrayConstructors.filter(isFloatConstructor);
 
 // Also test with cross-compartment wrapped typed arrays.

@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(typeof Set.prototype.isSupersetOf, "function");
 assert.deepEqual(Object.getOwnPropertyDescriptor(Set.prototype.isSupersetOf, "length"), {
   value: 1, writable: false, enumerable: false, configurable: true,

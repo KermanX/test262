@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var ieval = eval;
+---*/
+var ieval = eval;
 var AsyncFunction = async function(){}.constructor;
 
 var functionContext = {

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/'use strict';
+---*/
+'use strict';
 
 var list = {
   '0': 41,

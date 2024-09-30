@@ -8,5 +8,6 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue([17].indexOf(17, -0), +0);
+---*/
+assert.sameValue([17].indexOf(17, -0), +0);
 

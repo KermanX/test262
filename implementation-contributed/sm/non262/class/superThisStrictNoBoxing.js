@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class C {
+---*/
+class C {
   get prop_this() { return this; }
 }
 

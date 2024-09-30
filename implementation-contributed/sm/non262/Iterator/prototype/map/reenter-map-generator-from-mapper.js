@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Re-entering the map() generator from the called mapper fails.
 
 let iterator;

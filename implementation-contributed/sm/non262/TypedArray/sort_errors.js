@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that TypedArrays throw when attempting to sort a detached ArrayBuffer
+---*/
+// Ensure that TypedArrays throw when attempting to sort a detached ArrayBuffer
 if (typeof $DETACHBUFFER === "function") {
     assertThrowsInstanceOf(() => {
         let buffer = new ArrayBuffer(32);

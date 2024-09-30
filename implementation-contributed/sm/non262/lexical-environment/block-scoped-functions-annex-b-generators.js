@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests by André Bargull <andrebargull@googlemail.com>
+---*/
+// Tests by André Bargull <andrebargull@googlemail.com>
 
 // Annex B.3.3.1
 function f1() {

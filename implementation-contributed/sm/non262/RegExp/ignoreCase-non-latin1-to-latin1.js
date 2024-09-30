@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1338779;
+---*/
+var BUGNUMBER = 1338779;
 var summary = "Non-Latin1 to Latin1 mapping in ignoreCase.";
 
 assert.sameValue(/(\u039C)/.test("\xB5"), false);

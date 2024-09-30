@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// 'var' is allowed to redeclare parameters.
+---*/
+// 'var' is allowed to redeclare parameters.
 function f1(a = 0) {
   var a;
 }

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var boxO = Object(#{ x: 1, y: 2 });
 
 assert.sameValue(Object.isExtensible(boxO), false);

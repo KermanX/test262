@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function bogusConstruct(target) { return 4; }
+---*/
+function bogusConstruct(target) { return 4; }
 function bogusConstructUndefined(target) { }
 
 var handler = { construct: bogusConstruct }

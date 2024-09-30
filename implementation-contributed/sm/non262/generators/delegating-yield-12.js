@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// yield* calls @@iterator on the iterable to produce the iterator.
+---*/
+// yield* calls @@iterator on the iterable to produce the iterator.
 
 var log = '';
 

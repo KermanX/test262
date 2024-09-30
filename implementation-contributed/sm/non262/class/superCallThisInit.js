@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function base() { this.prop = 42; }
+---*/
+function base() { this.prop = 42; }
 
 class testInitialize extends base {
     constructor() {

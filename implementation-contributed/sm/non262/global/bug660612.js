@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/try {
+---*/
+try {
     decodeURIComponent('%ED%A0%80');
     assert.sameValue(true, false, "expected an URIError");
 } catch (e) {

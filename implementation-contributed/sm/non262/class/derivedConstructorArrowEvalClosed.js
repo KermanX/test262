@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/new class extends class { } {
+---*/
+new class extends class { } {
     constructor() {
         let a1 = () => this;
         let a2 = (() => super());

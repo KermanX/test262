@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class TestIterator extends Iterator {
   next() {
     return {done: true, value: 'value'};

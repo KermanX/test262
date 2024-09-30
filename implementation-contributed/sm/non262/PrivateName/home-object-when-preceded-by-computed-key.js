@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class Base {
+---*/
+class Base {
   m() { return "pass"; }
   static m() { return "fail"; }
 }

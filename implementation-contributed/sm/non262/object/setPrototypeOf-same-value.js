@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Setting a "new" prototype to the current [[Prototype]] value should never fail
+---*/
+// Setting a "new" prototype to the current [[Prototype]] value should never fail
 
 var x = {}, t = Object.create(x);
 Object.preventExtensions(t);

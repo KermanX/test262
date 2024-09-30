@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that Annex B function interaction with 'arguments'.
+---*/
+// Test that Annex B function interaction with 'arguments'.
 
 (function() {
   assert.sameValue(typeof arguments, "object");

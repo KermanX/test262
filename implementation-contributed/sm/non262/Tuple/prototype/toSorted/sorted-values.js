@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var sample;
+---*/
+var sample;
 
 sample = #[4,3,2,1].toSorted();
 assert.sameValue(sample, #[1,2,3,4]);

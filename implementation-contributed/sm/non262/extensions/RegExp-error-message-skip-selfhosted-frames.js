@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (let name of ["test", Symbol.match, Symbol.replace, Symbol.search]) {
+---*/
+for (let name of ["test", Symbol.match, Symbol.replace, Symbol.search]) {
     let methodName = typeof name === "symbol" ? `[${name.description}]` : name;
     assertThrowsInstanceOfWithMessage(
         () => RegExp.prototype[name].call({}),

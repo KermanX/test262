@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var log = "";
+---*/
+var log = "";
 
 function f() {
   log += g();

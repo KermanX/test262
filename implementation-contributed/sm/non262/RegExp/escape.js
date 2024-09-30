@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1130860;
+---*/
+var BUGNUMBER = 1130860;
 var summary = 'Slash and LineTerminator should be escaped correctly.';
 
 print(BUGNUMBER + ": " + summary);

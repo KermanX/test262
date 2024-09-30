@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/testJSON("{}...", true);
+---*/
+testJSON("{}...", true);
 testJSON('{"foo": truBBBB}', true);
 testJSON('{foo: truBBBB}', true);
 testJSON('{"foo": undefined}', true);

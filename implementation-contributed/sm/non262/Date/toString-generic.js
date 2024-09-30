@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 861219;
+---*/
+var BUGNUMBER = 861219;
 var summary = 'Date.prototype.toString is a generic function';
 
 // Revised in ECMA 2018, Date.prototype.toString is no longer generic (bug 1381433).

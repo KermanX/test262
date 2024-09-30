@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.30 Tuple.prototype.toSpliced ( start, deleteCount, ...items )
 When the toSpliced method is called with two or more arguments start, deleteCount and zero or more items, a new Tuple is returned where the deleteCount elements of the Tuple starting at integer index start are replaced by the arguments items.
 

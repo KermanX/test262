@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// In these cases, @@unscopables should not be consulted.
+---*/
+// In these cases, @@unscopables should not be consulted.
 
 // Because obj has no properties `assert.sameValue` or `x`,
 // obj[@@unscopables] is not checked here:

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Nearly every %TypedArray%.prototype method should throw a TypeError when called
+---*/
+// Nearly every %TypedArray%.prototype method should throw a TypeError when called
 // atop a detached array buffer. Here we check verify that this holds true for
 // all relevant functions.
 let buffer = new ArrayBuffer(32);

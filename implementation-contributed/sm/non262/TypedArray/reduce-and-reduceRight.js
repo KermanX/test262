@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests for TypedArray#reduce.
+---*/
+// Tests for TypedArray#reduce.
 for (var constructor of anyTypedArrayConstructors) {
     assert.sameValue(constructor.prototype.reduce.length, 1);
 

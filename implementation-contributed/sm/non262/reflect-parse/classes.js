@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Classes
+---*/
+// Classes
 function testClasses() {
     function methodFun(id, kind, generator, args, body = []) {
         assert.sameValue(generator && kind === "method", generator);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests that newer-type functions (i.e. anything not defined by regular function declarations and
+---*/
+// Tests that newer-type functions (i.e. anything not defined by regular function declarations and
 // expressions) throw when accessing their 'arguments' and 'caller' properties.
 
 // 9.2.7 (AddRestrictedFunctionProperties) defines accessors on Function.prototype which throw on

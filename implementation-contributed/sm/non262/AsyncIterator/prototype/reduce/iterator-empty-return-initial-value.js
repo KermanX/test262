@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const reducer = (x, y) => 0;
 async function *gen() {}
 

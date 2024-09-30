@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const max = Number.MAX_SAFE_INTEGER;
+---*/
+const max = Number.MAX_SAFE_INTEGER;
 
 assert.sameValue(Array.prototype.indexOf.call({length: Infinity, [max - 1]: 'test'}, 'test', max - 3), max - 1);
 assert.sameValue(Array.prototype.lastIndexOf.call({length: Infinity, [max - 2]: 'test', [max - 1]: 'test2'}, 'test'), max - 2);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     // If the mapfn argument to %TypedArray%.from is undefined, don't map.
     assert.deepEqual(constructor.from([3, 4, 5], undefined), new constructor([3, 4, 5]));
     assert.deepEqual(constructor.from([4, 5, 6], undefined, Math), new constructor([4, 5, 6]));

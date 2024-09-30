@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assertThrowsInstanceOf(() => eval("() \n => {}"), SyntaxError);
+---*/
+assertThrowsInstanceOf(() => eval("() \n => {}"), SyntaxError);
 assertThrowsInstanceOf(() => eval("a \n => {}"), SyntaxError);
 assertThrowsInstanceOf(() => eval("(a) /*\n*/ => {}"), SyntaxError);
 assertThrowsInstanceOf(() => eval("(a, b) \n => {}"), SyntaxError);

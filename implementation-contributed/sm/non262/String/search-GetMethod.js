@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1290655;
+---*/
+var BUGNUMBER = 1290655;
 var summary = "String.prototype.search should call GetMethod.";
 
 print(BUGNUMBER + ": " + summary);

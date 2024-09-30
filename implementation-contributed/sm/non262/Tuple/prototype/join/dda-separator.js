@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 let dda = createIsHTMLDDA();
 
 assert.sameValue(dda == null, true);

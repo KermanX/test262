@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests that the "return" method on iterators is called in yield*
+---*/
+// Tests that the "return" method on iterators is called in yield*
 // expressions.
 
 function test() {

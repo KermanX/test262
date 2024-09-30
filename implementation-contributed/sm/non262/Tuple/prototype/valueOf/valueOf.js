@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.3 Tuple.prototype.valueOf ( )
 When the valueOf function is called, the following steps are taken:
 

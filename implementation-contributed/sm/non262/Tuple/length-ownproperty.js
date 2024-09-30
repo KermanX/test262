@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* Tuples should have a length ownProperty that can't be overridden
+---*/
+/* Tuples should have a length ownProperty that can't be overridden
  * This test is expected to fail until the spec change in
  * https://github.com/tc39/proposal-record-tuple/issues/282 is implemented.
  */

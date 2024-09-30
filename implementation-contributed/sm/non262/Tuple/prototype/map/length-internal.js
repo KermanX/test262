@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/Object.defineProperty(Tuple.prototype, "length", {value: 0});
+---*/
+Object.defineProperty(Tuple.prototype, "length", {value: 0});
 let t = #[1,2,3];
 var result = t.map(x => x + 1);
 // overriding length shouldn't have an effect

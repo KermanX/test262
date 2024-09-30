@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Private names can't appear in contexts where plain identifiers are expected.
 
 // Private names as binding identifiers.

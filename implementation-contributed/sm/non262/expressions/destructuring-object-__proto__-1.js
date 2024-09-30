@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test __proto__ is destructuring binding initialization.
+---*/
+// Test __proto__ is destructuring binding initialization.
 
 // __proto__ shorthand, no default.
 {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends null {
+---*/
+class foo extends null {
     constructor() {
         this;
         assert.sameValue(false, true);

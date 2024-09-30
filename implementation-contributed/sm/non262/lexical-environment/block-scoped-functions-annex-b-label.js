@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function expectSyntaxError(str) {
+---*/
+function expectSyntaxError(str) {
   var threwSyntaxError;
   try {
     eval(str);

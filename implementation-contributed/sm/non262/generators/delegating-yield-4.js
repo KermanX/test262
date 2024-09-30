@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// With yield*, inner and outer iterators can be invoked separately.
+---*/
+// With yield*, inner and outer iterators can be invoked separately.
 
 function* g(n) { for (var i=0; i<n; i++) yield i; }
 function* delegate(iter) { return yield* iter; }

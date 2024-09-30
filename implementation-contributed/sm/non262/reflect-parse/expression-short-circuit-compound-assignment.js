@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function test() {
 
 assertExpr("(x ??= y)", aExpr("??=", ident("x"), ident("y")));

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let superArrow;
+---*/
+let superArrow;
 let thisArrow;
 
 let thisStash;

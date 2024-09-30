@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Bug 1227207
+---*/
+// Bug 1227207
 
 var AB = new ArrayBuffer(12);	// Length divides 4
 var BC = new ArrayBuffer(14);	// Length does not divide 4

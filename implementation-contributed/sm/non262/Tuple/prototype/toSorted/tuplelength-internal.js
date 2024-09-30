@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* Use internal length rather than getting a length property */
+---*/
+/* Use internal length rather than getting a length property */
 var getCalls = 0;
 var desc = {
   get: function getLen() {

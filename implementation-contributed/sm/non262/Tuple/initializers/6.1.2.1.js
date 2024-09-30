@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 TupleElementList : AssignmentExpression
 1. Let initResult be the result of evaluating AssignmentExpression.
 2. Let initValue be ? GetValue(initResult).

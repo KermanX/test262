@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/({})
+---*/
+({})
 eval("{}")
 
 /* Watch for crash. */

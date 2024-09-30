@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that property keys are only evaluated once.
+---*/
+// Test that property keys are only evaluated once.
 
 class PropertyKey {
   constructor(key) {

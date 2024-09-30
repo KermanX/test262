@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that a deep yield* chain re-yields received results without
+---*/
+// Test that a deep yield* chain re-yields received results without
 // re-boxing.
 
 function results(results) {

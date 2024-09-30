@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//* Any copyright is dedicated to the Public Domain.
+---*/
+/* Any copyright is dedicated to the Public Domain.
  * http://creativecommons.org/licenses/publicdomain/ */
 
 // Reflect.get gets the value of a property.

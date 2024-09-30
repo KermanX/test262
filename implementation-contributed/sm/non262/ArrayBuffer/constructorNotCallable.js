@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assertThrowsInstanceOf(() => ArrayBuffer(), TypeError);
+---*/
+assertThrowsInstanceOf(() => ArrayBuffer(), TypeError);
 assertThrowsInstanceOf(() => ArrayBuffer(1), TypeError);
 assertThrowsInstanceOf(() => ArrayBuffer.call(null), TypeError);
 assertThrowsInstanceOf(() => ArrayBuffer.apply(null, []), TypeError);

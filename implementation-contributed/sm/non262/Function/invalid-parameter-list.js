@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// This constructor behaves like `Function` without checking
+---*/
+// This constructor behaves like `Function` without checking
 // if the parameter list end is at the expected position.
 // We use this to make sure that the tests we use are otherwise
 // syntactically correct.

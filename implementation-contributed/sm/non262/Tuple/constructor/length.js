@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 18 ECMAScript Standard Built-in Objects
 ...
 Every built-in function object, including constructors, has a "length" property whose value is a non-negative integral Number. Unless otherwise specified, this value is equal to the number of required parameters shown in the subclause heading for the function description. Optional parameters and rest parameters are not included in the parameter count.

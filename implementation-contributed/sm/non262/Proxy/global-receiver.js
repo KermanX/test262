@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The global object can be the receiver passed to the get and set traps of a Proxy.
+---*/
+// The global object can be the receiver passed to the get and set traps of a Proxy.
 var global = this;
 var proto = Object.getPrototypeOf(global);
 var gets = 0, sets = 0;

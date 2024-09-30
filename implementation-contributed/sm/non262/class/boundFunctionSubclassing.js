@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class func extends Function { }
+---*/
+class func extends Function { }
 let inst = new func("x", "return this.bar + x");
 
 // First, ensure that we get sane prototype chains for the bound instance

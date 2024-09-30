@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1130860;
+---*/
+var BUGNUMBER = 1130860;
 var summary = "RegExp constructor shouldn't invoke source/flags getters on argument RegExp instance.";
 
 print(BUGNUMBER + ": " + summary);

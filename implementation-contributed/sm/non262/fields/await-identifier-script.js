@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var await = 1;
+---*/
+var await = 1;
 
 async function getClass() {
   return class {

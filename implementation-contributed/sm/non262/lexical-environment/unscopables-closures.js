@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// @@unscopables continues to work after exiting the relevant `with` block,
+---*/
+// @@unscopables continues to work after exiting the relevant `with` block,
 // if the environment is captured by a closure.
 
 let env = {

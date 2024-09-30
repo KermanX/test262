@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that functions in block that do not exhibit Annex B do not override
+---*/
+// Test that functions in block that do not exhibit Annex B do not override
 // previous functions that do exhibit Annex B.
 
 function f() {

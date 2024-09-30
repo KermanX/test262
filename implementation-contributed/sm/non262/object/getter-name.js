@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1180290;
+---*/
+var BUGNUMBER = 1180290;
 var summary = 'Object accessors should have get prefix';
 
 print(BUGNUMBER + ": " + summary);

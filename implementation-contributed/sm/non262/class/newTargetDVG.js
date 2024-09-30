@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function thunk() {
+---*/
+function thunk() {
     new.target();
 }
 assertThrownErrorContains(thunk, "new.target");

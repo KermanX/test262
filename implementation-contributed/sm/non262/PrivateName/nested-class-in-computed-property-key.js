@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let capturedPrivateAccess;
+---*/
+let capturedPrivateAccess;
 class A {
   // Declare private name in outer class.
   static #x = 42;

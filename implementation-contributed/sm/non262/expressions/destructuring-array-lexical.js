@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1184922;
+---*/
+var BUGNUMBER = 1184922;
 var summary = "Array destructuring with accessing uninitialized lexical binding.";
 
 print(BUGNUMBER + ": " + summary);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
  * This should compile without triggering the following assertion:
  * 
  * Assertion failure: cg->fun->u.i.skipmin <= skip, at ../jsemit.cpp:2346

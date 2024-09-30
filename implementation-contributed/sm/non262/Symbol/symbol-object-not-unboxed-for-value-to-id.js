@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Create a symbol and a wrapper for it.
+---*/
+// Create a symbol and a wrapper for it.
 var s = Symbol();
 var so = Object(s);
 

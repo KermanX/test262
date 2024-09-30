@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const realm = newGlobal();
 
 const realm_record = realm.eval(`Record({ x: 1, y: 2 })`);

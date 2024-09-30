@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let primitives = [
+---*/
+let primitives = [
     10,
     false,
     "test",

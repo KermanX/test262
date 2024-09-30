@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class base {
+---*/
+class base {
     method() { return 1; }
     *gen() { return 2; }
     static sMethod() { return 3; }

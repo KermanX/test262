@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The first call to yield* passes one arg to "next".
+---*/
+// The first call to yield* passes one arg to "next".
 
 function Iter() {
     function next() {

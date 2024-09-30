@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test conversions to different element types.
+---*/
+// Test conversions to different element types.
 let tests = [
     /* Int8Array */
     {

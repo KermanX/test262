@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const fn = x => x;
 
 function check(x) {

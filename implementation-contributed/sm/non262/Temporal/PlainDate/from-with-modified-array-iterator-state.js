@@ -12,6 +12,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const ArrayIteratorPrototype = Object.getPrototypeOf([][Symbol.iterator]());
 
 // Modify the ArrayIteratorPrototype prototype chain to disable optimisations.

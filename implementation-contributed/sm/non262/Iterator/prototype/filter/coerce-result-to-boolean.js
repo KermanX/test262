@@ -14,6 +14,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // All truthy values are kept.
 const truthyValues = [true, 1, [], {}, 'test'];
 for (const value of [...truthyValues].values().filter(x => x)) {

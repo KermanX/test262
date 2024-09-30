@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Since we (for now!) can't emit jitcode for derived class statements. Make
+---*/
+// Since we (for now!) can't emit jitcode for derived class statements. Make
 // sure we can correctly invoke derived class constructors.
 
 class foo extends null {

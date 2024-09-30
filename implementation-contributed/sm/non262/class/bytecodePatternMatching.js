@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Constructors can't be called so we can't pattern match
+---*/
+// Constructors can't be called so we can't pattern match
 // them in replace and sort.
 function a() {
     var b = {a: "A"};

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(Object.prototype.toString.call(#[1,2,3]),
          "[object Tuple]");
 assert.sameValue(Object.prototype.toString.call(Object(#[1,2,3])),

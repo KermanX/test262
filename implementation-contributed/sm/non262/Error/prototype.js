@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const nativeErrors = [
+---*/
+const nativeErrors = [
     EvalError,
     RangeError,
     ReferenceError,

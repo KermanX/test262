@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1801690;
+---*/
+var BUGNUMBER = 1801690;
 var summary = "indexOf function doesn't work correctly with polish letters";
 
 // Prior to this bug being fixed, this would return 0. This is because 'ł'

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that Array.prototype.shift doesn't call the [[HasProperty]] internal
+---*/
+// Test that Array.prototype.shift doesn't call the [[HasProperty]] internal
 // method of objects when retrieving the element at index 0.
 
 var log = [];

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/if (typeof window === "undefined") {
+---*/
+if (typeof window === "undefined") {
     // This test is meant to run in the browser, but it's easy to
     // run it in the shell as well, even though it has no inner/outer
     // windows.

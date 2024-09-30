@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test __proto__ is destructuring assignment.
+---*/
+// Test __proto__ is destructuring assignment.
 
 // __proto__ shorthand, no default.
 {

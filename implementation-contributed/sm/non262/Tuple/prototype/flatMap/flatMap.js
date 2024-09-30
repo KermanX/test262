@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.17 Tuple.prototype.flatMap ( mapperFunction [ , thisArg ] )
 When the flatMap method is called with one or two arguments, the following steps are taken:
 

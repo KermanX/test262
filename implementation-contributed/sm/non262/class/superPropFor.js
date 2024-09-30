@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class testForIn {
+---*/
+class testForIn {
     constructor() {
         let hits = 0;
         for (super.prop in { prop1: 1, prop2: 2 })

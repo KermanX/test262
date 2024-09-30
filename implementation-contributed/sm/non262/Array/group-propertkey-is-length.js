@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var array = [0];
+---*/
+var array = [0];
 
 var grouped = Object.groupBy(array, () => "length");
 

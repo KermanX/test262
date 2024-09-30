@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var gcgcz = /((?:.)+)((?:.)*)/; /* Greedy capture, greedy capture zero. */
+---*/
+var gcgcz = /((?:.)+)((?:.)*)/; /* Greedy capture, greedy capture zero. */
 assert.compareArray(["a", "a", ""], gcgcz.exec("a"));
 assert.compareArray(["ab", "ab", ""], gcgcz.exec("ab"));
 assert.compareArray(["abc", "abc", ""], gcgcz.exec("abc"));

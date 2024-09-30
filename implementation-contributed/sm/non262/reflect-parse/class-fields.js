@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Classes
+---*/
+// Classes
 function testClassFields() {
     function constructor_(name) {
         let body = blockStmt([]);

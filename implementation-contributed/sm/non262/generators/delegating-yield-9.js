@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that yield* can appear in a loop, and inside yield.
+---*/
+// Test that yield* can appear in a loop, and inside yield.
 
 function* countdown(n) {
     while (n > 0) {

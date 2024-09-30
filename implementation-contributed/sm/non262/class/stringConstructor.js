@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class A {
+---*/
+class A {
     "constructor"() { return {}; }
 }
 assert.sameValue(new A() instanceof A, false);

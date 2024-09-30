@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class base {
+---*/
+class base {
     constructor() { }
 }
 

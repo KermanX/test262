@@ -8,7 +8,8 @@ includes: [non262-TypedArray-shell.js, non262-shell.js, shell.js]
 description: |
   pending
 esid: pending
----*/"use strict";
+---*/
+"use strict";
 
 // Seal
 assert.sameValue(Object.isSealed(new Int32Array(2)), false);

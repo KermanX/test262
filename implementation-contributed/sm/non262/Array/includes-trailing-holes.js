@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Array with trailing hole as explicit "magic elements hole".
+---*/
+// Array with trailing hole as explicit "magic elements hole".
 assert.sameValue([,].includes(), true);
 assert.sameValue([,].includes(undefined), true);
 assert.sameValue([,].includes(undefined, 0), true);

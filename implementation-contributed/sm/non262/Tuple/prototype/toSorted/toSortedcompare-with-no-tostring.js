@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* description: Tuple toSorted does cast values to String */
+---*/
+/* description: Tuple toSorted does cast values to String */
 
 var toStringCalled = false;
 Number.prototype.toString = function() {

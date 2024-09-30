@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// new.target is valid inside Function() invocations
+---*/
+// new.target is valid inside Function() invocations
 var func = new Function("new.target");
 
 // Note that this will also test new.target in ion inlines. When the toplevel

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1135377;
+---*/
+var BUGNUMBER = 1135377;
 var summary = "Implement RegExp unicode flag -- back reference should not match lead surrogate that has corresponding trail surrogate.";
 
 print(BUGNUMBER + ": " + summary);

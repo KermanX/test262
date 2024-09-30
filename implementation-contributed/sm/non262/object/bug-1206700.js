@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var x = {};
+---*/
+var x = {};
 Reflect.set(x, "prop", 5, Object.prototype);
 var y = {};
 Reflect.set(y, "prop", 6, Object.prototype);

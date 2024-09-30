@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.5
 ...
 4. Let relativeStart be ? ToInteger(start).

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function testNewTarget() {
+---*/
+function testNewTarget() {
 
     // new.target is currently valid inside any non-arrow, non-generator function
     assertInFunctionExpr("new.target", newTarget());

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* Step 1 */
+---*/
+/* Step 1 */
 /* toString() should throw on a non-Tuple */
 let method = Tuple.prototype.toString;
 assert.sameValue(method.call(#[1,2,3,4,5,6]), "1,2,3,4,5,6");

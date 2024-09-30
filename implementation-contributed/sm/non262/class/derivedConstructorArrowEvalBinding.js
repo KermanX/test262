@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure it doesn't matter when we make the arrow function
+---*/
+// Make sure it doesn't matter when we make the arrow function
 new class extends class { } {
     constructor() {
         let arrow = () => this;

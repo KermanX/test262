@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var x = new ArrayBuffer(2);
+---*/
+var x = new ArrayBuffer(2);
 
 var test = function(newProto) {
 try {

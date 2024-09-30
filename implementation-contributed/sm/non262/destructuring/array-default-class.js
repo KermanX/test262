@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1322314;
+---*/
+var BUGNUMBER = 1322314;
 var summary = "Function in computed property in class expression in array destructuring default";
 
 print(BUGNUMBER + ": " + summary);

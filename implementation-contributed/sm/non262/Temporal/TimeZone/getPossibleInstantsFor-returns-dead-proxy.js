@@ -12,6 +12,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var g = newGlobal({newCompartment: true});
 
 var tz = new class extends Temporal.TimeZone {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests for detached ArrayBuffer checks in %TypedArray%.prototype.set(array|typedArray, offset).
+---*/
+// Tests for detached ArrayBuffer checks in %TypedArray%.prototype.set(array|typedArray, offset).
 
 function* createTypedArrays(lengths = [0, 1, 4, 4096]) {
     for (let length of lengths) {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Any copyright is dedicated to the Public Domain.
+---*/
+// Any copyright is dedicated to the Public Domain.
 // https://creativecommons.org/licenses/publicdomain/
 
 // Check that |x % x| returns zero when |x| contains multiple digits

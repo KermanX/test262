@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// When env[@@unscopables].x changes, bindings can appear even if env is inextensible.
+---*/
+// When env[@@unscopables].x changes, bindings can appear even if env is inextensible.
 
 let x = "global";
 let unscopables = {x: true};

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var desc = Object.getOwnPropertyDescriptor(Tuple.prototype, "slice");
 assert.sameValue(desc.writable, true);
 assert.sameValue(desc.enumerable, false);

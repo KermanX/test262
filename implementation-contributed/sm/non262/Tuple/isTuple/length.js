@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 desc = Object.getOwnPropertyDescriptor(Tuple.isTuple, "length");
 assert.sameValue(desc.value, 1);
 assert.sameValue(desc.writable, false);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function name(obj, property, get) {
+---*/
+function name(obj, property, get) {
     let desc = Object.getOwnPropertyDescriptor(obj, property);
     return (get ? desc.get : desc.set).name;
 }

@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var ta = new Int32Array([3, 2, 1]);
 
 $DETACHBUFFER(ta.buffer);

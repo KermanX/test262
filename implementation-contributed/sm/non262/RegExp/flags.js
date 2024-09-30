@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1108467;
+---*/
+var BUGNUMBER = 1108467;
 var summary = "Implement RegExp.prototype.flags";
 
 print(BUGNUMBER + ": " + summary);

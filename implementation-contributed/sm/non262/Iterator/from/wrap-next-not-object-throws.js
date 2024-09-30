@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/const iter = (value) => Iterator.from({
+---*/
+const iter = (value) => Iterator.from({
   next: () => value,
 });
 

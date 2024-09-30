@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Repeats the test from 'Function/function-toString-builtin.js' and additionally
+---*/
+// Repeats the test from 'Function/function-toString-builtin.js' and additionally
 // verifies the name matches the expected value.
 //
 // This behaviour is not required by the ECMAScript standard.

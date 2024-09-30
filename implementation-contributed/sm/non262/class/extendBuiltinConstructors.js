@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function testBuiltinInstanceIsInstanceOf(instance, builtin, class_) {
+---*/
+function testBuiltinInstanceIsInstanceOf(instance, builtin, class_) {
     assert.sameValue(instance instanceof class_, true);
     assert.sameValue(instance instanceof builtin, true);
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that signaling NaN's don't cause problems while sorting
+---*/
+// Ensure that signaling NaN's don't cause problems while sorting
 
 function getNaNArray(length) {
     let a = [];

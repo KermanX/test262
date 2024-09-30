@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(isConstructor(Tuple.prototype.slice), false);
 
 assertThrowsInstanceOf(() => {

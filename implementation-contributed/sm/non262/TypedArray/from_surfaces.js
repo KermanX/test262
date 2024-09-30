@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     // Check superficial features of %TypeArray%.from.
     var desc = Object.getOwnPropertyDescriptor(constructor.__proto__, "from");
     assert.sameValue(desc.configurable, true);

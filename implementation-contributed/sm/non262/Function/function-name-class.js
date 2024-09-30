@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 883377;
+---*/
+var BUGNUMBER = 883377;
 var summary = "Anonymous class with name method shouldn't be affected by assignment";
 
 print(BUGNUMBER + ": " + summary);

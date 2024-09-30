@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that sorts finish even if a comparator adds items
+---*/
+// Ensure that sorts finish even if a comparator adds items
 // Note: the array is not expected to be properly sorted.
 let outsideArray = new Int32Array([1, 99, 2]);
 function addingComparator(x, y) {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let evil = new RegExp();
+---*/
+let evil = new RegExp();
 
 // https://tc39.es/ecma262/#sec-getsubstitution
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function f() {
+---*/
+function f() {
   var probeParam, probeBlock;
   let x = 'outside';
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 636635;
+---*/
+var BUGNUMBER = 636635;
 var summary = "A function created by Function constructor shouldn't have anonymous binding";
 
 print(BUGNUMBER + ": " + summary);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// `var x` should not call the getter of an existing global property.
+---*/
+// `var x` should not call the getter of an existing global property.
 
 var hit = 0;
 Object.defineProperty(this, "x", {

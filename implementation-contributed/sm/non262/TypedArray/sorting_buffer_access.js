@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that when sorting arrays of size greater than 128, which
+---*/
+// Ensure that when sorting arrays of size greater than 128, which
 // calls RadixSort under the hood, we don't access the 'buffer' 
 // property of the typed array directly. 
 

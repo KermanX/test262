@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 897634;
+---*/
+var BUGNUMBER = 897634;
 var summary = "expm1 should be monotonically increasing";
 
 print(BUGNUMBER + ": " + summary);

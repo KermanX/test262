@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Array.prototype.sort throws if the comparator is neither undefined nor
+---*/
+// Array.prototype.sort throws if the comparator is neither undefined nor
 // a callable object.
 
 // Use a zero length array, so we can provide any kind of callable object

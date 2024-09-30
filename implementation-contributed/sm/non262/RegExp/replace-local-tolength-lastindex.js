@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// RegExp.prototype[@@replace] always executes ToLength(regExp.lastIndex) for
+---*/
+// RegExp.prototype[@@replace] always executes ToLength(regExp.lastIndex) for
 // non-global RegExps.
 
 for (var flag of ["", "g", "y", "gy"]) {

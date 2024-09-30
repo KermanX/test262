@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Adapted from a test case contributed by André Bargull in bug 1062349.
+---*/
+// Adapted from a test case contributed by André Bargull in bug 1062349.
 
 var log = [];
 var hh = {

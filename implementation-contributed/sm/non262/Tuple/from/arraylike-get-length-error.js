@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 /* 9. Let len be ? LengthOfArrayLike(arrayLike). */
 
 var arrayLike = {};

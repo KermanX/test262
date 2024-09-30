@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const otherGlobal = newGlobal({newCompartment: true});
 
 let array = [1, 2, 3].values().toArray();

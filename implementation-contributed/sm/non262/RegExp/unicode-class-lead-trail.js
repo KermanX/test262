@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1135377;
+---*/
+var BUGNUMBER = 1135377;
 var summary = "Implement RegExp unicode flag -- lead and trail pattern in RegExpUnicodeEscapeSequence in CharacterClass.";
 
 print(BUGNUMBER + ": " + summary);

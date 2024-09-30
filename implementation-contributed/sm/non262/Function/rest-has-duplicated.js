@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure duplicated name is allowed in non-strict.
+---*/
+// Make sure duplicated name is allowed in non-strict.
 function f0(a, a) {
 }
 

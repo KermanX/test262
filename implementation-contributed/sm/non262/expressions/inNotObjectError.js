@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1352429;
+---*/
+var BUGNUMBER = 1352429;
 var summary = 'Error message should provide enough infomation for use of in operator';
 
 print(BUGNUMBER + ": " + summary);

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var sample = #[1,2,3];
+---*/
+var sample = #[1,2,3];
 
 assertThrowsInstanceOf(() => sample.map(function () { throw new TypeError("monkeys"); }),
                        TypeError,

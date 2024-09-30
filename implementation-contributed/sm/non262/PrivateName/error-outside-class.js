@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Can't reference a private field without an object
 assertThrowsInstanceOf(() => eval('#x'), SyntaxError);
 

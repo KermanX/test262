@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // this = null or undefined should not throw
 var result = Tuple.from.call(null, #[]);
 

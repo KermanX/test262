@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function isNeg(x) {
+---*/
+function isNeg(x) {
   if (Object.is(x, -0) || x < 0) {
     return true;
   }

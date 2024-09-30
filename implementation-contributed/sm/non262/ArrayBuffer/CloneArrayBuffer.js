@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1264941;
+---*/
+var BUGNUMBER = 1264941;
 var summary = 'CloneArrayBuffer should be called with byteLength of source typedArray';
 
 print(BUGNUMBER + ": " + summary);

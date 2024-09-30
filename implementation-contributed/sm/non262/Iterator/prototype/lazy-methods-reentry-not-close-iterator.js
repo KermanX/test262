@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const methods = [
   [iter => iter.map, x => x],
   [iter => iter.filter, x => true],

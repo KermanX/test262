@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Return new objects for each test case.
+---*/
+// Return new objects for each test case.
 function makeTestCases() {
     // Call the resolve hook for arguments/string objects.
     const resolveIndex = object => 0 in object;

@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class TestError extends Error {}
 class TestIterator extends Iterator {
   next() {

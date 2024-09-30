@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test() {
+---*/
+function test() {
 
 // Bug 924672: Method definitions
 assertExpr("b = { a() { } }", aExpr("=", ident("b"),

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure we get the proper side effects.
+---*/
+// Make sure we get the proper side effects.
 // |delete super.prop| and |delete super[expr]| throw universally.
 
 class base {

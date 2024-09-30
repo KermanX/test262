@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function makeProxy(type) {
+---*/
+function makeProxy(type) {
     return new Proxy({}, { ownKeys() { return [type]; } });
 }
 

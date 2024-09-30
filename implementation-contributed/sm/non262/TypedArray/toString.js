@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const TypedArrayPrototype = Object.getPrototypeOf(Int8Array.prototype);
+---*/
+const TypedArrayPrototype = Object.getPrototypeOf(Int8Array.prototype);
 
 // %TypedArrayPrototype% has an own "toString" property.
 assert.sameValue(TypedArrayPrototype.hasOwnProperty("toString"), true);

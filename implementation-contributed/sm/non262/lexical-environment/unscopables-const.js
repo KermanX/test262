@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// @@unscopables prevents a property from having any effect on assigning to a
+---*/
+// @@unscopables prevents a property from having any effect on assigning to a
 // const binding (which is an error).
 
 const x = 1;

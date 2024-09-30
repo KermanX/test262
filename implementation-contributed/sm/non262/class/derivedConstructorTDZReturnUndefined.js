@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends null {
+---*/
+class foo extends null {
     constructor() {
         // Explicit returns of undefined should act the same as falling off the
         // end of the function. That is to say, they should throw.

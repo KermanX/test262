@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test with different lengths to cover the case when InsertionSort is resp.
+---*/
+// Test with different lengths to cover the case when InsertionSort is resp.
 // is not called.
 for (let i = 2; i <= 10; ++i) {
     let length = 2 ** i;

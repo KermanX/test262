@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function f(array, method, args) {
+---*/
+function f(array, method, args) {
   var called = false;
   var keys = [];
   for (var key in array) {

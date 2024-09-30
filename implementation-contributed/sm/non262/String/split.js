@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 887016;
+---*/
+var BUGNUMBER = 887016;
 var summary = "Call RegExp.prototype[@@split] from String.prototype.split.";
 
 print(BUGNUMBER + ": " + summary);

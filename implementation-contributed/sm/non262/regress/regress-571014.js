@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var F, o;
 
 F = function () {};

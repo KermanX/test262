@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// @@unscopables checks can call getters.
+---*/
+// @@unscopables checks can call getters.
 
 // The @@unscopables property itself can be a getter.
 let hit1 = 0;

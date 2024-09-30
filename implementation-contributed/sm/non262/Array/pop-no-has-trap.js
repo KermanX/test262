@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that Array.prototype.pop doesn't call the [[HasProperty]] internal
+---*/
+// Test that Array.prototype.pop doesn't call the [[HasProperty]] internal
 // method of objects when retrieving the element at the last index.
 
 var log = [];

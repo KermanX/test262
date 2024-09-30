@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/assert.sameValue(#[1, 2].flatMap(function(e) {
+---*/
+assert.sameValue(#[1, 2].flatMap(function(e) {
   return #[e, e * 2];
 }), #[1, 2, 2, 4]);
 

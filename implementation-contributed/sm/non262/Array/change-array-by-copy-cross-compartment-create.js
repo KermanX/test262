@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function test(otherGlobal) {
     let arrays = [
         ["with", otherGlobal.Array.prototype.with.call([1,2,3], 1, 3)],

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const TAConstructors = [
+---*/
+const TAConstructors = [
   Int8Array,
   Uint8Array,
   Int16Array,

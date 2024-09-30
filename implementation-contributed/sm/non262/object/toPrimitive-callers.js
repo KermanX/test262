@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Check all the algorithms that call ToPrimitive. Confirm that they're passing
+---*/
+// Check all the algorithms that call ToPrimitive. Confirm that they're passing
 // the correct hint, per spec.
 
 var STRING = "xyzzy";

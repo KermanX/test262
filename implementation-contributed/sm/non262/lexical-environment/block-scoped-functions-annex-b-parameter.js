@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Annex B.3.3.1 disallows Annex B lexical function behavior when redeclaring a
+---*/
+// Annex B.3.3.1 disallows Annex B lexical function behavior when redeclaring a
 // parameter.
 
 (function(f) {

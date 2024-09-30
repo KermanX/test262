@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Static field initialisers can access the inner name binding for class definitions.
+---*/
+// Static field initialisers can access the inner name binding for class definitions.
 {
   class C {
     static field = C;

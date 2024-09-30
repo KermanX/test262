@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Since we put new.target at the end of the arguments vector, ensrue that it
+---*/
+// Since we put new.target at the end of the arguments vector, ensrue that it
 // doesn't interact with the arguments object
 
 var argsContent;

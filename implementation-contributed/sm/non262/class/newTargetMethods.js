@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Just like newTargetDirectInvoke, except to prove it works in functions
+---*/
+// Just like newTargetDirectInvoke, except to prove it works in functions
 // defined with method syntax as well. Note that methods, getters, and setters
 // are not constructible.
 

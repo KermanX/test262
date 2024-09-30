@@ -12,6 +12,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // 'await' is always a keyword when parsing modules.
 function f() {
     await;

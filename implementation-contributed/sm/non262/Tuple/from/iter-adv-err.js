@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var items = {};
+---*/
+var items = {};
 items[Symbol.iterator] = function() {
   return {
     next: function() {

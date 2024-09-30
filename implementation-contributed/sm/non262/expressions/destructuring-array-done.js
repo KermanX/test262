@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1184922;
+---*/
+var BUGNUMBER = 1184922;
 var summary = "iterator.next() should not be called when after iterator completes";
 
 print(BUGNUMBER + ": " + summary);

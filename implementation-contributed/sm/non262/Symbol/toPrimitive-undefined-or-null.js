@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (let method of [undefined, null]) {
+---*/
+for (let method of [undefined, null]) {
     let obj = {
         [Symbol.toPrimitive]: method,
         toString: () => "pass",

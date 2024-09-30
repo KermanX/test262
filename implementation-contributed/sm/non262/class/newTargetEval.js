@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Eval of new.target is invalid outside functions.
+---*/
+// Eval of new.target is invalid outside functions.
 try {
     eval('new.target');
     assert.sameValue(false, true);

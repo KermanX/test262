@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// If x is NaN, the result is NaN.
+---*/
+// If x is NaN, the result is NaN.
 assert.sameValue(Math.trunc(NaN), NaN);
 
 // If x is −0, the result is −0.

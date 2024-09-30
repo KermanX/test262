@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// #1
+---*/
+// #1
 function base() { }
 
 base.prototype = {

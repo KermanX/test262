@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const sum = (x, y) => x + y;
 assertThrowsInstanceOf(Iterator.prototype.reduce.bind(undefined, sum), TypeError);
 assertThrowsInstanceOf(Iterator.prototype.reduce.bind({}, sum), TypeError);

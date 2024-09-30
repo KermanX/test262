@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that super lookups and sets skip over properties on the |this| object.
+---*/
+// Ensure that super lookups and sets skip over properties on the |this| object.
 // That is, super lookups start with the superclass, not the current class.
 
 // The whole point: an empty superclass

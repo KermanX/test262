@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure we get the proper side effects.
+---*/
+// Make sure we get the proper side effects.
 // |delete super[expr]| applies ToPropertyKey on |expr| before throwing.
 
 class base {

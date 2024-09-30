@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// ToNumber(value) is executed for OOB writes when using a direct assignment.
+---*/
+// ToNumber(value) is executed for OOB writes when using a direct assignment.
 function plainSet() {
     var callCount = 0;
     var value = {

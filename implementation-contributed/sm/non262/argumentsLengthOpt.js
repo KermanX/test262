@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test cases for arguments.length optimization.
+---*/
+// Test cases for arguments.length optimization.
 
 function f1() {
     return arguments.length;

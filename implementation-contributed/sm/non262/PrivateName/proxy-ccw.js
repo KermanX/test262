@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Validate CCWs and proxies
 class Base {
   constructor(o) {

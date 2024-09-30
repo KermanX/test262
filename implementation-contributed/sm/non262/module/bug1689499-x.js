@@ -10,5 +10,6 @@ info: |
 description: |
   pending
 esid: pending
----*/import B from "./bug1689499-b.js";
+---*/
+import B from "./bug1689499-b.js";
 export default "X";

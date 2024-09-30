@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function ensureSetterCalledOnce(fn, value, index) {
+---*/
+function ensureSetterCalledOnce(fn, value, index) {
     var setterCalled = false;
     Object.defineProperty(Array.prototype, index, {
         configurable: true,

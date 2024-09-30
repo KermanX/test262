@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var o1 = { valueOf: function() { throw new SyntaxError(); } };
 var o2 = { toString: function() { throw new SyntaxError(); } };
 

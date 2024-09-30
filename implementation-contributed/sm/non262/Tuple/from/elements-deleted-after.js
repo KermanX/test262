@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var originalTuple = #[0, 1, -2, 4, -8, 16];
+---*/
+var originalTuple = #[0, 1, -2, 4, -8, 16];
 var array = [0,1,-2,4,-8,16];
 var t = #[];
 var arrayIndex = -1;

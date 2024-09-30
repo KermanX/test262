@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1168416;
+---*/
+var BUGNUMBER = 1168416;
 var summary = "Regexp.prototype.test/exec shouldn't change lastIndex if not writable.";
 
 print(BUGNUMBER + ": " + summary);

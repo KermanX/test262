@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var desc = Object.getOwnPropertyDescriptor(Tuple, "of");
 assert.sameValue(desc.value, Tuple.of);
 assert.sameValue(desc.writable, true);

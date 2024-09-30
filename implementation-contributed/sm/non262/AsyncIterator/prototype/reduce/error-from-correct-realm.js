@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const otherGlobal = newGlobal({newCompartment: true});
 assert.sameValue(TypeError !== otherGlobal.TypeError, true);
 

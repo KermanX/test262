@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that we're using [[ArrayLength]] to determine the number of
+---*/
+// Ensure that we're using [[ArrayLength]] to determine the number of
 // values to produce instead of the length property.
 
 function testIterationCount(iterator, expectedLength) {

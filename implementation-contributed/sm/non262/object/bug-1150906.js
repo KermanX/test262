@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function f(x) {
+---*/
+function f(x) {
     Object.defineProperty(arguments, 0, {
         get: function() {}
     });

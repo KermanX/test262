@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var objects = [
+---*/
+var objects = [
     Math.sin.bind(null),
     new Proxy(Math.sin.bind(null), {}),
     Function.prototype.bind.call(new Proxy(Math.sin, {}))

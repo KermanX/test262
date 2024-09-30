@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assertThrowsInstanceOfWithMessage(
+---*/
+assertThrowsInstanceOfWithMessage(
     () => eval("for (let case of ['foo', 'bar']) {}"),
     SyntaxError,
     "unexpected token: keyword 'case'");

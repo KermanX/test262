@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/'use strict';
+---*/
+'use strict';
 var thisVals = [];
 var nextResult = {
   done: false,

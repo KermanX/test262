@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var AsyncGenerator = async function*(){}.constructor;
+---*/
+var AsyncGenerator = async function*(){}.constructor;
 
 function assertSyntaxError(code) {
     var functionCode = `async function* f() { ${code} }`;

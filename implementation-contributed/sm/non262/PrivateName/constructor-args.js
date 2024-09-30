@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class A {
+---*/
+class A {
     #x = "hello";
     constructor(o = this.#x) {
         this.value = o;

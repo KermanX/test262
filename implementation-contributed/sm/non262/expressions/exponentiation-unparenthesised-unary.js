@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const AsyncFunction = async function(){}.constructor;
+---*/
+const AsyncFunction = async function(){}.constructor;
 
 function assertNoError(f, msg) {
   try {

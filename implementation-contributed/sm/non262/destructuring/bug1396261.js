@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure array or object literals with trailing property accessors are not
+---*/
+// Ensure array or object literals with trailing property accessors are not
 // treated as nested destructuring patterns in assignment destructuring
 // contexts.
 

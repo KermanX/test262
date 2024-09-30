@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function checkResult(actual, expected)
+---*/
+function checkResult(actual, expected)
 {
   assert.sameValue(actual.value, expected.value);
   assert.sameValue(actual.done, expected.done);

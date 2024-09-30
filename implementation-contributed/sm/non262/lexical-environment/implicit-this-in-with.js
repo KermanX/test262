@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that callees that resolve to bindings on the global object or the
+---*/
+// Test that callees that resolve to bindings on the global object or the
 // global lexical environment get an 'undefined' this inside with scopes.
 
 let g = function () { "use strict"; assert.sameValue(this, undefined); }

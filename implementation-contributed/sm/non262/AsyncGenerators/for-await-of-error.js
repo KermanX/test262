@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1391519;
+---*/
+var BUGNUMBER = 1391519;
 var summary = "for-await-of outside of async function should provide better error";
 
 print(BUGNUMBER + ": " + summary);

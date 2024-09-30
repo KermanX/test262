@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/assert.deepEqual([1, 2].concat(#[3, 4]), [1, 2, 3, 4]);
+---*/
+assert.deepEqual([1, 2].concat(#[3, 4]), [1, 2, 3, 4]);
 assert.deepEqual([].concat(#[3, 4]), [3, 4]);
 assert.deepEqual([].concat(#[]), []);
 assert.deepEqual([1, 2, 3].concat(#[]), [1, 2, 3]);

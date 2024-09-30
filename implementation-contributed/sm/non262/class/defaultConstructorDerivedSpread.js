@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//* Make sure that the default derived class constructor has the required spread semantics.
+---*/
+/* Make sure that the default derived class constructor has the required spread semantics.
  *
  * Test credit André Bargull
  */

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.2.3 Tuple.of ( ...items )
 The of method takes any number of arguments, and performs the following steps:
 

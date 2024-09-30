@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1165052;
+---*/
+var BUGNUMBER = 1165052;
 var summary = 'Use ArraySpeciesCreate in Array.prototype.{concat,filter,map,slice,splice}.';
 
 print(BUGNUMBER + ": " + summary);

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var BUGNUMBER = 918987;
 var summary = 'String.prototype.normalize - not listed in part1';
 

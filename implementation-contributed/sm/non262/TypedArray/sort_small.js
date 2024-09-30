@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const testCases = {
+---*/
+const testCases = {
     // Pre-sorted test data, it's important that these arrays remain in ascending order.
     [Int8Array.name]: [[-128, 127]],
     [Int16Array.name]: [[-32768, -999, 1942, 32767]],

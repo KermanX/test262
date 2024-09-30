@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Number field names.
+---*/
+// Number field names.
 class C {
     128 = class {};
 }

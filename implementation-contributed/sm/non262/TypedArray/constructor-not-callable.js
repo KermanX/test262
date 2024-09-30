@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     assertThrowsInstanceOf(() => constructor(), TypeError);
     assertThrowsInstanceOf(() => constructor(1), TypeError);
     assertThrowsInstanceOf(() => constructor.call(null), TypeError);

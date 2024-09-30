@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var g = newGlobal();
+---*/
+var g = newGlobal();
 
 var arr = [1, 2, 3];
 for (var constructor of anyTypedArrayConstructors) {

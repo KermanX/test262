@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 887016;
+---*/
+var BUGNUMBER = 887016;
 var summary = "Call RegExp.prototype[@@replace] from String.prototype.replace.";
 
 print(BUGNUMBER + ": " + summary);

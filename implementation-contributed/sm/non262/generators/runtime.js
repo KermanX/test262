@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// This file was written by Andy Wingo <wingo@igalia.com> and originally
+---*/
+// This file was written by Andy Wingo <wingo@igalia.com> and originally
 // contributed to V8 as generators-runtime.js, available here:
 //
 // https://source.chromium.org/chromium/chromium/src/+/main:v8/test/mjsunit/es6/generators-runtime.js

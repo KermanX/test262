@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure that we don't misorder subclassing accesses with respect to
+---*/
+// Make sure that we don't misorder subclassing accesses with respect to
 // accessing regex arg internal slots
 //
 // Test credit André Bargull.

@@ -14,6 +14,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const fn = (value) => value;
 assert.sameValue([true].values().find(fn), true);
 assert.sameValue([1].values().find(fn), 1);

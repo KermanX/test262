@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue(typeof AggregateError, "function");
+---*/
+assert.sameValue(typeof AggregateError, "function");
 assert.sameValue(Object.getPrototypeOf(AggregateError), Error);
 assert.sameValue(AggregateError.name, "AggregateError");
 assert.sameValue(AggregateError.length, 2);

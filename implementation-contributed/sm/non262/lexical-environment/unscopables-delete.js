@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// If obj[@@unscopables][id], then `delete id` works across `with (obj)` scope.
+---*/
+// If obj[@@unscopables][id], then `delete id` works across `with (obj)` scope.
 
 this.niche = 7;
 let obj = { niche: 8, [Symbol.unscopables]: { niche: true } };

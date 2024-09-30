@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 992617;
+---*/
+var BUGNUMBER = 992617;
 var summary = "Implement arguments[@@iterator].";
 
 print(BUGNUMBER + ": " + summary);

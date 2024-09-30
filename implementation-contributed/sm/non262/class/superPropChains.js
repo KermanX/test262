@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// First, let's test the trivial. A chain of three works.
+---*/
+// First, let's test the trivial. A chain of three works.
 class base {
     constructor() { }
     testChain() {

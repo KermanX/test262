@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 let g = newGlobal();
 
 // Both TypedArray and ArrayBuffer from different global.

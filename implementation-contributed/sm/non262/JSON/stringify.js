@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function assertStringify(v, expect)
+---*/
+function assertStringify(v, expect)
 {
   assert.sameValue(JSON.stringify(v), expect);
 }

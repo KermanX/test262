@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const reducer = (acc, value) => acc + value;
 async function* gen() {
   yield 1;

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test corner cases of for-of iteration over Arrays.
+---*/
+// Test corner cases of for-of iteration over Arrays.
 // The current SetObject::construct method uses a ForOfIterator to extract
 // values from the array, so we use that mechanism to test ForOfIterator here.
 

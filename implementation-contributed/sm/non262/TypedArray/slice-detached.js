@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests for detached ArrayBuffer checks in %TypedArray%.prototype.slice ( start, end ).
+---*/
+// Tests for detached ArrayBuffer checks in %TypedArray%.prototype.slice ( start, end ).
 
 function* createTypedArrays(lengths = [0, 1, 4, 4096]) {
     // Test with eagerly created ArrayBuffer.

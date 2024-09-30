@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 819125;
+---*/
+var BUGNUMBER = 819125;
 var summary = "try block should return try value if finally returned normally";
 
 print(BUGNUMBER + ": " + summary);

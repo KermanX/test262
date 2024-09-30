@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Named class definitions should create an immutable inner binding.
+---*/
+// Named class definitions should create an immutable inner binding.
 // Since all code in classes is in strict mode, attempts to mutate it
 // should throw.
 class Foof { constructor() { }; tryBreak() { Foof = 4; } }

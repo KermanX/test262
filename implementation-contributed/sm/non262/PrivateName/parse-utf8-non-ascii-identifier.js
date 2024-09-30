@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that non-ASCII identifier names are correctly parsed in the Utf-8 parser.
+---*/
+// Test that non-ASCII identifier names are correctly parsed in the Utf-8 parser.
 
 // Utf-8 encoding for U+05EF is (0xD7 0xAF), the first code unit isn't a valid
 // Ascii ID_START code unit.

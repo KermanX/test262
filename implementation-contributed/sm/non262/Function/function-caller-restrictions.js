@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Function#caller restrictions as proposed by
+---*/
+// Function#caller restrictions as proposed by
 // https://github.com/claudepache/es-legacy-function-reflection/
 
 function caller() {

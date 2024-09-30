@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const tests = [
+---*/
+const tests = [
   [Int8Array,         [9, 10, 11, 12, 13, 14, 15, 16]],
   [Uint8Array,        [9, 10, 11, 12, 13, 14, 15, 16]],
   [Uint8ClampedArray, [9, 10, 11, 12, 13, 14, 15, 16]],

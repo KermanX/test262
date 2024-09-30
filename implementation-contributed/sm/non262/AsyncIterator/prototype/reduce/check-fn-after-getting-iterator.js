@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/const log = [];
+---*/
+const log = [];
 const handlerProxy = new Proxy({}, {
   get: (target, key, receiver) => (...args) => {
     log.push(`${key}: ${args[1]?.toString()}`);

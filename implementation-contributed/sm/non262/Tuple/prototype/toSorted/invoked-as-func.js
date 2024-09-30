@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var toSorted = Tuple.prototype.toSorted;
+---*/
+var toSorted = Tuple.prototype.toSorted;
 
 assert.sameValue(typeof toSorted, 'function');
 

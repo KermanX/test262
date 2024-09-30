@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends Array { }
+---*/
+class foo extends Array { }
 
 function testArrs(arrs) {
     for (let arr of arrs) {

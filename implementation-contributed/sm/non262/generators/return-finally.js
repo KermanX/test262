@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1202134;
+---*/
+var BUGNUMBER = 1202134;
 var summary = "Return value should not be overwritten by finally block with normal execution.";
 
 print(BUGNUMBER + ": " + summary);

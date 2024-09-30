@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Class constructors don't have a [[Call]]
+---*/
+// Class constructors don't have a [[Call]]
 class Foo {
     constructor() { }
 }

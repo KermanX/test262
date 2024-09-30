@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var o = { f: "string-f" };
+---*/
+var o = { f: "string-f" };
 with (o) {
   var desc = Object.getOwnPropertyDescriptor(this, "f");
   assert.sameValue(desc.value, undefined);

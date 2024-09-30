@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of typedArrayConstructors) {
+---*/
+for (var constructor of typedArrayConstructors) {
     // Basic tests for our SpeciesConstructor implementation.
     var undefConstructor = new constructor(2);
     undefConstructor.constructor = undefined;

@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const fn = x => x;
 assertThrowsInstanceOf(Iterator.prototype.every.bind(undefined, fn), TypeError);
 assertThrowsInstanceOf(Iterator.prototype.every.bind({}, fn), TypeError);

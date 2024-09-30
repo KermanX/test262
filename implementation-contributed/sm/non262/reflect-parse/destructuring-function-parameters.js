@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test() {
+---*/
+function test() {
 
 function testParamPatternCombinations(makePattSrc, makePattPatt) {
     var pattSrcs = makePatternCombinations(n => ("x" + n), makePattSrc);

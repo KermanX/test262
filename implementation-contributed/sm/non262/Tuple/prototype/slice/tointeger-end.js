@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.5
 ...
 6. If end is undefined, let relativeEnd be len; else let relativeEnd be ? ToInteger(end).

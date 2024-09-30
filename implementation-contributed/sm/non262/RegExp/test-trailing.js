@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1304737;
+---*/
+var BUGNUMBER = 1304737;
 var summary = "Trailing .* should not be ignored on matchOnly match.";
 
 print(BUGNUMBER + ": " + summary);

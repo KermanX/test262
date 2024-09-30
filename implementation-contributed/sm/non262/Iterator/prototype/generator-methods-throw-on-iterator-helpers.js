@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const generatorProto = Object.getPrototypeOf(
   Object.getPrototypeOf(
     (function *() {})()

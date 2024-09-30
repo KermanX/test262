@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const iteratorHelperProto = Object.getPrototypeOf([].values().map(x => x));
 
 function *gen() {

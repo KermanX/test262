@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var i = -20; i < 20; i++)
+---*/
+for (var i = -20; i < 20; i++)
     assertNear(Math.sinh(i), (Math.exp(i) - Math.exp(-i)) / 2);
 
 assert.sameValue(Math.sinh(1000), Infinity);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure we properly quote strings which can contain the NUL character before
+---*/
+// Ensure we properly quote strings which can contain the NUL character before
 // returning them to the user to avoid cutting off any trailing characters.
 
 function assertStringIncludes(actual, expected) {

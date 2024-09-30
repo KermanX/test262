@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that the distinction between Proxy Init and Proxy Set holds
+---*/
+// Ensure that the distinction between Proxy Init and Proxy Set holds
 
 function assertThrowsTypeError(f) {
   var type;

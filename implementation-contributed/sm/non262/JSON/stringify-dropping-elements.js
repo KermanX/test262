@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue(JSON.stringify({foo: 123}),
+---*/
+assert.sameValue(JSON.stringify({foo: 123}),
          '{"foo":123}');
 assert.sameValue(JSON.stringify({foo: 123, bar: function () {}}),
          '{"foo":123}');

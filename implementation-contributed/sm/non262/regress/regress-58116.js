@@ -10,7 +10,8 @@ info: |
 description: |
   pending
 esid: pending
----*//* -*- indent-tabs-mode: nil; js-indent-level: 2 -*- */
+---*/
+/* -*- indent-tabs-mode: nil; js-indent-level: 2 -*- */
 /*
  * Any copyright is dedicated to the Public Domain.
  * http://creativecommons.org/licenses/publicdomain/

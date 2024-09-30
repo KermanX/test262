@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue(Object.getOwnPropertyNames(this).includes('globalThis'), true);
+---*/
+assert.sameValue(Object.getOwnPropertyNames(this).includes('globalThis'), true);
 
 if (typeof assert.sameValue === "function") {
 }

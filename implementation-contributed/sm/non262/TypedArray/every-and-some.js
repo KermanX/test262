@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests for TypedArray#every.
+---*/
+// Tests for TypedArray#every.
 for (var constructor of anyTypedArrayConstructors) {
     assert.sameValue(constructor.prototype.every.length, 1);
 

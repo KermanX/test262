@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1135377;
+---*/
+var BUGNUMBER = 1135377;
 var summary = "Implement RegExp unicode flag -- ignoreCase flag with non-ascii to ascii map.";
 
 print(BUGNUMBER + ": " + summary);

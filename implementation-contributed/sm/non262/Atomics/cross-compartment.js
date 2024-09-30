@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const otherGlobal = newGlobal();
 
 const intArrayConstructors = [

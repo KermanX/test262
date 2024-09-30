@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/// Treat 0..3, 4..7, etc. as equal.
+---*/
+// Treat 0..3, 4..7, etc. as equal.
 const compare = (a, b) => (a / 4 | 0) - (b / 4 | 0);
 
 // Create a tuple of the form `[0, 1, …, 126, 127]`.

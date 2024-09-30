@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var symbols = [
+---*/
+var symbols = [
     Symbol(), Symbol("iterator"), Symbol.for("iterator"), Symbol.iterator
 ];
 

@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // async function declaration.
 assertDecl("async function foo() {}", asyncFunDecl(ident("foo"), [], blockStmt([])));
 

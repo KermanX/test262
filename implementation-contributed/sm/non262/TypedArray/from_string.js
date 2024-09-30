@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// %TypedArray%.from called on Array should also handle strings correctly.
+---*/
+// %TypedArray%.from called on Array should also handle strings correctly.
 var from = Int8Array.from.bind(Uint32Array);
 var toCodePoint = s => s.codePointAt(0);
 

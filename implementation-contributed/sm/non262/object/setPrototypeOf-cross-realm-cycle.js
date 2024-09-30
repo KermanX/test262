@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The cycle check in 9.1.2 [[SetPrototypeOf]] prevents cross-realm cycles
+---*/
+// The cycle check in 9.1.2 [[SetPrototypeOf]] prevents cross-realm cycles
 // involving only ordinary objects.
 
 var gw = newGlobal();

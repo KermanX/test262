@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// It's an error to have a non-constructor as your heritage
+---*/
+// It's an error to have a non-constructor as your heritage
 assertThrowsInstanceOf(() => eval(`class a extends Math.sin {
                                         constructor() { }
                                     }`), TypeError);

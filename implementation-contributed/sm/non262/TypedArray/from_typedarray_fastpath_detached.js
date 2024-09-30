@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure the fast-path when TypedArray.from is called with a TypedArray still
+---*/
+// Ensure the fast-path when TypedArray.from is called with a TypedArray still
 // checks for detached buffers.
 
 var ta = new Int32Array(4);

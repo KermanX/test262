@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/// All methods on %WrapForValidIteratorPrototype% require an [[Iterated]]
+---*/
+// All methods on %WrapForValidIteratorPrototype% require an [[Iterated]]
 // internal slot on the `this` object.
 
 class TestIterator {

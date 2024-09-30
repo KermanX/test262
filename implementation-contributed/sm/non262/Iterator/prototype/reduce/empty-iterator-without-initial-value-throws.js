@@ -13,6 +13,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const iter = [].values();
 assertThrowsInstanceOf(() => iter.reduce((x, y) => x + y), TypeError);
 

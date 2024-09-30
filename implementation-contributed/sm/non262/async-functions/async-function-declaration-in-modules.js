@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 async function f() {
     return "success";
 }

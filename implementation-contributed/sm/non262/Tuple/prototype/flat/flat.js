@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.16 Tuple.prototype.flat ( [ depth ] )
 When the flat method is called with zero or one arguments, the following steps are taken:
 

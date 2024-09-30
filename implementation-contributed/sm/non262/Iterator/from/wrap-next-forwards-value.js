@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/class Iter {
+---*/
+class Iter {
   next(value) {
     assert.sameValue(arguments.length, 0);
     return { done: false, value };

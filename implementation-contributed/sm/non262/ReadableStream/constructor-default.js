@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // The second argument to `new ReadableStream` defaults to `{}`, so it observes
 // properties hacked onto Object.prototype.
 

@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(typeof Set.prototype.intersection, "function");
 assert.deepEqual(Object.getOwnPropertyDescriptor(Set.prototype.intersection, "length"), {
   value: 1, writable: false, enumerable: false, configurable: true,

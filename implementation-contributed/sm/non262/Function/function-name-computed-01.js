@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var obj = {
+---*/
+var obj = {
   ["func"]: function() {},
   ["genFunc"]: function*() {},
   ["asyncFunc"]: async function() {},

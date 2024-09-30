@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends null {
+---*/
+class foo extends null {
     constructor() {
         // Let it fall off the edge and throw.
     }

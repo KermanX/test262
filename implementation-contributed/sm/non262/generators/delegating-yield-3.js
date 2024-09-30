@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test yield* with iter.next and monkeypatching.
+---*/
+// Test yield* with iter.next and monkeypatching.
 
 function* g(n) { for (var i=0; i<n; i++) yield i; }
 function* delegate(iter) { return yield* iter; }

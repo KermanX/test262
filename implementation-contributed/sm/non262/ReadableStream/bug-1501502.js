@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/// A stream can become errored with an exception from another realm.
+---*/
+// A stream can become errored with an exception from another realm.
 
 let g = newGlobal();
 let g_enqueue;

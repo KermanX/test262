@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// super() invalid outside derived class constructors, including in dynamic
+---*/
+// super() invalid outside derived class constructors, including in dynamic
 // functions and eval
 assertThrowsInstanceOf(() => new Function("super();"), SyntaxError);
 assertThrowsInstanceOf(() => eval("super()"), SyntaxError);

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var slice = Tuple.prototype.slice;
+---*/
+var slice = Tuple.prototype.slice;
 
 assertThrowsInstanceOf(function() { slice() }, TypeError,
                        "value of TupleObject must be a Tuple");

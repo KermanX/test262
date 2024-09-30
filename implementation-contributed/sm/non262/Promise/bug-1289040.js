@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var global = newGlobal();
+---*/
+var global = newGlobal();
 Promise.prototype.then = global.Promise.prototype.then;
 p1 = new Promise(function f(r) {
     r(1);

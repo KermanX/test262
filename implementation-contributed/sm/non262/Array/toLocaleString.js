@@ -8,7 +8,8 @@ includes: [non262-Array-shell.js, non262-shell.js, shell.js]
 description: |
   pending
 esid: pending
----*/"use strict";
+---*/
+"use strict";
 
 Object.defineProperty(String.prototype, "toLocaleString", {
     get() {

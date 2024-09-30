@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The constructor specified should get called, regardless of order, or
+---*/
+// The constructor specified should get called, regardless of order, or
 // other distractions
 
 var called = false;

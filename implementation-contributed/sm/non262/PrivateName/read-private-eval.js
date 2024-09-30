@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class A {
   #x = 14;
   g() {

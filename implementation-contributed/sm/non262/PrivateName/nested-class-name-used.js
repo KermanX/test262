@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// AllPrivateIdentifiersValid uses only lexical string names, not
+---*/
+// AllPrivateIdentifiersValid uses only lexical string names, not
 // the dynamic private names; which means the below is not a syntax
 // error but is instead a TypeError on access.
 

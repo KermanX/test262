@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var desc = Object.getOwnPropertyDescriptor(Tuple.prototype.flat, "length");
+---*/
+var desc = Object.getOwnPropertyDescriptor(Tuple.prototype.flat, "length");
 assert.sameValue(desc.value, 0);
 assert.sameValue(desc.writable, false);
 assert.sameValue(desc.enumerable, false);

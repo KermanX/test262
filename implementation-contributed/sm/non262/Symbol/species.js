@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1131043;
+---*/
+var BUGNUMBER = 1131043;
 var summary = "Implement @@species getter for builtin types";
 
 print(BUGNUMBER + ": " + summary);

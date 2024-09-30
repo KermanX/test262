@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//**
+---*/
+/**
  * These return* functions are used by the
  * replacer tests taken from bug 512447
  */

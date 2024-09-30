@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assertThrowsInstanceOf(() => eval(`class A { #x; #x; }`), SyntaxError);
 
 // No computed private fields

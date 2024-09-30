@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var desc = Object.getOwnPropertyDescriptor(Function.prototype, "length");
+---*/
+var desc = Object.getOwnPropertyDescriptor(Function.prototype, "length");
 assert.deepEqual(desc,
     {value: 0, writable: false, enumerable: false, configurable: true});
 

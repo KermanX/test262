@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 918879;
+---*/
+var BUGNUMBER = 918879;
 var summary = 'String.prototype.codePointAt';
 
 print(BUGNUMBER + ": " + summary);

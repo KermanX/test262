@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var C = class {
+---*/
+var C = class {
   static #field = () => 'Test262';
   static field = () => 'Test262';
   #instance = () => 'Test262';

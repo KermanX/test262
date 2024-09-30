@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var t = #[void 0];
+---*/
+var t = #[void 0];
 
 assert.sameValue(#[1, null, void 0].flat(), #[1, null, undefined]);
 assert.sameValue(#[1, #[null, void 0]].flat(), #[1, null, undefined]);

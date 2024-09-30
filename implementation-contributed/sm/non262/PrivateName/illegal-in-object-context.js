@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Private names aren't valid in object literals.
 
 assertThrowsInstanceOf(() => eval(`var o = {#a: 0};`), SyntaxError);

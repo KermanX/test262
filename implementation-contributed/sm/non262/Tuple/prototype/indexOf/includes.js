@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.7 Tuple.prototype.includes ( searchElement [ , fromIndex ] )
 Tuple.prototype.includes is a distinct function that implements the same algorithm as Array.prototype.includes as defined in 22.1.3.13 except that ? thisTupleValue(this value) is used instead of directly accessing the this value. The implementation of the algorithm may be optimized with the knowledge that the this value is an object that has a fixed length and whose integer-indexed properties are not sparse, do not change, and their access is not observable. However, such optimization must not introduce any observable changes in the specified behaviour of the algorithm.
 

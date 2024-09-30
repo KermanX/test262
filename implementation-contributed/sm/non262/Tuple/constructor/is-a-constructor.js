@@ -10,5 +10,6 @@ features:
 description: |
   pending
 esid: pending
----*/assert.sameValue(isConstructor(Tuple), true);
+---*/
+assert.sameValue(isConstructor(Tuple), true);
 

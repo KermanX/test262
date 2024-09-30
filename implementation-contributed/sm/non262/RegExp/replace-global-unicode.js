@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1287524;
+---*/
+var BUGNUMBER = 1287524;
 var summary = 'RegExp.prototype[@@replace] should not use optimized path if RegExp.prototype.unicode is modified.';
 
 print(BUGNUMBER + ": " + summary);

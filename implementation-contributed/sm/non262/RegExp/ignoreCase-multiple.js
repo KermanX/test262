@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1280046;
+---*/
+var BUGNUMBER = 1280046;
 var summary = "ignoreCase match should perform Canonicalize both on input and pattern.";
 
 print(BUGNUMBER + ": " + summary);

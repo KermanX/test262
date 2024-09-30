@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test(constructor, constructor2, from=[1, 2, 3, 4, 5], to=[3, 4], begin=2, end=4) {
+---*/
+function test(constructor, constructor2, from=[1, 2, 3, 4, 5], to=[3, 4], begin=2, end=4) {
     var modifiedConstructor = new constructor(from);
     modifiedConstructor.constructor = constructor2;
     assert.deepEqual(modifiedConstructor.subarray(begin, end), new constructor2(to));

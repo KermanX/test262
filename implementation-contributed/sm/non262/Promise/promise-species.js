@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assert.sameValue(Promise[Symbol.species], Promise);
+---*/
+assert.sameValue(Promise[Symbol.species], Promise);
 let prop = Object.getOwnPropertyDescriptor(Promise, Symbol.species);
 assert.sameValue('get' in prop, true);
 assert.sameValue(typeof prop.get, 'function');

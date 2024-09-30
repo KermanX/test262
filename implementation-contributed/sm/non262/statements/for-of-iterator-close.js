@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests that IteratorReturn is called when a for-of loop has an abrupt
+---*/
+// Tests that IteratorReturn is called when a for-of loop has an abrupt
 // completion value during non-iterator code.
 
 function test() {

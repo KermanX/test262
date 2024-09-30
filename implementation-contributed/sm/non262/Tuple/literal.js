@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 let tup = #[1, 2, 3];
 
 assert.sameValue(tup.length, 3);

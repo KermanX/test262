@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Scoping in the head of for(let;;) statements.
+---*/
+// Scoping in the head of for(let;;) statements.
 
 let x = 0;
 for (let i = 0, a = () => i; i < 4; i++) {

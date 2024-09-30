@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/(function({
+---*/
+(function({
     k = class i {
               [_ => i]()
               {}

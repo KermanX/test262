@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 883377;
+---*/
+var BUGNUMBER = 883377;
 var summary = "Anonymous function name should be set based on assignment";
 
 print(BUGNUMBER + ": " + summary);

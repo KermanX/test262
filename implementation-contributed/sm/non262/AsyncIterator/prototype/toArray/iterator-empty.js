@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 async function* gen() {}
 gen().toArray().then(array => {
   assert.sameValue(Array.isArray(array), true);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/testJSON('"Unterminated string literal', true);
+---*/
+testJSON('"Unterminated string literal', true);
 testJSON('["Unclosed array"', true);
 testJSON('{unquoted_key: "keys must be quoted"}', true);
 testJSON('["extra comma",]', true);

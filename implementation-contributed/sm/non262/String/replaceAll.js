@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function neverCalled() {
+---*/
+function neverCalled() {
   assert.sameValue(true, false, "unexpected call");
 }
 

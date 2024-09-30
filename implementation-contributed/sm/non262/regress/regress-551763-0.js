@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/(function() {
+---*/
+(function() {
     var o = {'arguments': 42};
     with (o) { // Definitely forces heavyweight.
         // Note syntax is not a property access.

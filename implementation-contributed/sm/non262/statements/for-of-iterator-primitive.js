@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1021835;
+---*/
+var BUGNUMBER = 1021835;
 var summary = "Returning non-object from @@iterator should throw";
 
 print(BUGNUMBER + ": " + summary);

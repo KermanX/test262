@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/const otherGlobal = newGlobal({newCompartment: true});
+---*/
+const otherGlobal = newGlobal({newCompartment: true});
 
 const iter = [1, 2, 3].values();
 assert.sameValue(iter, Iterator.from(iter));

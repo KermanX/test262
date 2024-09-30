@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var rec = #{ x: 1, y: 2, a: 3 };
 
 var keys = Object.keys(rec);

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(#{} === #{}, true);
 assert.sameValue(#{} === #{ x: 1 }, false);
 assert.sameValue(#{} === #{ x: undefined }, false);

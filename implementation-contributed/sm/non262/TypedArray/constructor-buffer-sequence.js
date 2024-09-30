@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// 22.2.4.5 TypedArray ( buffer [ , byteOffset [ , length ] ] )
+---*/
+// 22.2.4.5 TypedArray ( buffer [ , byteOffset [ , length ] ] )
 
 // Ensure the various error conditions are tested in the correct order.
 

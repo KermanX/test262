@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure that when sorting TypedArrays we don't
+---*/
+// Ensure that when sorting TypedArrays we don't
 // ignore byte offsets (bug 1290579).
 
 var sortFunctions = [Int32Array.prototype.sort];

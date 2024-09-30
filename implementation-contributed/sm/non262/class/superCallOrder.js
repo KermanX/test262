@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function base() { }
+---*/
+function base() { }
 
 class beforeSwizzle extends base {
     constructor() {

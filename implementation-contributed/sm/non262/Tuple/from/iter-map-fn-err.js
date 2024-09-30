@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var closeCount = 0;
+---*/
+var closeCount = 0;
 var mapFn = function() {
   throw new RangeError();
 };

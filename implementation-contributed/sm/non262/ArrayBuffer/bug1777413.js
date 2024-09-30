@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var b = createExternalArrayBuffer(0);
 assert.sameValue(b.byteLength, 0);
 

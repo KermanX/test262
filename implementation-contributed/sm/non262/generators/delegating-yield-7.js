@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The iteratee of yield* can be a proxy.
+---*/
+// The iteratee of yield* can be a proxy.
 
 function results(results) {
     var i = 0;

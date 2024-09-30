@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function f(a = eval(`
     function g() {
         'use strict';

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Don't return negative zero for get[Hours,Minutes,Seconds,Milliseconds] for dates before 1970.
+---*/
+// Don't return negative zero for get[Hours,Minutes,Seconds,Milliseconds] for dates before 1970.
 
 let date = new Date(1955, 0, 1);
 assert.sameValue(date.getTime() < 0, true);

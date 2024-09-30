@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Returns the argument in the constructor to allow stamping private fields into
 // arbitrary objects.
 class OverrideBase {

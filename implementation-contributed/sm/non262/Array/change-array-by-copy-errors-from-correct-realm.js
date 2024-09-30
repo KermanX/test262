@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function test(otherGlobal) {
     assert.sameValue(TypeError !== otherGlobal.TypeError, true);
     assert.sameValue(Object.getPrototypeOf(TypeError) !== Object.getPrototypeOf(otherGlobal.TypeError), true);

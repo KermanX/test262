@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// @@unscopables does not affect the global environment.
+---*/
+// @@unscopables does not affect the global environment.
 
 this.x = "global property x";
 let y = "global lexical y";

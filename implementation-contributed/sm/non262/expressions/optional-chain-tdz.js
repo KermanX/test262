@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test TDZ for optional chaining.
+---*/
+// Test TDZ for optional chaining.
 
 // TDZ for lexical |let| bindings with optional chaining.
 {

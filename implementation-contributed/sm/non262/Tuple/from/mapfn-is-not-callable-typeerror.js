@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/let vals = [[null, "null"],
+---*/
+let vals = [[null, "null"],
             [{}, "{}"],
             ['string', "\'string\'"],
             [true, "true"],

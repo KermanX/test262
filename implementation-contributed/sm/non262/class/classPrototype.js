@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The prototype of a class is a non-writable, non-configurable, non-enumerable data property.
+---*/
+// The prototype of a class is a non-writable, non-configurable, non-enumerable data property.
 class a { constructor() { } }
 let b = class { constructor() { } };
 for (let test of [a,b]) {

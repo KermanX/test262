@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var sloppy_tolerance = 2;
+---*/
+var sloppy_tolerance = 2;
 
 for (var i = -20; i < 20; i++) {
     assertNear(Math.tanh(i),

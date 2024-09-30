@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class X {
+---*/
+class X {
     constructor() {
         Object.defineProperty(this, "prop1", {
             configurable: true,

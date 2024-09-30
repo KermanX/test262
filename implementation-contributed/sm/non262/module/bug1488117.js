@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Load and instantiate "bug1488117-import-namespace.js". "bug1488117-import-namespace.js"
 // contains an |import*| request for the current module, which triggers GetModuleNamespace for
 // this module. GetModuleNamespace calls GetExportedNames on the current module, which in turn

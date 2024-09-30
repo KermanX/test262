@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     // Note %TypedArray%.from(iterable) calls 'this' with an argument whose value is
     // `[...iterable].length`, while Array.from(iterable) doesn't pass any argument.
     constructor.from.call(function(len){

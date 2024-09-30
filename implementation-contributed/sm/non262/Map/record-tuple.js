@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function test(input, query, same) {
 	assert.sameValue(set(input).has(query), same);
 	assert.sameValue(new Map([[input, 1]]).has(query), same);

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const values = [];
 
 const result = JSON.parseImmutable('{"x":1,"a":[1,2,{},[]]}', function (k, v) {

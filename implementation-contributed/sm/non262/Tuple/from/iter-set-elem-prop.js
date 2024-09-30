@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var items = {};
+---*/
+var items = {};
 var firstIterResult = {
   done: false,
   value: 1

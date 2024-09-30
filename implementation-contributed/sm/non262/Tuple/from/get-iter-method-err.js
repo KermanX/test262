@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var items = {};
+---*/
+var items = {};
 Object.defineProperty(items, Symbol.iterator, {
   get: function() {
     throw new RangeError();

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class TestError extends Error {}
 
 function checkIterResult({done, value}, expectedDone, expectedValue) {

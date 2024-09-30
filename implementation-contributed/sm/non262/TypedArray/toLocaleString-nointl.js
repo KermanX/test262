@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/if (typeof Intl !== "object") {
+---*/
+if (typeof Intl !== "object") {
     const localeSep = [,,].toLocaleString();
 
     const originalNumberToLocaleString = Number.prototype.toLocaleString;

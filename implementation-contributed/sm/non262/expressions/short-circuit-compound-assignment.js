@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const testCasesAnd = [];
+---*/
+const testCasesAnd = [];
 const testCasesOr = [];
 const testCasesCoalesce = [];
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function f() {}
+---*/
+function f() {}
 var g = new Function();
 delete Function;
 function h() {}

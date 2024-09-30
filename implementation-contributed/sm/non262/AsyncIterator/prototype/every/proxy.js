@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*///
+---*/
+//
 // This test checks that %AsyncIterator.prototype%.every only gets the `next` method off of the
 // iterator once, and never accesses the @@asyncIterator property.
 const log = [];

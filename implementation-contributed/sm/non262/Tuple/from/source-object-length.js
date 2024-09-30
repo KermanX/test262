@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var array = [2, 4, 0, 16];
+---*/
+var array = [2, 4, 0, 16];
 var expectedTuple = #[2, 4, undefined, 16];
 var obj = {
   length: 4,

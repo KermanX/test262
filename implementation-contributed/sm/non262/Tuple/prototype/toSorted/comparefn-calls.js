@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var expectedThis = (function() {
+---*/
+var expectedThis = (function() {
   return this;
 })();
 

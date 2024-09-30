@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*///bug 473941
+---*/
+//bug 473941
 var regexp;
 
 regexp = /(?=)/;

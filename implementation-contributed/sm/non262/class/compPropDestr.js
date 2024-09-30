@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 924688;
+---*/
+var BUGNUMBER = 924688;
 var summary = 'Computed Property Names';
 
 print(BUGNUMBER + ": " + summary);

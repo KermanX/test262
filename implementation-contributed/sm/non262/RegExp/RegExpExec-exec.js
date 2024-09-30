@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 887016;
+---*/
+var BUGNUMBER = 887016;
 var summary = "RegExpExec should throw if exec property of non-RegExp is not callable";
 
 print(BUGNUMBER + ": " + summary);

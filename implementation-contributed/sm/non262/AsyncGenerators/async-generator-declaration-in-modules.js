@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/async function* f() {
+---*/
+async function* f() {
     return "success";
 }
 

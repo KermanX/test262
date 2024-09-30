@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     // The third argument to %TypedArray%.from is passed as the 'this' value to the
     // mapping function.
     var hits = 0, obj = {};

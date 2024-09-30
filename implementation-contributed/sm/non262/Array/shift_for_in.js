@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1247701;
+---*/
+var BUGNUMBER = 1247701;
 var summary = 'Array.prototype.shift on a dense array with holes should update for-in enumeration properties.';
 
 print(BUGNUMBER + ": " + summary);

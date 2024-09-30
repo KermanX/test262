@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test ToInteger conversion in %TypedArray%.prototype.set(array|typedArray, offset).
+---*/
+// Test ToInteger conversion in %TypedArray%.prototype.set(array|typedArray, offset).
 
 let ta = new Int32Array(4);
 

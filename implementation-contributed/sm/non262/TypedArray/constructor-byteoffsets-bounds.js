@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// 22.2.4.5 TypedArray ( buffer [ , byteOffset [ , length ] ] )
+---*/
+// 22.2.4.5 TypedArray ( buffer [ , byteOffset [ , length ] ] )
 
 // Test bound checks around for |byteOffset| and |length| arguments.
 

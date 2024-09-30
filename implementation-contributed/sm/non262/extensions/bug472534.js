@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function monthNames () {
+---*/
+function monthNames () {
     return [
       /jan(uar(y)?)?/, 0,
       /feb(ruar(y)?)?/, 1,

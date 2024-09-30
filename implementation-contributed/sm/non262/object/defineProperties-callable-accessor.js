@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// ObjectDefineProperties with non callable accessor throws.
+---*/
+// ObjectDefineProperties with non callable accessor throws.
 const descriptors = [
     {get: 1}, {set: 1},
     {get: []}, {set: []},

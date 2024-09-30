@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/actual   = 'No Error';
+---*/
+actual   = 'No Error';
 expected = /column-numbers\.js:4:11/;
 try {
     throw new Error("test");

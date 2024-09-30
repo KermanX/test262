@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/assert.sameValue(isConstructor(Tuple.from), false);
+---*/
+assert.sameValue(isConstructor(Tuple.from), false);
 
 assertThrowsInstanceOf(() => {
   new Tuple.from([]);

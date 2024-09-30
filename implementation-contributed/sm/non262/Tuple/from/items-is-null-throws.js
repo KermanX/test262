@@ -10,6 +10,7 @@ features:
 description: |
   pending
 esid: pending
----*/assertThrowsInstanceOf(() => Tuple.from(null), TypeError,
+---*/
+assertThrowsInstanceOf(() => Tuple.from(null), TypeError,
                        'Tuple.from(null) should throw');
 

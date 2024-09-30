@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Accessing an uninitialized variable due to @@unscopables is still a ReferenceError.
+---*/
+// Accessing an uninitialized variable due to @@unscopables is still a ReferenceError.
 
 with ({x: 1, [Symbol.unscopables]: {x: true}})
     assertThrowsInstanceOf(() => x, ReferenceError);

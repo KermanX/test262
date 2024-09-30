@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test() {
+---*/
+function test() {
 
 // global let is var
 assertGlobalDecl("let {x:y} = foo;", letDecl([{ id: objPatt([assignProp("x", ident("y"))]),

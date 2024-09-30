@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 source = `class A {
   // Ensure this name parses.
   #℘;

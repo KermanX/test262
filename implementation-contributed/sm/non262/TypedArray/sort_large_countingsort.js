@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Counting sort instead of radix sort is only used for large two-byte typed arrays.
+---*/
+// Counting sort instead of radix sort is only used for large two-byte typed arrays.
 const TwoByteTypedArrays = anyTypedArrayConstructors.filter(ta => ta.BYTES_PER_ELEMENT === 2);
 
 // The typed array must be large enough to prefer counting sort instead of

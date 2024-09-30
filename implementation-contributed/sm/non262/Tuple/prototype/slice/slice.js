@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.5 Tuple.prototype.slice ( start, end )
 When the slice method is called with two arguments, start and end, and returns a Tuple containing the elements of the Tuple from element start up to, but not including, element end (or through the end of the tuple if end is undefined). If start is negative, it is treated as length + start where length is the length of the tuple. If end is negative, it is treated as length + end where length is the length of the tuple.
 

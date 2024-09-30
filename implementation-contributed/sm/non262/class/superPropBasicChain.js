@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var o = {
+---*/
+var o = {
     access() {
         super.foo.bar;
     }

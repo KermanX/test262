@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// TypedArray.prototype.sort should work across globals
+---*/
+// TypedArray.prototype.sort should work across globals
 let g2 = newGlobal();
 assert.compareArray(
     Int32Array.prototype.sort.call(new g2.Int32Array([3, 2, 1])),

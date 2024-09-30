@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Sort every possible permutation of some arrays.
+---*/
+// Sort every possible permutation of some arrays.
 function sortAllPermutations(data, comparefn) {
     for (let permutation of Permutations(Array.from(data))) {
         let sorted = (Array.from(permutation)).sort(comparefn);

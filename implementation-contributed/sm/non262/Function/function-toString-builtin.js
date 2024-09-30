@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Greatly (!) simplified patterns for the PropertyName production.
 var propertyName = [
     // PropertyName :: LiteralPropertyName :: IdentifierName

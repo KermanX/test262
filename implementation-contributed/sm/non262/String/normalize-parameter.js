@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 918987;
+---*/
+var BUGNUMBER = 918987;
 var summary = 'String.prototype.normalize - passing wrong parameter';
 
 print(BUGNUMBER + ": " + summary);

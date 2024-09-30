@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function testName(C, name, hasValue, hasGetter, hasSetter, isFunction=false) {
+---*/
+function testName(C, name, hasValue, hasGetter, hasSetter, isFunction=false) {
     if (isFunction) {
         assert.sameValue(typeof C.name, "function");
     } else {

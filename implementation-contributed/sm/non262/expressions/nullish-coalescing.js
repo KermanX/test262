@@ -10,7 +10,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1566141;
+---*/
+var BUGNUMBER = 1566141;
 var summary = "Implement the Nullish Coalescing operator (??) proposal";
 
 print(BUGNUMBER + ": " + summary);

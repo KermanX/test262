@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var hits = 0;
+---*/
+var hits = 0;
 
 var p = { toString() { hits++; return "prop" } };
 var obj = { foo: 1 };

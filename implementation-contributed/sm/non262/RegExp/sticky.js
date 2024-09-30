@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 773687;
+---*/
+var BUGNUMBER = 773687;
 var summary = 'sticky flag should not break assertion behavior.';
 
 print(BUGNUMBER + ": " + summary);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//* Any copyright is dedicated to the Public Domain.
+---*/
+/* Any copyright is dedicated to the Public Domain.
  * http://creativecommons.org/licenses/publicdomain/ */
 
 for (let primitive of [true, 3.14, "hello", Symbol()]) {

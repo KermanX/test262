@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// getter/setter with expression closure is allowed only in object literal.
+---*/
+// getter/setter with expression closure is allowed only in object literal.
 
 assertThrowsInstanceOf(() => eval(`
   class foo {

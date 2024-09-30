@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let ta = new BigInt64Array(10);
+---*/
+let ta = new BigInt64Array(10);
 
 let obj = {
   get length() {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var obj = { get a() { return 1; } };
+---*/
+var obj = { get a() { return 1; } };
 assertThrowsInstanceOf(() => {
     new Object.getOwnPropertyDescriptor(obj, "a").get
 }, TypeError);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// RegExp.prototype[Symbol.match, Symbol.replace]: Test lastIndex changes for ES2017.
+---*/
+// RegExp.prototype[Symbol.match, Symbol.replace]: Test lastIndex changes for ES2017.
 
 // RegExp-like class to test the RegExp method slow paths.
 class DuckRegExp extends RegExp {

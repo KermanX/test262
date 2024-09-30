@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let derivedInstance;
+---*/
+let derivedInstance;
 
 class base {
     constructor() { }

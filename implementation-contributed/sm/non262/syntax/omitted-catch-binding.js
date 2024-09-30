@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var state = 'initial';
+---*/
+var state = 'initial';
 try {
     throw new Error('caught');
     state = 'unreachable';

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class base {
+---*/
+class base {
     constructor(a, b, c) {
         assert.sameValue(a, 1);
         assert.sameValue(b, 2);

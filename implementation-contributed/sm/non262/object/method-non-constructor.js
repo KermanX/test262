@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var obj = { method() { } };
+---*/
+var obj = { method() { } };
 assertThrowsInstanceOf(() => {
     new obj.method;
 }, TypeError);

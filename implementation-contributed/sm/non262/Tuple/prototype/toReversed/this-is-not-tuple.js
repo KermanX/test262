@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var withReversed = Tuple.prototype.withReversed;
+---*/
+var withReversed = Tuple.prototype.withReversed;
 
 var thisVals = [[undefined, "undefined"],
                 [null, "null"],

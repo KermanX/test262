@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/testJSON('{"Numbers cannot have leading zeroes": 013}', true);
+---*/
+testJSON('{"Numbers cannot have leading zeroes": 013}', true);
 
 /******************************************************************************/
 

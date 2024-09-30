@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Do the things we write in classes actually appear as they are supposed to?
+---*/
+// Do the things we write in classes actually appear as they are supposed to?
 
 var methodCalled;
 var getterCalled;

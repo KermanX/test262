@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/if (typeof window === "undefined")
+---*/
+if (typeof window === "undefined")
     window = this;
 
 Object.defineProperty(window, "foo", {

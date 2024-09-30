@@ -12,6 +12,7 @@ description: |
 esid: pending
 ---*/
 
+
 function check(x) {
   AsyncIterator.prototype.toArray.call(x).then(
     () => {

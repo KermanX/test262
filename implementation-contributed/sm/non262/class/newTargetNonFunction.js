@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure that we can plumb new.target, even if the results are going to
+---*/
+// Make sure that we can plumb new.target, even if the results are going to
 // throw.
 
 assertThrowsInstanceOf(() => new ""(...Array()), TypeError);

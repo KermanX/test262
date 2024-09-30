@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Calls Array.prototype.sort and tests that properties are deleted in the same order in the
+---*/
+// Calls Array.prototype.sort and tests that properties are deleted in the same order in the
 // native and the self-hosted implementation.
 
 function createProxy() {

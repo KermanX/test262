@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.20 Tuple.prototype.map ( callbackfn [ , thisArg ] )
 NOTE
 callbackfn should be a function that accepts three arguments. map calls callbackfn once for each element in the Tuple, in ascending order, and constructs a new tuple from the results.

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// RegExp.prototype.exec: Test lastIndex changes for ES2017.
+---*/
+// RegExp.prototype.exec: Test lastIndex changes for ES2017.
 
 // Test various combinations of:
 // - Pattern matches or doesn't match

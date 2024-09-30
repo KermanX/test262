@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var foo;
+---*/
+var foo;
 
 function* gen() {
     var x = 0;

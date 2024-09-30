@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1263811;
+---*/
+var BUGNUMBER = 1263811;
 var summary = "GetElem for modified arguments shouldn't be optimized to get original argument.";
 
 print(BUGNUMBER + ": " + summary);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Super property accesses should play nice with the pretty printer.
+---*/
+// Super property accesses should play nice with the pretty printer.
 class testNonExistent {
     constructor() {
         super["prop"]();

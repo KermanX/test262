@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Don't Crash
+---*/
+// Don't Crash
 var testStr = `
 class C extends Object {
   constructor() {

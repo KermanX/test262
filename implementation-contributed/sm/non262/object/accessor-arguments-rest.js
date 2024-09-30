@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/assertThrowsInstanceOf(() => eval("({ get x(...a) { } })"), SyntaxError);
+---*/
+assertThrowsInstanceOf(() => eval("({ get x(...a) { } })"), SyntaxError);
 assertThrowsInstanceOf(() => eval("({ get x(a, ...b) { } })"), SyntaxError);
 assertThrowsInstanceOf(() => eval("({ get x([a], ...b) { } })"), SyntaxError);
 assertThrowsInstanceOf(() => eval("({ get x({a}, ...b) { } })"), SyntaxError);

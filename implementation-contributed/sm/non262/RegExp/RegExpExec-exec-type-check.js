@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Bug 1667094.
+---*/
+// Bug 1667094.
 
 var obj = {
   exec() {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var array = [];
+---*/
+var array = [];
 array[2**31 - 2] = "INT32_MAX - 1";
 array[2**31 - 1] = "INT32_MAX";
 array[2**31 - 0] = "INT32_MAX + 1";

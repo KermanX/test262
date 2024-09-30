@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1054755;
+---*/
+var BUGNUMBER = 1054755;
 var summary = 'String.prototype.{startsWith,endsWith,includes} should call IsRegExp.';
 
 print(BUGNUMBER + ": " + summary);

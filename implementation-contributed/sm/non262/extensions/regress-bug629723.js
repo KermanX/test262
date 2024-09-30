@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function f(foo) {
+---*/
+function f(foo) {
     "use strict";
     foo.bar;
 }

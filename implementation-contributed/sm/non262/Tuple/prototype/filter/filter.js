@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.13 Tuple.prototype.filter ( callbackfn [ , thisArg ] )
 NOTE
 callbackfn should be a function that accepts three arguments and returns a value that is coercible to the Boolean value true or false. filter calls callbackfn once for each element in the tuple, in ascending order, and constructs a new tuple of all the values for which callbackfn returns true.

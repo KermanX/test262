@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* Step 6b. */
+---*/
+/* Step 6b. */
 /* AddEntriesFromIterable should throw if next() throws */
 
 var iter = {};

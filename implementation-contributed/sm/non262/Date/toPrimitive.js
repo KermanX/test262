@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// ES6 20.3.4.45 Date.prototype[@@toPrimitive](hint)
+---*/
+// ES6 20.3.4.45 Date.prototype[@@toPrimitive](hint)
 
 // The toPrimitive method throws if the this value isn't an object.
 var toPrimitive = Date.prototype[Symbol.toPrimitive];

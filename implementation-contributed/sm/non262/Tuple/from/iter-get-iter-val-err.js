@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var itemsPoisonedIteratorValue = {};
+---*/
+var itemsPoisonedIteratorValue = {};
 var poisonedValue = {};
 Object.defineProperty(poisonedValue, 'value', {
   get: function() {

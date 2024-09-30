@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Our __noSuchMethod__ handling should only be called when |this| is an object.
+---*/
+// Our __noSuchMethod__ handling should only be called when |this| is an object.
 
 var x = "";
 // Reached from interpreter's JSOP_CALLPROP, and js::mjit::ic::CallProp.

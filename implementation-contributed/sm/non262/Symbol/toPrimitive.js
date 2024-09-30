@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// ES6 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
+---*/
+// ES6 19.4.3.4 Symbol.prototype[@@toPrimitive](hint)
 
 // This method gets the primitive symbol from a Symbol wrapper object.
 var sym = Symbol.for("truth")

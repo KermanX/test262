@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assertThrowsInstanceOf(
   () => new Tuple(),
   TypeError,

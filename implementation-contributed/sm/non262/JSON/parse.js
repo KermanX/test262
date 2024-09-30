@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function assertIsObject(x)
+---*/
+function assertIsObject(x)
 {
   assert.sameValue(typeof x, "object");
   assert.sameValue(x instanceof Object, true);

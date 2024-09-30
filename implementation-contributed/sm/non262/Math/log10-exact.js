@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Properties of Math.log10 that are guaranteed by the spec.
+---*/
+// Properties of Math.log10 that are guaranteed by the spec.
 
 // If x is NaN, the result is NaN.
 assert.sameValue(Math.log10(NaN), NaN);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var constructors = [
+---*/
+var constructors = [
     // 19.1 Object Objects
     {constructor: Object},
 

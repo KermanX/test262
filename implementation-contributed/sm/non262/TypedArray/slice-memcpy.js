@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const otherGlobal = newGlobal();
+---*/
+const otherGlobal = newGlobal();
 
 // Create with new ArrayBuffer and offset.
 for (var constructor of typedArrayConstructors) {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Tests that IteratorClose is called in array destructuring patterns.
+---*/
+// Tests that IteratorClose is called in array destructuring patterns.
 
 function test() {
     var returnCalled = 0;

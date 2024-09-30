@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Make sure that we don't ToString the second argument until /after/ doing
+---*/
+// Make sure that we don't ToString the second argument until /after/ doing
 // the appropriate subclassing lookups
 
 var didLookup = false;

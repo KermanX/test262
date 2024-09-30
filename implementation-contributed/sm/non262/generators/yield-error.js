@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1384299;
+---*/
+var BUGNUMBER = 1384299;
 var summary = "yield outside of generators should provide better error";
 
 print(BUGNUMBER + ": " + summary);

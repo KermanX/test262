@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const otherIteratorProto = newGlobal({newCompartment: true}).Iterator.prototype;
 
 const methods = [

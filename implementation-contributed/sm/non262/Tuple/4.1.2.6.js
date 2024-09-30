@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 /*
 4.1.2.6 [[Set]] ( P, Receiver )
 The [[Set]] internal method of a Tuple exotic object takes arguments P and Receiver. It performs the following steps when called:

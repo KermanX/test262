@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that we can't confuse %StringIteratorPrototype% for a
+---*/
+// Test that we can't confuse %StringIteratorPrototype% for a
 // StringIterator object.
 function TestStringIteratorPrototypeConfusion() {
     var iter = ""[Symbol.iterator]();

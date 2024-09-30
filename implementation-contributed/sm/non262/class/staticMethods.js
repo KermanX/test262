@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// basic static method test
+---*/
+// basic static method test
 class X {
     static count() { return ++this.hits; }
     constructor() { }

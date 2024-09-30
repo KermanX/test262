@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class instance extends null {
+---*/
+class instance extends null {
     constructor() { super(); }
 }
 

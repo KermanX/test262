@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function SortedAscending(length) {
+---*/
+function SortedAscending(length) {
     var array = new Int32Array(length);
     for (var i = 0; i < length; ++i)
         array[i] = i + 1;

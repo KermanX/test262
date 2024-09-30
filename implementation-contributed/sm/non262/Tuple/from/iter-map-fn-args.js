@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var args = [];
+---*/
+var args = [];
 var firstResult = {
   done: false,
   value: {}

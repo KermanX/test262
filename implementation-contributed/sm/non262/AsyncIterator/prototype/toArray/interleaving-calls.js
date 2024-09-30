@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 const log = [];
 async function* gen(n) {
   log.push(`${n}`);

@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(typeof Set.prototype.isDisjointFrom, "function");
 assert.deepEqual(Object.getOwnPropertyDescriptor(Set.prototype.isDisjointFrom, "length"), {
   value: 1, writable: false, enumerable: false, configurable: true,

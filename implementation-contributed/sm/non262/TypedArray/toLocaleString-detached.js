@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/if (typeof $DETACHBUFFER === "function") {
+---*/
+if (typeof $DETACHBUFFER === "function") {
     const originalNumberToLocaleString = Number.prototype.toLocaleString;
 
     // Throws if array buffer is detached.

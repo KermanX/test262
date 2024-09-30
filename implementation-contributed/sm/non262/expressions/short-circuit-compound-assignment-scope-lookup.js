@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test scope lookups are executed in the correct order.
+---*/
+// Test scope lookups are executed in the correct order.
 
 function createScope() {
   let log = [];

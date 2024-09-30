@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*//* Check we can delete arguments in the global space. */
+---*/
+/* Check we can delete arguments in the global space. */
 arguments = 42;
 assert.sameValue(delete arguments, true, "arguments defined as global");
 

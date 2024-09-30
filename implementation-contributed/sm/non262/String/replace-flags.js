@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1108382;
+---*/
+var BUGNUMBER = 1108382;
 var summary = 'Remove non-standard flag argument from String.prototype.{search,match,replace}.';
 
 printBugNumber(BUGNUMBER);

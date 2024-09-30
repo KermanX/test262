@@ -12,6 +12,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 async function* gen(iterable) {
   yield* iterable;
 }

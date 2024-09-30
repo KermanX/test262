@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Don't assert.
+---*/
+// Don't assert.
 
 var obj = {
   m() {

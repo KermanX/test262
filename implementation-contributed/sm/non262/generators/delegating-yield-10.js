@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Errors accessing next, done, or value don't cause an exception to be
+---*/
+// Errors accessing next, done, or value don't cause an exception to be
 // thrown into the iterator of a yield*.
 
 function* g(n) { for (var i=0; i<n; i++) yield i; }

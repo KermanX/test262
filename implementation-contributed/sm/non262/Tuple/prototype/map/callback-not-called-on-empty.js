@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var called = 0;
+---*/
+var called = 0;
 #[].map(() => called++);
 assert.sameValue(called, 0);
 

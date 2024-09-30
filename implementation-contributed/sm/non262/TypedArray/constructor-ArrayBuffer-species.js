@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (let ctor of typedArrayConstructors) {
+---*/
+for (let ctor of typedArrayConstructors) {
   let arr = new ctor([1, 2, 3, 4, 5, 6, 7, 8]);
 
   arr.buffer.constructor = {

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Test that objects (in this case, closures) containing Tuples are traced properly
 function foo() {
     var tup = #[1];

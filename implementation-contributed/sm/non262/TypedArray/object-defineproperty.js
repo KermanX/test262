@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var obj = new Int32Array(2);
+---*/
+var obj = new Int32Array(2);
 obj[0] = 100;
 
 var throws = [

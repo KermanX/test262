@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test() {
+---*/
+function test() {
     delete arguments[1];
     return Array.prototype.join.call(arguments);
 }

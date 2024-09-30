@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 320500;
+---*/
+var BUGNUMBER = 320500;
 var summary = 'Add \\u{xxxxxx} string literals';
 
 print(BUGNUMBER + ": " + summary);

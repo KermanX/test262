@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 Object.defineProperty(Array.prototype, 0, {
   set() {
     throw "bad";

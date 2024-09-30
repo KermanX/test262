@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// The decompiler can handle the implicit call to @@iterator in a for-of loop.
+---*/
+// The decompiler can handle the implicit call to @@iterator in a for-of loop.
 
 var x;
 function check(code, msg) {

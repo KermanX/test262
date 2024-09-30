@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 assert.sameValue(
 	JSON.stringify(#{ x: 1, a: #[1, 2, #{}, #[]] }),
 	'{"a":[1,2,{},[]],"x":1}'

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1287525;
+---*/
+var BUGNUMBER = 1287525;
 var summary = "RegExp.prototype[@@split] shouldn't use optimized path if limit is not number.";
 
 print(BUGNUMBER + ": " + summary);

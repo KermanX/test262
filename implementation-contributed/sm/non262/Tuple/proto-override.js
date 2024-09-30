@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 //CHECK#1
 Tuple.prototype.toString = Object.prototype.toString;
 var x = Tuple();

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1315815;
+---*/
+var BUGNUMBER = 1315815;
 var summary = "async/await containing escapes";
 
 print(BUGNUMBER + ": " + summary);

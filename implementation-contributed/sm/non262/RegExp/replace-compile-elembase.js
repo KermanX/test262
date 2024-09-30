@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/(function() {
+---*/
+(function() {
     var rx = /a/g;
     var b = {
         get a() {

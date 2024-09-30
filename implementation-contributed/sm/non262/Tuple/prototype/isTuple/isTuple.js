@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var f = Tuple.isTuple;
+---*/
+var f = Tuple.isTuple;
 
 assert.sameValue(typeof f, "function");
 assert.sameValue(f.length, 1);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var getProtoCalled = false;
+---*/
+var getProtoCalled = false;
 
 var newTarget = Object.defineProperty(function(){}.bind(), "prototype", {
     get() {

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//* 18 ECMAScript Standard Built-in Objects
+---*/
+/* 18 ECMAScript Standard Built-in Objects
 ...
 
   Built-in function objects that are not identified as constructors do not

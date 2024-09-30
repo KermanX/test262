@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 class TestIterator extends AsyncIterator {
   next() {
     return Promise.resolve({ done: this.closed, value: undefined });

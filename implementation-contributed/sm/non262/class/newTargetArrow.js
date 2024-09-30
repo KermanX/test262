@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// new.target is valid in any arrow function not in a global context.
+---*/
+// new.target is valid in any arrow function not in a global context.
 new Function('(() => new.target)()');
 
 // It's also good inside eval, but not global eval

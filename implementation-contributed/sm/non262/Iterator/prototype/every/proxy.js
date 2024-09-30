@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*///
+---*/
+//
 // This test checks that %Iterator.prototype%.every only gets the `next` method off of the
 // iterator once, and never accesses the @@iterator property.
 const log = [];

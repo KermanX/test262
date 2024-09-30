@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1016936;
+---*/
+var BUGNUMBER = 1016936;
 var summary = "IteratorNext should throw if the value returned by iterator.next() is not an object.";
 
 print(BUGNUMBER + ": " + summary);

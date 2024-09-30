@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 let x = {a: () => true};
 
 async function* gen() {

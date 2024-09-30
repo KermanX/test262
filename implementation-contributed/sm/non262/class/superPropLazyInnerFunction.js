@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/testcase();
+---*/
+testcase();
 function testcase() {
     var tokenCodes  = {
       get try() {

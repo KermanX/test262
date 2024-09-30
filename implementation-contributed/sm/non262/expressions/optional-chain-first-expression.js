@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Verify bytecode emitter accepts all valid optional chain first expressions.
+---*/
+// Verify bytecode emitter accepts all valid optional chain first expressions.
 
 const expressions = [
   // https://tc39.es/ecma262/#sec-primary-expression

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 async function* gen(x) { yield x; }
 
 const methods = ['map', 'filter', 'flatMap'];

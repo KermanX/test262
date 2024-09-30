@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function g1() {
+---*/
+function g1() {
     throw 10;
 }
 

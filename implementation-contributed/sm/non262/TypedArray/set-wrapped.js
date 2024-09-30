@@ -9,7 +9,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test %TypedArray%.prototype.set(typedArray, offset) when called with wrapped
+---*/
+// Test %TypedArray%.prototype.set(typedArray, offset) when called with wrapped
 // typed array.
 
 if (typeof newGlobal === "function") {

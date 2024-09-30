@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that parenthesized class expressions don't get their toString offsets
+---*/
+// Test that parenthesized class expressions don't get their toString offsets
 // messed up.
 
 assert.sameValue((class {}).toString(), "class {}");

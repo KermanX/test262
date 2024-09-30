@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that each yield* loop just checks "done", and "value" is only
+---*/
+// Test that each yield* loop just checks "done", and "value" is only
 // fetched once at the end.
 
 var log = "";

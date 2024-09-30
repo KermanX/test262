@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1263851;
+---*/
+var BUGNUMBER = 1263851;
 var summary = "RegExp.prototype[@@split] should handle if lastIndex is out of bound.";
 
 print(BUGNUMBER + ": " + summary);

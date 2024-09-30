@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var x = "ok";
 
 export {x as "*"};

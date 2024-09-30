@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*///
+---*/
+//
 // Ensure PrivateNames aren't iterable.
 
 class O {

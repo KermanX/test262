@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 // Verify that private fields are enabled.
 class A {
   #x;

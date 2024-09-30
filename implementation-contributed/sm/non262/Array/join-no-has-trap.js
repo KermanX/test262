@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that Array.prototype.join doesn't call the [[HasProperty]] internal
+---*/
+// Test that Array.prototype.join doesn't call the [[HasProperty]] internal
 // method of objects.
 
 var log = [];

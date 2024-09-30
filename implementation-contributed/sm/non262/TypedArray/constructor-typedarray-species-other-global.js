@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// 22.2.4.3 TypedArray ( typedArray )
+---*/
+// 22.2.4.3 TypedArray ( typedArray )
 
 // Test [[Prototype]] of newly created typed array and its array buffer, and
 // ensure they are both created in the correct global.

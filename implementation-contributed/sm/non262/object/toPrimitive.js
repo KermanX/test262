@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// ES6 7.1.1 ToPrimitive(input [, PreferredType]) specifies a new extension
+---*/
+// ES6 7.1.1 ToPrimitive(input [, PreferredType]) specifies a new extension
 // point in the language. Objects can override the behavior of ToPrimitive
 // somewhat by supporting the method obj[@@toPrimitive](hint).
 //

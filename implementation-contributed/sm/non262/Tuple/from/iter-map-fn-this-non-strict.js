@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var thisVals = [];
+---*/
+var thisVals = [];
 var nextResult = {
   done: false,
   value: {}

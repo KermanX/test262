@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/let values = [
+---*/
+let values = [
   [-0, undefined, "0"],
   [-0, 1, "0"],
   [-0, 10, "0.000000000"],

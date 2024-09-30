@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 var array = ["not-a-number", "also-not-a-number"];
 var copy = [...array];
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/"use strict"
+---*/
+"use strict"
 
 var log = "";
 

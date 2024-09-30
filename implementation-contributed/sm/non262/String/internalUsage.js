@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1268138;
+---*/
+var BUGNUMBER = 1268138;
 var summary = 'Internal usage of split should not be affected by prototpe change';
 
 print(BUGNUMBER + ": " + summary);

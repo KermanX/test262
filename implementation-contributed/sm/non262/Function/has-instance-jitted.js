@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const OriginalHasInstance = Function.prototype[Symbol.hasInstance];
+---*/
+const OriginalHasInstance = Function.prototype[Symbol.hasInstance];
 
 // Ensure that folding doesn't impact user defined @@hasInstance methods.
 {

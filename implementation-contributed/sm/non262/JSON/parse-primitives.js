@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var x;
+---*/
+var x;
 
 // check an empty object, just for sanity
 var emptyObject = "{}";

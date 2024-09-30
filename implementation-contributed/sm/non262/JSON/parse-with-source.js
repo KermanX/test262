@@ -10,6 +10,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 (function checkJSONParseWithSource() {
     var actual;
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Field syntax doesn't crash the engine when fields are disabled.
+---*/
+// Field syntax doesn't crash the engine when fields are disabled.
 
 // Are fields enabled?
 let fieldsEnabled = false;

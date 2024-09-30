@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var TuplePrototype = Tuple.prototype;
+---*/
+var TuplePrototype = Tuple.prototype;
 
 assert.sameValue(typeof TuplePrototype.map, 'function');
 

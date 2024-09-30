@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Optional expression can be part of a class heritage expression.
+---*/
+// Optional expression can be part of a class heritage expression.
 
 var a = {b: null};
 

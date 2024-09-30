@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/const t = RegExp.prototype;
+---*/
+const t = RegExp.prototype;
 
 let properties = "toString,compile,exec,test," +
                  "flags,dotAll,global,hasIndices,ignoreCase,multiline,source,sticky,unicode,unicodeSets," +

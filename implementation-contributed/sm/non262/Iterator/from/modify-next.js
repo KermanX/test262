@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/const iter = {
+---*/
+const iter = {
   next: () => ({ done: false, value: 0 }),
 };
 

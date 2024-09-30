@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Side-effects when calling ToLength(regExp.lastIndex) in
+---*/
+// Side-effects when calling ToLength(regExp.lastIndex) in
 // RegExp.prototype[@@match] for non-global RegExp can recompile the RegExp.
 
 for (var flag of ["", "y"]) {

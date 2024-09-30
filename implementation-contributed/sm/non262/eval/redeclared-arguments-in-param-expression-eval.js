@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Ensure there's no predefined |arguments| binding.
+---*/
+// Ensure there's no predefined |arguments| binding.
 assert.sameValue("arguments" in this, false);
 
 // Declare |arguments| when no pre-existing (and explicit) |arguments| bindings are present.

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Object operations are performed in the right order, as observed by proxies.
+---*/
+// Object operations are performed in the right order, as observed by proxies.
 
 let log = [];
 function LoggingProxyHandlerWrapper(name, handler={}) {

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Super property (and calls) works in non-extending classes and object
+---*/
+// Super property (and calls) works in non-extending classes and object
 // litterals.
 class toStringTest {
     constructor() {

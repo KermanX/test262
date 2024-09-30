@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that IteratorClose is called when a Generator is abruptly completed by
+---*/
+// Test that IteratorClose is called when a Generator is abruptly completed by
 // Generator.return.
 
 var returnCalled = 0;

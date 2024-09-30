@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function sortTypedArray(comparator) {
+---*/
+function sortTypedArray(comparator) {
     // Create a typed array with three elements, but also add an own "length"
     // property with the value `2` to restrict the range of elements which
     // will be sorted by Array.prototype.sort().

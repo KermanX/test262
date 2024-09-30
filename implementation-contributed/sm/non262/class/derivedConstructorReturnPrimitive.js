@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class foo extends null {
+---*/
+class foo extends null {
     constructor() {
         // Returning a primitive is a TypeError in derived constructors. This
         // ensures that super() can take the return value directly, without

@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function toMessage(stack) {
   // Provide the stack string in the error message for debugging.
   return `[stack: ${stack.replace(/\n/g, "\\n")}]`;

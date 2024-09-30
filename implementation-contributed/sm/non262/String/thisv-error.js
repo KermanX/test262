@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function testName(thisv) {
+---*/
+function testName(thisv) {
   var failures = [
     // Not a function
     "length",

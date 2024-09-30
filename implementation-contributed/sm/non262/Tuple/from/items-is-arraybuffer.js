@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var arrayBuffer = new ArrayBuffer(7);
+---*/
+var arrayBuffer = new ArrayBuffer(7);
 
 var result = Tuple.from(arrayBuffer);
 

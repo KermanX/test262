@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// BigInt literals as property keys.
+---*/
+// BigInt literals as property keys.
 {
   let o = {
     0n: "0",

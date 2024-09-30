@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Section numbers cite ES6 rev 24 (2014 April 27).
+---*/
+// Section numbers cite ES6 rev 24 (2014 April 27).
 
 var symbols = [
     Symbol(),

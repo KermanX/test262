@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1338373;
+---*/
+var BUGNUMBER = 1338373;
 var summary = "Word boundary should match U+017F and U+212A in unicode+ignoreCase.";
 
 assert.sameValue(/\b/iu.test('\u017F'), true);

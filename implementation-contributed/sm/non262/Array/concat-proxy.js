@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1287520;
+---*/
+var BUGNUMBER = 1287520;
 var summary = 'Array.prototype.concat should check HasProperty everytime for non-dense array';
 
 print(BUGNUMBER + ": " + summary);

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var toReversed = Tuple.prototype.toReversed;
+---*/
+var toReversed = Tuple.prototype.toReversed;
 
 assert.sameValue(typeof toReversed, 'function');
 

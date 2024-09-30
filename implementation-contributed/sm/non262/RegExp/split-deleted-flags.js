@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1322319;
+---*/
+var BUGNUMBER = 1322319;
 var summary = "RegExp.prototype.split should throw if RegRxp.prototype.flags is deleted."
 
 print(BUGNUMBER + ": " + summary);

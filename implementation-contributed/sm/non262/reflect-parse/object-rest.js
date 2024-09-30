@@ -9,6 +9,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 function property(key, value = key, shorthand = key === value) {
     return { key, value, shorthand };
 }

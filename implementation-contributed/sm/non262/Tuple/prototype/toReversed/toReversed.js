@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
 8.2.3.28 Tuple.prototype.toReversed ( )
 When the toReversed method is called, the following steps are taken:
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/class base { constructor() { } }
+---*/
+class base { constructor() { } }
 
 class inst extends base { constructor() { super(); } }
 Object.setPrototypeOf(inst, Math.sin);

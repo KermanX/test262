@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 let rec = #{ x: 1, "y": 2, 0: 3, 1n: 4, [`key${4}`]: 5 };
 
 assert.sameValue(rec.x, 1);

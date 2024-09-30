@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/{
+---*/
+{
   assert.sameValue(f(), 4);
   function f() { return 3; }
   assert.sameValue(f(), 4);

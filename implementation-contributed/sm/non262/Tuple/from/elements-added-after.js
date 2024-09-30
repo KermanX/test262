@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var tupleIndex = -1;
+---*/
+var tupleIndex = -1;
 var originalLength = 7;
 var obj = {
   length: originalLength,

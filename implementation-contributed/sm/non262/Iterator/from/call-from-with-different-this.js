@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/const iter = {
+---*/
+const iter = {
   next() {
     assert.sameValue(arguments.length, 0);
     return {done: false, value: 0};

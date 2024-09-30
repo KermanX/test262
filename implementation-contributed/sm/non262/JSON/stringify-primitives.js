@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// sanity
+---*/
+// sanity
 var x = JSON.stringify({});
 assert.sameValue(x, "{}");
 

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function testBase(base) {
+---*/
+function testBase(base) {
     class instance extends base {
         constructor(inst, one) {
             super(inst, one);

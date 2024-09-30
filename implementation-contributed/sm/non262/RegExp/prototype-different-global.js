@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function test(otherGlobal) {
+---*/
+function test(otherGlobal) {
     var otherRegExp = otherGlobal.RegExp;
 
     for (let name of ["global", "ignoreCase", "multiline", "sticky", "unicode", "source"]) {

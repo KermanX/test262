@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/[1, "", true, Symbol(), undefined].forEach(props => {
+---*/
+[1, "", true, Symbol(), undefined].forEach(props => {
     assert.sameValue(Object.getPrototypeOf(Object.create(null, props)), null);
 });
 

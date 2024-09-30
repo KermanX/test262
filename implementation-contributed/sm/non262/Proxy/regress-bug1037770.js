@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/foo = 1;
+---*/
+foo = 1;
 Object.defineProperty(this, "foo", {writable:false, configurable:true});
 foo = 2;
 assert.sameValue(foo, 1);

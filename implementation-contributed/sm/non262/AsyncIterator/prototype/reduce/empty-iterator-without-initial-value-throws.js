@@ -11,6 +11,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 async function* gen() {}
 gen().reduce((x, y) => x + y).then(() => assert.sameValue(true, false, 'expected error'), err => {
   assert.sameValue(err instanceof TypeError, true);

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1204028;
+---*/
+var BUGNUMBER = 1204028;
 var summary = "Destructuring should evaluate lhs reference before rhs in super property";
 
 if (typeof assert.sameValue === "undefined") {

@@ -10,7 +10,8 @@ features:
 description: |
   pending
 esid: pending
----*/var withSorted = Tuple.prototype.withSorted;
+---*/
+var withSorted = Tuple.prototype.withSorted;
 
 var thisVals = [[undefined, "undefined"],
                 [null, "null"],

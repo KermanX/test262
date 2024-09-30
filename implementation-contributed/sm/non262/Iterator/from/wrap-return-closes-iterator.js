@@ -12,7 +12,8 @@ info: |
 description: |
   pending
 esid: pending
----*/class Iter {
+---*/
+class Iter {
   next() {
     if (this.closed)
       return { done: true, value: undefined };

@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/for (var constructor of anyTypedArrayConstructors) {
+---*/
+for (var constructor of anyTypedArrayConstructors) {
     // %TypedArray%.from works on arguments objects.
     (function () {
         assert.deepEqual(constructor.from(arguments), new constructor(["0", "1", undefined]));

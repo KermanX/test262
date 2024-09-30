@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/function checkErr(f) {
+---*/
+function checkErr(f) {
     assertThrowsInstanceOfWithMessage(f, ReferenceError,
         "must call super constructor before using 'this' in derived class constructor");
 }

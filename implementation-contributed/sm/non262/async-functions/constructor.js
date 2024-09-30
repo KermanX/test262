@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 1185106;
+---*/
+var BUGNUMBER = 1185106;
 var summary = "async function constructor and prototype";
 
 print(BUGNUMBER + ": " + summary);

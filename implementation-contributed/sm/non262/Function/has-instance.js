@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// It is possible to override Function.prototype[@@hasInstance].
+---*/
+// It is possible to override Function.prototype[@@hasInstance].
 let passed = false;
 let obj = { foo: true };
 let C = function(){};

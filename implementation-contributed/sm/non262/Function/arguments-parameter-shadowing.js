@@ -8,7 +8,8 @@ flags:
 description: |
   pending
 esid: pending
----*/// Test that var declarations of arguments "shadows" the arguments binding
+---*/
+// Test that var declarations of arguments "shadows" the arguments binding
 // used in parameter expressions.
 
 function g8(h = () => arguments) {
