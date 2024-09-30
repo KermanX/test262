@@ -8,7 +8,6 @@ includes:
 - shell.js
 flags:
 - noStrict
-features: []
 info: |
   uses shell load() function
 description: |

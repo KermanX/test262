@@ -10,7 +10,6 @@ includes:
 - shell.js
 flags:
 - noStrict
-features: []
 description: |
   pending
 esid: pending

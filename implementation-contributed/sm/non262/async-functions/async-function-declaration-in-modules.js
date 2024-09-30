@@ -9,7 +9,6 @@ includes:
 flags:
 - module
 - noStrict
-features: []
 description: |
   pending
 esid: pending

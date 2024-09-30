@@ -8,7 +8,6 @@ includes:
 - shell.js
 flags:
 - noStrict
-features: []
 info: |
   support file
 description: |

@@ -9,7 +9,6 @@ includes:
 flags:
 - module
 - noStrict
-features: []
 negative:
   phase: early
   type: SyntaxError
