@@ -8,7 +8,6 @@ includes:
 - shell.js
 flags:
 - module
-- noStrict
 description: |
   pending
 esid: pending

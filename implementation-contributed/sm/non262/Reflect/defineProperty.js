@@ -2,14 +2,15 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-flags:
+features:
 - IsHTMLDDA
-- noStrict
 includes:
 - deepEqual.js
 - non262-Reflect-shell.js
 - non262-shell.js
 - shell.js
+flags:
+- noStrict
 description: |
   pending
 esid: pending

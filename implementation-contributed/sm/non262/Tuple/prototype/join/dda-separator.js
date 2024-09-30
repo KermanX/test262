@@ -2,16 +2,16 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-flags:
+features:
 - IsHTMLDDA
-- noStrict
+- Tuple
 includes:
 - non262-Tuple-prototype-join-shell.js
 - non262-Tuple-shell.js
 - non262-shell.js
 - shell.js
-features:
-- Tuple
+flags:
+- noStrict
 description: |
   pending
 esid: pending

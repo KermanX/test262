@@ -8,9 +8,8 @@ includes:
 - shell.js
 flags:
 - module
-- noStrict
 negative:
-  phase: early
+  phase: parse
   type: SyntaxError
 description: |
   pending
@@ -20,3 +19,4 @@ esid: pending
 function f() {
     await;
 }
+$DONOTEVALUATE();

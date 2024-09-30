@@ -2,14 +2,14 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-flags:
+features:
+- AsyncIterator
 - IsHTMLDDA
-- noStrict
 includes:
 - non262-shell.js
 - shell.js
-features:
-- AsyncIterator
+flags:
+- noStrict
 description: |
   pending
 esid: pending

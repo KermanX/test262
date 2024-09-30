@@ -2,14 +2,14 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-flags:
+features:
 - IsHTMLDDA
-- noStrict
+- Iterator
 includes:
 - non262-shell.js
 - shell.js
-features:
-- Iterator
+flags:
+- noStrict
 info: |
   Iterator is not enabled unconditionally
 description: |
