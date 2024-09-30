@@ -4,10 +4,7 @@
 /*---
 description: |
   no argument searches for a undefined value
-includes:
-- non262-Tuple-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 features:

@@ -6,9 +6,7 @@ info: |
   Descriptor property of Iterator.from
 
     Iterator is not enabled unconditionally
-includes:
-- non262-shell.js
-- shell.js
+includes: [non262-shell.js, shell.js]
 flags:
 - noStrict
 features:

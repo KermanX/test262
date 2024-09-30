@@ -7,10 +7,7 @@
 /*---
 description: |
   Tuple.prototype.indexOf returns -1 if fromIndex is greater than Tuple length
-includes:
-- non262-Tuple-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 features:

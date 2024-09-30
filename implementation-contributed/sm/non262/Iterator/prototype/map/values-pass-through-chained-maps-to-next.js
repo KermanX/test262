@@ -12,9 +12,7 @@ info: |
 features:
 - Iterator
 - iterator-helpers
-includes:
-- non262-shell.js
-- shell.js
+includes: [non262-shell.js, shell.js]
 flags:
 - noStrict
 ---*/

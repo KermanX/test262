@@ -4,11 +4,7 @@
 /*---
 features:
 - IsHTMLDDA
-includes:
-- deepEqual.js
-- non262-Reflect-shell.js
-- non262-shell.js
-- shell.js
+includes: [deepEqual.js, non262-Reflect-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 description: |

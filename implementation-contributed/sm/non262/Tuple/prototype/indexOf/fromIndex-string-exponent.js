@@ -7,10 +7,7 @@
 /*---
 description: |
   Tuple.prototype.indexOf - value of 'fromIndex' is a string containing an exponential number
-includes:
-- non262-Tuple-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 features:

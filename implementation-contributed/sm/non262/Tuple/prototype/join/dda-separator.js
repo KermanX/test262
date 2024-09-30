@@ -5,11 +5,8 @@
 features:
 - IsHTMLDDA
 - Tuple
-includes:
-- non262-Tuple-prototype-join-shell.js
-- non262-Tuple-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-Tuple-prototype-join-shell.js, non262-Tuple-shell.js, non262-shell.js,
+    shell.js]
 flags:
 - noStrict
 description: |

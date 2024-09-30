@@ -2,10 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes:
-- non262-extensions-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-extensions-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 info: |

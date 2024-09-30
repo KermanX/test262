@@ -4,10 +4,7 @@
 /*---
 flags:
 - onlyStrict
-includes:
-- non262-Promise-shell.js
-- non262-shell.js
-- shell.js
+includes: [non262-Promise-shell.js, non262-shell.js, shell.js]
 description: |
   pending
 esid: pending
