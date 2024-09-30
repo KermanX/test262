@@ -1,9 +1,7 @@
 /*
  * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
+ * http://creativecommons.org/licenses/publicdomain/
  */
-
-
 /*---
 includes: [non262-Number-shell.js, non262-shell.js, shell.js]
 flags:
@@ -11,7 +9,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 647385;
+---*/
+var BUGNUMBER = 647385;
 var summary =
   "Number.prototype.toString should use ToInteger on the radix and should " +
   "throw a RangeError if the radix is bad";

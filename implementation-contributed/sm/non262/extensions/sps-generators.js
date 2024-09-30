@@ -1,6 +1,11 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
+
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [non262-extensions-shell.js, non262-shell.js, shell.js]
 flags:
@@ -9,10 +14,6 @@ description: |
   pending
 esid: pending
 ---*/
-
-// Any copyright is dedicated to the Public Domain.
-// http://creativecommons.org/licenses/publicdomain/
-
 //-----------------------------------------------------------------------------
 var BUGNUMBER = 822041;
 var summary = "Live generators should not cache Gecko Profiler state";

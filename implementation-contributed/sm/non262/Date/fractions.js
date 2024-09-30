@@ -1,9 +1,7 @@
 /*
  * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
+ * http://creativecommons.org/licenses/publicdomain/
  */
-
-
 /*---
 includes: [non262-Date-shell.js, non262-shell.js, shell.js]
 flags:
@@ -11,7 +9,8 @@ flags:
 description: |
   pending
 esid: pending
----*/var BUGNUMBER = 771946;
+---*/
+var BUGNUMBER = 771946;
 var summary = "Fractional days, months, years shouldn't trigger asserts";
 
 print(BUGNUMBER + ": " + summary);

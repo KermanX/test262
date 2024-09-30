@@ -1,9 +1,7 @@
 /*
  * Any copyright is dedicated to the Public Domain.
- * http://creativecommonn.org/licenses/publicdomain/
+ * http://creativecommons.org/licenses/publicdomain/
  */
-
-
 /*---
 includes: [non262-Date-shell.js, non262-shell.js, shell.js]
 flags:
@@ -11,7 +9,8 @@ flags:
 description: |
   pending
 esid: pending
----*//*
+---*/
+/*
  * For the sake of cross compatibility with other implementations we
  * implement date parsing heuristics which support single and double
  * digit years. See bug: 1265136

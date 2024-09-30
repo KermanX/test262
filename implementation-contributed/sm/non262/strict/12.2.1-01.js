@@ -1,6 +1,12 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
+/* -*- Mode: C++; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
+
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [non262-shell.js, non262-strict-shell.js, shell.js]
 flags:
@@ -9,13 +15,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* -*- Mode: C++; tab-width: 2; indent-tabs-mode: nil; c-basic-offset: 2 -*- */
-
-/*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/
- */
-
 /*
  * In strict mode code, 'let' and 'const' declarations may not bind
  * 'eval' or 'arguments'.

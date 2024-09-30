@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [detachArrayBuffer.js, non262-extensions-shell.js, non262-shell.js, shell.js]
 flags:
@@ -9,10 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/
- */
 "use strict"; // make test fail when limitation below is fixed
 
 var gTestfile = 'element-setting-ToNumber-detaches.js';

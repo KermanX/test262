@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [non262-shell.js, non262-strict-shell.js, shell.js]
 flags:
@@ -9,11 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/*
- * Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/
- */
-
 var BadSyntaxStrings = [
     "function foo1() { \"use strict\"; try {} catch (eval) {} }",
     "function foo2() { \"use strict\"; let eval = 9; foo(); }",
