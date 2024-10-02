@@ -2,8 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [compareArray.js, detachArrayBuffer.js, non262-object-shell.js, non262-shell.js,
-    shell.js]
+includes: [compareArray.js, detachArrayBuffer.js, non262-object-shell.js, non262-shell.js, shell.js]
 flags:
 - noStrict
 description: |

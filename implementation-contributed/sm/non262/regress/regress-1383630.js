@@ -26,7 +26,8 @@ esid: pending
 "use strict";
 
 function assertThrowsTypeErrorIncludes(f, propStr, details) {
-  assertThrowsInstanceOfWithMessage(f, TypeError, details || propStr);
+  assertThrowsInstanceOfWithMessageCheck(f, TypeError,
+    message => message.includes(propStr) && (!details || message.includes(details)));
 }
 
 const STR = "one", STR_NAME = `"one"`;

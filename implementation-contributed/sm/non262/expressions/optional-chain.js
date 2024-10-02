@@ -22,7 +22,7 @@ function shouldBe(actual, expected) {
 }
 
 function shouldThrowSyntaxError(script) {
-    assert.throws(SyntaxError, () => eval(script));
+    assertThrowsInstanceOf(() => eval(script), SyntaxError);
 }
 
 function shouldNotThrowSyntaxError(script) {
@@ -38,11 +38,11 @@ function shouldNotThrowSyntaxError(script) {
 }
 
 function shouldThrowTypeError(func, messagePrefix) {
-  assertThrowsInstanceOfWithMessage(func, TypeError, messagePrefix);
+    assertThrowsInstanceOfWithMessageContains(func, TypeError, messagePrefix);
 }
 
 function shouldThrowReferenceError(script) {
-  assert.throws(ReferenceError, () => eval(script));
+    assertThrowsInstanceOf(() => eval(script), ReferenceError);
 }
 
 function testBasicSuccessCases() {
