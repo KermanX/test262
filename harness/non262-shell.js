@@ -387,7 +387,13 @@ if (!globalThis.Test262Error) {
   }
 
   if (typeof global.assertThrowsInstanceOfWithMessage === 'undefined') {
-    global.assertThrowsInstanceOfWithMessage = function assertThrowsInstanceOfWithMessage(f, ctor, substr, msg) {
+    global.assertThrowsInstanceOfWithMessage = function assertThrowsInstanceOfWithMessage(f, ctor, expected, msg) {
+      assertThrowsInstanceOfWithMessageCheck(f, ctor, message => message === expected, msg);
+    }
+  }
+
+  if (typeof global.assertThrowsInstanceOfWithMessageContains === 'undefined') {
+    global.assertThrowsInstanceOfWithMessageContains = function assertThrowsInstanceOfWithMessageContains(f, ctor, substr, msg) {
       assertThrowsInstanceOfWithMessageCheck(f, ctor, message => message.indexOf(substr) !== -1, msg);
     }
   }

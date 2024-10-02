@@ -40,7 +40,7 @@ class CheckIncludes(Check):
 
     @staticmethod
     def _get_includes_flow_list(source):
-        match = re.search(r"includes:\s+\[(?P<includes>[^\]]+)\][\r\n]{1,2}", source, flags=re.DOTALL)
+        match = re.search(r"includes:\s+\[(?P<includes>.+)\]", source)
         return [inc.strip() for inc in match.group('includes').split(',') if inc] if match else []
 
     def run(self, name, meta, source):
