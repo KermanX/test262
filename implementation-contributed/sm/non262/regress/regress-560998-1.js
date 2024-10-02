@@ -10,8 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Jesse Ruderman
-
 for (let j = 0; j < 4; ++j) {
   function g() { j; }
   g();

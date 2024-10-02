@@ -57,7 +57,6 @@ const nonIterables = [
     const mapped = iter.flatMap(x => value);
 
     assert.sameValue(iter.closed, false);
-    console.log("here!");
     try {
       await mapped.next();
       assert.sameValue(true, false, 'Expected reject');

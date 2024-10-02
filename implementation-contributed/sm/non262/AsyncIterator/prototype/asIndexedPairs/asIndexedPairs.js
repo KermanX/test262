@@ -23,7 +23,6 @@ let iter = gen().asIndexedPairs();
 for (const v of [[0, 1], [1, 2], [2, 3]]) {
   iter.next().then(
     result => {
-      console.log(result);
       assert.sameValue(result.done, false);
       assert.sameValue(result.value[0], v[0]);
       assert.sameValue(result.value[1], v[1]);

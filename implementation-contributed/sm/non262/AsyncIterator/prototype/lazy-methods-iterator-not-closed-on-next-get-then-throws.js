@@ -54,7 +54,6 @@ const methods = [
       await iterator[method](arg).next();
       assert.sameValue(true, false, 'Expected exception');
     } catch(err) {
-      console.log(err);
       assert.sameValue(err instanceof TestError, true);
     }
     assert.sameValue(iterator.closed, false);

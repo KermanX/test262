@@ -10,8 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Gary Kwong <gary@rumblingedge.com>
-
 var expect = 42;
 var actual = (function({
     x: [w]

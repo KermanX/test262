@@ -10,8 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Gary Kwong <gary@rumblingedge.com>, Jesse Ruderman <jruderman@gmail.com>
-
 for (var u = 0; u < 3; ++u) {
     var y = [];
     Object.create(y);

@@ -45,7 +45,9 @@ assert.sameValue(Number.prototype.toPrecision.call(NaN, { valueOf() { x = 20; re
 assert.sameValue(x, 20);
 
 // With NaN, function throwing an exception.
-assertThrows(() => Number.prototype.toPrecision.call(NaN, { valueOf() { throw "hello"; } }));
+assertThrowsValue(
+  () => Number.prototype.toPrecision.call(NaN, { valueOf() { throw "hello"; } }),
+  "hello");
 
 // Not a number throws TypeError
 assertThrowsInstanceOf(() => Number.prototype.toPrecision.call("Hello"), TypeError);

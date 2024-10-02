@@ -10,8 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Jason Orendorff <jorendorff@mozilla.com>
-
 var x = {};
 for (var i = 0; i < 2; i++) {
     Object.defineProperty(x, "y", {configurable: true, value: function () {}});

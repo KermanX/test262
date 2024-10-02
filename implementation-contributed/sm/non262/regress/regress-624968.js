@@ -10,8 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Bob Clary <bclary@bclary.com>
-
 try {
     new {prototype: TypeError.prototype};
 } catch (e) {}

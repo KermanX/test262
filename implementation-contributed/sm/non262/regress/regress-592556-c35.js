@@ -10,7 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributor: Jason Orendorff <jorendorff@mozilla.com>
 
 var obj = {a: 0, b: 1, c: 2};
 delete obj.b;  // switch to dictionary mode

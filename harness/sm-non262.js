@@ -22,7 +22,7 @@ function assertThrownErrorContains(f, substr) {
   try {
     f();
   } catch (exc) {
-    // Do not test error messages 
+    // Do not test error messages
     return;
   }
   throw new Test262Error("Expected error containing " + substr + ", no exception thrown");
@@ -61,6 +61,16 @@ function print(...args) {
 }
 function assertEq(...args) {
   assert.sameValue(...args)
+}
+function reportCompare(...args) {
+  assert.sameValue(...args)
+}
+
+function reportMatch(expectedRegExp, actual, description = "") {
+  assert.sameValue(typeof actual, "string",
+    `Type mismatch, expected string, actual type ${actual_t}`);
+  assert.notSameValue(expectedRegExp.exec(actual), null,
+    `Expected match to '${expectedRegExp}', Actual value '${actual}'`);
 }
 
 if (globalThis.createIsHTMLDDA === undefined) {
