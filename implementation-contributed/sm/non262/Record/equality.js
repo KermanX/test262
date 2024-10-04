@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [non262-Record-shell.js, non262-shell.js, shell.js]
+includes: [non262-Record-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:

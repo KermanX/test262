@@ -10,7 +10,7 @@ description: |
 features:
 - Iterator
 - Symbol.iterator
-includes: [non262-shell.js, shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 ---*/

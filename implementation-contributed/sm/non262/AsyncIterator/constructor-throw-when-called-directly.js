@@ -4,7 +4,7 @@
 /*---
 info: |
   AsyncIterator constructor throws when called directly.
-includes: [non262-shell.js, shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 features:

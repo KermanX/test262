@@ -4,7 +4,7 @@
 //
 
 /*---
-includes: [non262-shell.js, shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 features:
@@ -48,8 +48,6 @@ try {
 } catch (exc) {
   assert.sameValue(exc, 'error');
 }
-
-console.log(log.join('\n'));
 
 assert.sameValue(
   log.join('\n'),

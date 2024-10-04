@@ -3,7 +3,7 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [non262-regress-shell.js, non262-shell.js, shell.js]
+includes: [non262-regress-shell.js, non262-shell.js]
 flags:
 - noStrict
 description: |
@@ -24,20 +24,13 @@ function test()
 {
   printBugNumber(BUGNUMBER);
   printStatus (summary);
- 
+
   function f(x) {
     var [a, b, [c0, c1]] = [x, x, x];
   }
-
-  expect = /TypeError: .*\[\.\.\.\]\[Symbol.iterator\]\(\)\.next\(\)\.value is null/;
-  actual = 'No Error';
-  try
-  {
-    f(null);
-  }
-  catch(ex)
-  {
-    actual = ex + '';
-  }
-  reportMatch(expect, actual, summary);
+  assertThrowsInstanceOfWithMessageCheck(
+    () => f(null),
+    TypeError,
+    message => /.*\[\.\.\.\]\[Symbol.iterator\]\(\)\.next\(\)\.value is null/.exec(message) !== null
+  );
 }

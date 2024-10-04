@@ -3,7 +3,7 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [non262-String-shell.js, non262-shell.js, shell.js]
+includes: [non262-String-shell.js, non262-shell.js]
 flags:
 - noStrict
 description: |

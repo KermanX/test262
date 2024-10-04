@@ -6,7 +6,7 @@ info: |
   The Iterator constructor is a built-in function.
 
     Iterator is not enabled unconditionally
-includes: [non262-shell.js, shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 features:

@@ -5,7 +5,7 @@
 esid: sec-array.prototype.indexof
 description: |
   Tuple.prototype.indexOf - 'fromIndex' is a negative non-integer, verify truncation occurs in the proper direction
-includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
+includes: [non262-Tuple-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:

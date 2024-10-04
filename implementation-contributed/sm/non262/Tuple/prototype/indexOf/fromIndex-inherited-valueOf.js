@@ -5,7 +5,7 @@
 esid: sec-array.prototype.indexof
 description: |
   Tuple.prototype.indexOf uses inherited valueOf method when value of 'fromIndex' is an object with an own toString and inherited valueOf methods
-includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
+includes: [non262-Tuple-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:

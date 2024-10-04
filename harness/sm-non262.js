@@ -68,7 +68,7 @@ function reportCompare(...args) {
 
 function reportMatch(expectedRegExp, actual, description = "") {
   assert.sameValue(typeof actual, "string",
-    `Type mismatch, expected string, actual type ${actual_t}`);
+    `Type mismatch, expected string, actual type ${typeof actual}`);
   assert.notSameValue(expectedRegExp.exec(actual), null,
     `Expected match to '${expectedRegExp}', Actual value '${actual}'`);
 }

@@ -4,7 +4,7 @@
 /*---
 info: |
   Descriptor property of AsyncIterator.prototype.toArray
-includes: [non262-shell.js, shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 features:

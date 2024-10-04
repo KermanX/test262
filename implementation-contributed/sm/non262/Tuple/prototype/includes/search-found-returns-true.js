@@ -4,7 +4,7 @@
 /*---
 description: |
   returns true for found index
-includes: [non262-Tuple-shell.js, non262-shell.js, shell.js]
+includes: [non262-Tuple-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:

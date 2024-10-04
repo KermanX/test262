@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [non262-RegExp-shell.js, non262-shell.js, shell.js]
+includes: [non262-RegExp-shell.js, non262-shell.js]
 flags:
 - noStrict
 description: |
@@ -42,6 +42,7 @@ function test(obj, expects) {
 
 function testThrows(obj) {
   for (var prop of props) {
+    assert.sameValue(typeof obj[prop], "function", "expected function for " + prop)
     assertThrowsInstanceOf(obj[prop], TypeError);
   }
 }

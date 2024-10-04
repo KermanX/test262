@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [compareArray.js, non262-Error-shell.js, non262-shell.js, shell.js]
+includes: [compareArray.js, non262-Error-shell.js, non262-shell.js]
 flags:
 - noStrict
 description: |

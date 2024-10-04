@@ -9,7 +9,7 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [compareArray.js, non262-RegExp-shell.js, non262-shell.js, shell.js]
+includes: [compareArray.js, non262-RegExp-shell.js, non262-shell.js]
 flags:
 - noStrict
 description: |
