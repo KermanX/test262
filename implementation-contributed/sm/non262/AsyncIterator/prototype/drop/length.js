@@ -13,7 +13,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 assert.sameValue(AsyncIterator.prototype.drop.length, 1);
 
 const propertyDescriptor = Reflect.getOwnPropertyDescriptor(AsyncIterator.prototype.drop, 'length');

@@ -11,7 +11,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 assert.sameValue(AsyncIterator.prototype.filter.name, 'filter');
 
 const propertyDescriptor = Reflect.getOwnPropertyDescriptor(AsyncIterator.prototype.filter, 'name');

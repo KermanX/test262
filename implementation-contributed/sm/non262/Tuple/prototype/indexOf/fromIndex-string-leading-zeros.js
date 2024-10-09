@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var target = #[];
 
 assert.sameValue(#[0, 1, target, 3, 4].indexOf(target, "0003.10"), -1, '#[0, 1, target, 3, 4].indexOf(target, "0003.10")');

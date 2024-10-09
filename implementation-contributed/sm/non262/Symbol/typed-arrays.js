@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [non262-Symbol-shell.js, non262-shell.js]
 flags:
@@ -9,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 // Symbol-to-number type conversions involving typed arrays.
 
 for (var T of [Uint8Array, Uint8ClampedArray, Int16Array, Float32Array]) {

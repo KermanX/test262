@@ -11,7 +11,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 assert.sameValue(AsyncIterator.prototype.flatMap.name, 'flatMap');
 
 const propertyDescriptor = Reflect.getOwnPropertyDescriptor(AsyncIterator.prototype.flatMap, 'name');

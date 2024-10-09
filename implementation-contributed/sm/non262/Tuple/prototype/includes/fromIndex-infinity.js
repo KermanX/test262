@@ -11,7 +11,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var sample = #[42, 43, 43, 41];
 
 assert.sameValue(

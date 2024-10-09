@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var a = #[1, 2, 1, 2, 1, 2];
 
 assert.sameValue(a.indexOf(2, "2"), 3, '"2" resolves to 2');

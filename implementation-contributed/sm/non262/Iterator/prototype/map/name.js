@@ -2,16 +2,18 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.map.name value and descriptor.
+info: |
+  17 ECMAScript Standard Built-in Objects
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 assert.sameValue(Iterator.prototype.map.name, 'map');
 
 const propertyDescriptor = Reflect.getOwnPropertyDescriptor(Iterator.prototype.map, 'name');

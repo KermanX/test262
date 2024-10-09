@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [deepEqual.js, non262-Reflect-shell.js, non262-shell.js]
 flags:
@@ -9,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 // Tests for the argumentList argument to Reflect.apply and Reflect.construct.
 
 // Reflect.apply and Reflect.construct require an argumentList argument that must be an object.
@@ -125,15 +123,6 @@ args = {
 };
 for (var method of BOTH) {
     assertThrowsValue(() => method(count, undefined, args), exc);
-}
-
-// If argumentsList.length is unreasonably huge, we get an error.
-// (This is an implementation limit.)
-for (var method of BOTH) {
-    for (var value of [1e12, 1e240, Infinity]) {
-        assertThrowsInstanceOf(() => method(count, undefined, {length: value}),
-                               Error);
-    }
 }
 
 // argumentsList.length is converted to an integer.

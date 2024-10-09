@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [non262-Number-shell.js, non262-shell.js]
 flags:
@@ -9,11 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/*
- * Any copyright is dedicated to the Public Domain.
- * https://creativecommons.org/publicdomain/zero/1.0/
- */
-
 assert.sameValue(Number.prototype.toFixed.call(-Infinity), "-Infinity");
 assert.sameValue(Number.prototype.toFixed.call(Infinity), "Infinity");
 assert.sameValue(Number.prototype.toFixed.call(NaN), "NaN");

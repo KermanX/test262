@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var fromIndex = Symbol("1");
 
 var sample = #[7];

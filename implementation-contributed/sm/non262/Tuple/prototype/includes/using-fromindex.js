@@ -13,7 +13,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 var sample = #["a", "b", "c"];
 assert.sameValue(sample.includes("a", 0), true, "includes('a', 0)");
 assert.sameValue(sample.includes("a", 1), false, "includes('a', 1)");

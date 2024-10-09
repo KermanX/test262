@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [deepEqual.js, non262-Symbol-shell.js, non262-shell.js]
 flags:
@@ -9,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 // ES6 does not specify enumeration order, but implementations mostly retain
 // property insertion order -- and must, for web compatibility. This test checks
 // that symbol-keyed properties do not interfere with that order.

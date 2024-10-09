@@ -11,7 +11,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 /* Section 8.2.3.2 */
 
 let TuplePrototype = Tuple.prototype;

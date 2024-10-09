@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var sample = #[42, 0, 1, NaN];
 assert.sameValue(sample.includes("42"), false);
 assert.sameValue(sample.includes([42]), false);

@@ -3,9 +3,9 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [non262-global-shell.js, non262-shell.js]
 flags:
-- noStrict
+- onlyStrict
+includes: [non262-global-shell.js, non262-shell.js]
 description: |
   pending
 esid: pending

@@ -13,7 +13,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 class TestIterator extends AsyncIterator {
 }
 

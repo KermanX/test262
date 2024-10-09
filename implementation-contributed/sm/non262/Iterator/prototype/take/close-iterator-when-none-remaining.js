@@ -1,20 +1,22 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.take closes the iterator when remaining is 0.
+info: |
+  Iterator Helpers proposal 2.1.5.4
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
 
+//
+//
 class TestIterator extends Iterator {
   next() {
     return {done: false, value: 1};

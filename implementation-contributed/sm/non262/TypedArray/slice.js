@@ -9,7 +9,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 for (var constructor of anyTypedArrayConstructors) {
     assert.sameValue(constructor.prototype.slice.length, 2);
 

@@ -13,6 +13,5 @@ description: |
   pending
 esid: pending
 ---*/
-
 assertThrowsInstanceOf(() => new AsyncIterator(), TypeError);
 

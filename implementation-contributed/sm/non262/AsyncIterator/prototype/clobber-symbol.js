@@ -14,7 +14,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 Symbol = undefined;
 assertThrowsInstanceOf(() => Symbol.asyncIterator, TypeError);
 

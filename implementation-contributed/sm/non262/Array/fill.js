@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [deepEqual.js, non262-Array-shell.js, non262-shell.js]
 flags:
@@ -9,10 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* -*- indent-tabs-mode: nil; js-indent-level: 2 -*- */
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 //-----------------------------------------------------------------------------
 var BUGNUMBER = 911147;
 var summary = 'Array.prototype.fill';

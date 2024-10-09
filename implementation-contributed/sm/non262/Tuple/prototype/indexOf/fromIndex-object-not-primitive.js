@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var toStringAccessed = false;
 var valueOfAccessed = false;
 var fromIndex = {

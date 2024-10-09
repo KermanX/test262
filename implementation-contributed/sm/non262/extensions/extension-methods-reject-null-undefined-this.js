@@ -1,7 +1,3 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
-
 /*
  * Any copyright is dedicated to the Public Domain.
  * http://creativecommons.org/licenses/publicdomain/
@@ -14,6 +10,7 @@ description: |
   pending
 esid: pending
 ---*/
+
 //-----------------------------------------------------------------------------
 var BUGNUMBER = 619283;
 var summary =

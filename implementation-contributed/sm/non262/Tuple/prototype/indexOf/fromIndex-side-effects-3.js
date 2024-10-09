@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var stepFiveOccurs = false;
 var fromIndex = {
   valueOf: function() {

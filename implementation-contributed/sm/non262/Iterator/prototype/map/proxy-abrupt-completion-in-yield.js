@@ -1,19 +1,17 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-//
-
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.map calls return when yield throws.
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 class TestError extends Error {}
 
 class TestIterator extends Iterator {

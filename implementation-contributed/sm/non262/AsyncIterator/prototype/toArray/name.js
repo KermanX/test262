@@ -11,7 +11,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 const propDesc = Reflect.getOwnPropertyDescriptor(AsyncIterator.prototype.toArray, 'name');
 assert.sameValue(propDesc.value, 'toArray');
 assert.sameValue(propDesc.writable, false);

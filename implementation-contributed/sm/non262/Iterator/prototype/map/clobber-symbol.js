@@ -1,22 +1,21 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-//
-//
-
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.map works even if the global Symbol has been clobbered..
+features:
+- Iterator
+- Symbol
+- Symbol.iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
 info: |
   Iterator is not enabled unconditionally
-description: |
-  pending
-esid: pending
 ---*/
-
 Symbol = undefined;
 assertThrowsInstanceOf(() => Symbol.iterator, TypeError);
 

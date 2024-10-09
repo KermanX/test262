@@ -1,20 +1,23 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.flatMap closes the iterator when innerNext throws.
+info: |
+  Iterator Helpers proposal 2.1.5.7 1. Repeat,
+    ...
+    i. Repeat, while innerAlive is true,
+      i. Let innerNext be IteratorNext(innerIterator).
+      ii. IfAbruptCloseIterator(innerNext, iterated).
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 class TestIterator extends Iterator {
   next() {
     return {done: false, value: 0};

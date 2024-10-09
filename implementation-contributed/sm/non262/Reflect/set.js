@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [deepEqual.js, non262-Reflect-shell.js, non262-shell.js]
 flags:
@@ -9,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 // Reflect.set does property assignment.
 // With three arguments, this is pretty straightforward.
 var obj = {};
@@ -126,8 +124,11 @@ assert.sameValue(log, "sp");
 // When calling a cross-compartment wrapper, receiver is rewrapped for the
 // target compartment.
 var g = newGlobal();
+// necessary in the browser
+if (!("assert" in g))
+    g.assert = assert;
 if (!("assert.sameValue" in g))
-    g.assert.sameValue = assert.sameValue;  // necessary in the browser
+    g.assert.sameValue = assert.sameValue;
 g.eval(`
      var hits;
      var obj = {

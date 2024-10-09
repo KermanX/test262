@@ -17,7 +17,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var obj = {};
 
 Object.defineProperty(obj, "length", {

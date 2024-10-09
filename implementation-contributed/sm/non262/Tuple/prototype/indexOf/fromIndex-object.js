@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 // objects inherit the default valueOf() method from Object
 // that simply returns itself. Since the default valueOf() method
 // does not return a primitive value, ES next tries to convert the object

@@ -20,7 +20,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var sample = [42, 43];
 assert.sameValue(sample.includes(42, -0), true, "-0 [0]");
 assert.sameValue(sample.includes(43, -0), true, "-0 [1]");

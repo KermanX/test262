@@ -1,6 +1,7 @@
-// Copyright (C) 2024 Mozilla Corporation. All rights reserved.
-// This code is governed by the BSD license found in the LICENSE file.
-
+/*
+ * Any copyright is dedicated to the Public Domain.
+ * http://creativecommons.org/licenses/publicdomain/
+ */
 /*---
 includes: [deepEqual.js, non262-Array-shell.js, non262-shell.js]
 flags:
@@ -9,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-/* Any copyright is dedicated to the Public Domain.
- * http://creativecommons.org/licenses/publicdomain/ */
-
 // If the mapfn argument to Array.from is undefined, don't map.
 assert.deepEqual(Array.from([3, 4, 5], undefined), [3, 4, 5]);
 assert.deepEqual(Array.from([4, 5, 6], undefined, Math), [4, 5, 6]);

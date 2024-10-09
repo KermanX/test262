@@ -1,9 +1,6 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
 esid: pending
 description: |
@@ -18,6 +15,8 @@ flags:
 - noStrict
 ---*/
 
+//
+//
 const methods = [
   next => Iterator.prototype.map.bind({next}, x => x),
   next => Iterator.prototype.filter.bind({next}, x => x),

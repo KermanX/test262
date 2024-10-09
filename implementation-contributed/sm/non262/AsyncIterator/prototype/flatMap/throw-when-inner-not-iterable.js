@@ -14,7 +14,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 class NotIterable {
   async next() {
     return {done: true};

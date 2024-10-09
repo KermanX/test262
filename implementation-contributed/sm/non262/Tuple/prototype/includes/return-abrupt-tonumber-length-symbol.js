@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var obj = {
   length: Symbol("1")
 };

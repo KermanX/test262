@@ -61,7 +61,7 @@ function createScope() {
   }
   assert.sameValue(environment.a, false);
 
-  assert.deepEqual(log, [
+  assert.deepEqual(log.slice(), [
     // Execution Contexts, 8.3.2 ResolveBinding ( name [ , env ] )
     // Lexical Environments, 8.1.2.1 GetIdentifierReference ( lex, name, strict )
     // Object Environment Records, 8.1.1.2.1 HasBinding ( N )
@@ -112,7 +112,7 @@ function createScope() {
   }
   assert.sameValue(environment.a, true);
 
-  assert.deepEqual(log, [
+  assert.deepEqual(log.slice(), [
     // Execution Contexts, 8.3.2 ResolveBinding ( name [ , env ] )
     // Lexical Environments, 8.1.2.1 GetIdentifierReference ( lex, name, strict )
     // Object Environment Records, 8.1.1.2.1 HasBinding ( N )
@@ -163,7 +163,7 @@ function createScope() {
   }
   assert.sameValue(environment.a, true);
 
-  assert.deepEqual(log, [
+  assert.deepEqual(log.slice(), [
     // Execution Contexts, 8.3.2 ResolveBinding ( name [ , env ] )
     // Lexical Environments, 8.1.2.1 GetIdentifierReference ( lex, name, strict )
     // Object Environment Records, 8.1.1.2.1 HasBinding ( N )

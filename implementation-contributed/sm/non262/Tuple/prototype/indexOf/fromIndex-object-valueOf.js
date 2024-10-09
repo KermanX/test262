@@ -11,7 +11,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var fromIndex = {
   valueOf: function() {
     return 1;

@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var a = #[1, 2, 3];
 
 // undefined resolves to 0

@@ -12,7 +12,6 @@ features:
 esid: pending
 ---*/
 
-
 assertThrowsInstanceOf(function() {
   Tuple.prototype.indexOf.call(undefined);
 }, TypeError);

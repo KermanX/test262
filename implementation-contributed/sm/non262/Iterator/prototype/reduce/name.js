@@ -2,6 +2,8 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
+description: |
+  `name` property of Iterator.prototype.reduce.
 includes: [non262-shell.js]
 flags:
 - noStrict
@@ -9,11 +11,8 @@ features:
 - Iterator
 info: |
   Iterator is not enabled unconditionally
-description: |
-  pending
 esid: pending
 ---*/
-
 const propDesc = Reflect.getOwnPropertyDescriptor(Iterator.prototype.reduce, 'name');
 assert.sameValue(propDesc.value, 'reduce');
 assert.sameValue(propDesc.writable, false);

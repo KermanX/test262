@@ -11,6 +11,5 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 assert.sameValue(#[true].indexOf(true, "-Infinity"), 0, '#[true].indexOf(true, "-Infinity")');
 

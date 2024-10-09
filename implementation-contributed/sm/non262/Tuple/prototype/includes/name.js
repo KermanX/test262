@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 assert.sameValue(Tuple.prototype.includes.name, "includes");
 var desc = Object.getOwnPropertyDescriptor(Tuple.prototype.includes, "name");
 

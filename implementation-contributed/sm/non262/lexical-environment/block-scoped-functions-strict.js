@@ -2,9 +2,9 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [non262-lexical-environment-shell.js, non262-shell.js]
 flags:
-- noStrict
+- onlyStrict
+includes: [non262-lexical-environment-shell.js, non262-shell.js]
 description: |
   pending
 esid: pending

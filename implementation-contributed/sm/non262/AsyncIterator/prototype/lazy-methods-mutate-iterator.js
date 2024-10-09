@@ -14,7 +14,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 class TestIterator extends AsyncIterator {
   values = [1, 2];
   async next() {

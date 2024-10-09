@@ -14,7 +14,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 async function* gen(values) {
   yield* values;
 }

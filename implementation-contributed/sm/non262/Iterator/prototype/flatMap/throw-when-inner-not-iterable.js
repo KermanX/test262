@@ -1,20 +1,22 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.flatMap closes the iterator and throws when mapped isn't iterable.
+info: |
+  Iterator Helpers proposal 2.1.5.7 1. Repeat,
+    ...
+    f. Let innerIterator be GetIteratorFlattenable(mapped).
+    g. IfAbruptCloseIterator(innerIterator, iterated).
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 class InvalidIterable {
   [Symbol.iterator]() {
     return {};

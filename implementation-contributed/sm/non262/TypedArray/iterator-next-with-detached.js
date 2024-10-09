@@ -59,7 +59,7 @@ if (typeof $DETACHBUFFER === "function" && typeof newGlobal === "function")
       checkResult(thisNext.call(iterator), {value: undefined, done: true});
 
       // Test an exhausted iterator.
-      bufferGlobal.$DETACHBUFFER(buffer);
+      $DETACHBUFFER(buffer);
       checkResult(thisNext.call(iterator), {value: undefined, done: true});
 
       // Test an all-but-exhausted iterator.
@@ -67,14 +67,14 @@ if (typeof $DETACHBUFFER === "function" && typeof newGlobal === "function")
       checkResult(thisNext.call(iterator), {value: 1, done: false});
       checkResult(thisNext.call(iterator), {value: 2, done: false});
 
-      bufferGlobal.$DETACHBUFFER(buffer);
+      $DETACHBUFFER(buffer);
       assertThrowsInstanceOf(() => thisNext.call(iterator), TypeError);
 
       // Test an unexhausted iterator.
       [arr, buffer, iterator] = arrayBufferIterator();
       checkResult(thisNext.call(iterator), {value: 1, done: false});
 
-      bufferGlobal.$DETACHBUFFER(buffer);
+      $DETACHBUFFER(buffer);
       assertThrowsInstanceOf(() => thisNext.call(iterator), TypeError);
     }
   }

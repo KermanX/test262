@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var target = #[];
 
 Tuple.prototype.length = 0;

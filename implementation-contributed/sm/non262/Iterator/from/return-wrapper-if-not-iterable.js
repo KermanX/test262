@@ -15,7 +15,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 class TestIterator {
   next() {
     return { done: false, value: 0 };

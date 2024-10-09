@@ -15,7 +15,6 @@ description: |
   pending
 esid: pending
 ---*/
-
 class TestIterator {
   [Symbol.iterator]() {
     return this;

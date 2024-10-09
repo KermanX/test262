@@ -15,6 +15,5 @@ description: |
   pending
 esid: pending
 ---*/
-
 assert.sameValue(typeof AsyncIterator, 'function');
 

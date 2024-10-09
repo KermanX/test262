@@ -1,20 +1,19 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.flatMap innerIterator can be a generator.
+info: |
+  Iterator Helpers proposal 2.1.5.7
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 const iter = [1, 2].values().flatMap(function*(x) {
   yield x;
   yield* [x + 1, x + 2];

@@ -11,7 +11,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 assert.sameValue(#[true].indexOf(true, NaN), 0, '[true].indexOf(true, NaN)');
 assert.sameValue(#[true].indexOf(true, -NaN), 0, '[true].indexOf(true, -NaN)');
 

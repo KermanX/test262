@@ -3,9 +3,9 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [detachArrayBuffer.js, non262-extensions-shell.js, non262-shell.js]
 flags:
-- noStrict
+- onlyStrict
+includes: [detachArrayBuffer.js, non262-extensions-shell.js, non262-shell.js]
 description: |
   pending
 esid: pending

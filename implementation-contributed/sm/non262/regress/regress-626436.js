@@ -10,7 +10,5 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributors: Christian Holler <decoder@own-hero.net>, Jesse Ruderman <jruderman@gmail.com>
-
 (1 ? 2 : delete(0 ? 0 : {})).x;
 

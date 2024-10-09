@@ -10,9 +10,6 @@ description: |
   pending
 esid: pending
 ---*/
-// Contributors: Gary Kwong <gary@rumblingedge.com>,
-//               Jason Orendorff <jorendorff@mozilla.com>
-
 function c(a) {
     this.f = function () { a; };
 }

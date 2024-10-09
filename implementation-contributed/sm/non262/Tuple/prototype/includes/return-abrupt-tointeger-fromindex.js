@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 function TestError() {};
 
 var fromIndex = {

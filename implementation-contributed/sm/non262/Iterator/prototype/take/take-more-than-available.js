@@ -1,20 +1,25 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-
-//
-//
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.take returns if the iterator is done.
+info: |
+  Iterator Helpers proposal 2.1.5.4 2. Repeat,
+    ...
+    c. Let next be ? IteratorStep(iterated, lastValue).
+    d. If next is false, return undefined.
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
 
+//
+//
 let iter = [1, 2].values().take(3);
 for (const expected of [1, 2]) {
   const result = iter.next();

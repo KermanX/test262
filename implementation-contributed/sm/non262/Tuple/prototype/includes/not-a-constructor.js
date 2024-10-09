@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 assert.sameValue(
   isConstructor(Tuple.prototype.includes),
   false,

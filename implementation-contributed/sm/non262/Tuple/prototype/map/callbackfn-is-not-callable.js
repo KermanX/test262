@@ -16,7 +16,6 @@ includes: [non262-Tuple-shell.js, non262-shell.js]
 flags:
 - noStrict
 ---*/
-
 var sample = #[1,2,3];
 
 assertThrowsInstanceOf(() => sample.map(), TypeError,

@@ -22,7 +22,11 @@ var props = [
   "unicode",
 ];
 
-testThrows(RegExp.prototype);
+for (var prop of props) {
+  assert.sameValue(RegExp.prototype[prop], undefined,
+    `expected undefined for ${prop} on prototype`);
+}
+
 test(/foo/iymg, [true, true, true, true, false]);
 test(RegExp(""), [false, false, false, false, false]);
 test(RegExp("", "mygi"), [true, true, true, true, false]);
@@ -37,13 +41,6 @@ testThrowsGeneric(new Proxy({}, {get(){ return true; }}));
 function test(obj, expects) {
   for (var i = 0; i < props.length; i++) {
     assert.sameValue(obj[props[i]], expects[i]);
-  }
-}
-
-function testThrows(obj) {
-  for (var prop of props) {
-    assert.sameValue(typeof obj[prop], "function", "expected function for " + prop)
-    assertThrowsInstanceOf(obj[prop], TypeError);
   }
 }
 

@@ -11,7 +11,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var target = #[];
 
 assert.sameValue(#[0, 1, target, 3, 4].indexOf(target, "0x0003"), -1, '#[0, 1, target, 3, 4].indexOf(target, "0x0003")');

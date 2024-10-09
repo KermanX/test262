@@ -1,19 +1,17 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-//
-
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.map accesses specified properties only.
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 const handlerProxy = log => new Proxy({}, {
   get: (target, key, receiver) => (...args) => {
     const target = args[0];

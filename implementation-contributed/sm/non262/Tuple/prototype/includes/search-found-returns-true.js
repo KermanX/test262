@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var symbol = Symbol("1");
 var tuple = #[];
 var record = #{};

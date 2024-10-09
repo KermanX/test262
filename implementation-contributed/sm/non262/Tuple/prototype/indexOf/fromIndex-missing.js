@@ -11,7 +11,6 @@ flags:
 features:
 - Tuple
 ---*/
-
 var arr = #[0, 1, 2, 3, 4];
 //'fromIndex' will be set as 0 if not passed by default
 

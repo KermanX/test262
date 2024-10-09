@@ -11,7 +11,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 assert.sameValue(#[42].includes(43), false, "43");
 
 assert.sameValue(#["test262"].includes("test"), false, "string");

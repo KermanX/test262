@@ -1,8 +1,6 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-//
-
 /*---
 esid: pending
 description: |
@@ -16,6 +14,7 @@ includes: [non262-shell.js]
 flags:
 - noStrict
 ---*/
+//
 
 const iteratorWhereNextTakesValue = Object.setPrototypeOf({
   next: function(value) {

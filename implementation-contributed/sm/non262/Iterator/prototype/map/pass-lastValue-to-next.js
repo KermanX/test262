@@ -1,19 +1,19 @@
 // Copyright (C) 2024 Mozilla Corporation. All rights reserved.
 // This code is governed by the BSD license found in the LICENSE file.
 
-//
-
 /*---
+esid: pending
+description: |
+  %Iterator.prototype%.map passes lastValue to the `next` call.
+info: |
+  Iterator Helpers Proposal 2.1.5.2
+features:
+- Iterator
+- iterator-helpers
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Iterator
-description: |
-  pending
-esid: pending
 ---*/
-
 const iteratorWhereNextTakesValue = Object.setPrototypeOf({
   next: function(value) {
     assert.sameValue(arguments.length, 0);

@@ -10,7 +10,6 @@ includes: [non262-Tuple-shell.js, non262-shell.js]
 flags:
 - noStrict
 ---*/
-
 var map = Tuple.prototype.map;
 var callbackfn = function() {};
 

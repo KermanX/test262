@@ -10,7 +10,6 @@ features:
 - Tuple
 esid: pending
 ---*/
-
 var includes = Tuple.prototype.includes;
 
 assertThrowsInstanceOf(() => includes.call(undefined, 42), TypeError,
