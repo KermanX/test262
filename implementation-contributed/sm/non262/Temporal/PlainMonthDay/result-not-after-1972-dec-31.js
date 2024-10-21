@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [non262-Temporal-PlainMonthDay-shell.js, non262-Temporal-shell.js, non262-shell.js]
+includes: [non262-Temporal-PlainMonthDay-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:
@@ -79,7 +79,7 @@ for (let calendar of calendars) {
     }
     assert.sameValue(pmd.monthCode, monthCode);
     assert.sameValue(pmd.day <= day, true);
-    assert.sameValue(pmd.getISOFields().isoYear <= 1972, true);
+    assert.sameValue(ISOFields(pmd).isoYear <= 1972, true);
   }
 }
 

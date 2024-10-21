@@ -4,7 +4,7 @@
 /*---
 description: |
   Return abrupt from ToInteger(fromIndex)
-includes: [non262-Tuple-shell.js, non262-shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 features:

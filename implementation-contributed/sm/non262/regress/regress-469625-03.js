@@ -3,7 +3,7 @@
  * http://creativecommons.org/licenses/publicdomain/
  */
 /*---
-includes: [non262-regress-shell.js, non262-shell.js]
+includes: [non262-shell.js]
 flags:
 - noStrict
 description: |
@@ -34,3 +34,4 @@ function test()
     message => /.*\[\.\.\.\]\[Symbol.iterator\]\(\)\.next\(\)\.value is null/.exec(message) !== null
   );
 }
+

@@ -5,16 +5,16 @@
 includes: [non262-shell.js]
 flags:
 - noStrict
-features:
-- Tuple
 description: |
   pending
 esid: pending
 ---*/
 
-assert.sameValue(isConstructor(Tuple.of), false);
-
-assertThrowsInstanceOf(() => {
-  new Tuple.of(1, 2, 3);
-}, TypeError, '`new Tuple.of(1, 2, 3)` throws TypeError');
-
+try {
+    gcparam("nurseryEnabled", true);
+} catch (e) {
+    exc = e;
+}
+gczeal(4);
+new Object();
+assert.sameValue(exc.message.includes("Parameter value out of range"), true);

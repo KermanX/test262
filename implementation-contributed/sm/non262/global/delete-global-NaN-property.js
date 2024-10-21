@@ -5,7 +5,7 @@
 /*---
 flags:
 - onlyStrict
-includes: [non262-global-shell.js, non262-shell.js]
+includes: [non262-shell.js]
 description: |
   pending
 esid: pending

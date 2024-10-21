@@ -2,7 +2,7 @@
 // This code is governed by the BSD license found in the LICENSE file.
 
 /*---
-includes: [non262-Temporal-PlainMonthDay-shell.js, non262-Temporal-shell.js, non262-shell.js]
+includes: [non262-Temporal-PlainMonthDay-shell.js, non262-shell.js]
 flags:
 - noStrict
 features:
@@ -47,22 +47,6 @@ const monthCodes = [
   "M08L",
   // M09L..M12L are uncommon leap months.
 ];
-
-function assertSameISOFields(actual, expected) {
-  let actualFields = actual.getISOFields();
-  let expectedFields = expected.getISOFields();
-
-  assert.sameValue(typeof actualFields.isoYear, "number");
-  assert.sameValue(typeof actualFields.isoMonth, "number");
-  assert.sameValue(typeof actualFields.isoDay, "number");
-
-  assert.sameValue(actualFields.isoMonth > 0, true);
-  assert.sameValue(actualFields.isoDay > 0, true);
-
-  assert.sameValue(actualFields.isoYear, expectedFields.isoYear);
-  assert.sameValue(actualFields.isoMonth, expectedFields.isoMonth);
-  assert.sameValue(actualFields.isoDay, expectedFields.isoDay);
-}
 
 const calendar = "chinese";
 
